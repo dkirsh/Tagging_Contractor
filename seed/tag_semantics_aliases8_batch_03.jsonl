@@ -1,0 +1,50 @@
+{"tag_id": "env.ae.high_symmetry", "aliases": ["high symmetry attribute"]}
+{"tag_id": "env.ae.high_texture_complexity", "aliases": ["high texture complexity attribute"]}
+{"tag_id": "env.ae.indoor-outdoor_continuity", "aliases": ["indoor-outdoor continuity attribute"]}
+{"tag_id": "env.ae.institutional_decor", "aliases": ["institutional decor attribute"]}
+{"tag_id": "env.ae.irregular_pattern", "aliases": ["irregular pattern attribute"]}
+{"tag_id": "env.ae.large_enclosure_volume", "aliases": ["large enclosure volume attribute"]}
+{"tag_id": "env.ae.large_window_area", "aliases": ["large window area attribute"]}
+{"tag_id": "env.ae.low_ceiling", "aliases": ["low ceiling attribute"]}
+{"tag_id": "env.ae.low_edge_density", "aliases": ["low edge density attribute"]}
+{"tag_id": "env.ae.low_saturation", "aliases": ["low saturation attribute"]}
+{"tag_id": "env.ae.low_spatial_frequency_content", "aliases": ["low spatial frequency content attribute"]}
+{"tag_id": "env.ae.low_symmetry", "aliases": ["low symmetry attribute"]}
+{"tag_id": "env.ae.low_texture_complexity", "aliases": ["low texture complexity attribute"]}
+{"tag_id": "env.ae.maze-like_layout", "aliases": ["maze-like layout attribute"]}
+{"tag_id": "env.ae.minimal_signage", "aliases": ["minimal signage attribute"]}
+{"tag_id": "env.ae.narrow_corridor", "aliases": ["narrow corridor attribute"]}
+{"tag_id": "env.ae.natural/earthy_palette", "aliases": ["Natural / Earthy Palette"]}
+{"tag_id": "env.ae.occluded_sightlines", "aliases": ["occluded sightlines attribute"]}
+{"tag_id": "env.ae.open_plan", "aliases": ["open plan attribute"]}
+{"tag_id": "env.ae.poor_visibility_/_dark_corners", "aliases": ["poor visibility  /  dark corners"]}
+{"tag_id": "env.ae.public/exposed_area", "aliases": ["Public / Exposed Area"]}
+{"tag_id": "env.ae.repeating_pattern", "aliases": ["repeating pattern attribute"]}
+{"tag_id": "env.ae.seating_available", "aliases": ["seating available attribute"]}
+{"tag_id": "env.ae.strong_central_landmark", "aliases": ["strong central landmark attribute"]}
+{"tag_id": "env.ae.strong_horizontality", "aliases": ["strong horizontality attribute"]}
+{"tag_id": "env.ae.uniform_lighting", "aliases": ["uniform lighting attribute"]}
+{"tag_id": "env.ae.visible_hvac_vents", "aliases": ["visible hvac vents attribute"]}
+{"tag_id": "env.ae.well_maintained", "aliases": ["well maintained attribute"]}
+{"tag_id": "env.ae.work_surfaces_present", "aliases": ["work surfaces present attribute"]}
+{"tag_id": "env.v1_001.illuminance_level_task_surface", "aliases": ["Illuminance level", "illuminance level (task surface) metric"]}
+{"tag_id": "env.v1_002.illuminance_level_ambient", "aliases": ["Illuminance level", "illuminance level (ambient) metric"]}
+{"tag_id": "env.v1_003.luminance_distribution", "aliases": ["luminance distribution measure", "luminance distribution index"]}
+{"tag_id": "env.v1_004.contrast_ratio", "aliases": ["contrast ratio measure", "contrast ratio index"]}
+{"tag_id": "env.v1_005.uniformity_ratio", "aliases": ["uniformity ratio measure", "uniformity ratio index"]}
+{"tag_id": "env.v1_006.daylight_factor", "aliases": ["daylight factor measure", "daylight factor index"]}
+{"tag_id": "env.v1_007.daylight_autonomy", "aliases": ["daylight autonomy measure", "daylight autonomy index"]}
+{"tag_id": "env.v1_008.correlated_color_temperature_cct", "aliases": ["Correlated color temperature", "correlated color temperature (cct) metric"]}
+{"tag_id": "env.v1_009.spectral_power_distribution", "aliases": ["spectral power distribution measure", "spectral power distribution index"]}
+{"tag_id": "env.v1_010.color_rendering_index_cri", "aliases": ["Color rendering index", "color rendering index (cri) metric"]}
+{"tag_id": "env.v1_011.melanopic_lux", "aliases": ["melanopic lux measure", "melanopic lux index"]}
+{"tag_id": "env.v1_012.dominant_wavelength", "aliases": ["dominant wavelength measure", "dominant wavelength index"]}
+{"tag_id": "env.v1_013.flicker_frequency", "aliases": ["flicker frequency measure", "flicker frequency index"]}
+{"tag_id": "env.v1_014.flicker_modulation_depth", "aliases": ["flicker modulation depth measure", "flicker modulation depth index"]}
+{"tag_id": "env.v1_015.circadian_timing_of_exposure", "aliases": ["circadian timing of exposure measure", "circadian timing of exposure index"]}
+{"tag_id": "env.v1_016.rate_of_illuminance_change", "aliases": ["rate of illuminance change measure", "rate of illuminance change index"]}
+{"tag_id": "env.v1_017.diurnal_variation_pattern", "aliases": ["diurnal variation pattern measure", "diurnal variation pattern index"]}
+{"tag_id": "env.v1_018.direct_indirect_ratio", "aliases": ["direct / indirect ratio metric", "direct / indirect ratio measure"]}
+{"tag_id": "env.v1_019.light_directionality", "aliases": ["light directionality measure", "light directionality index"]}
+{"tag_id": "env.v1_020.unified_glare_rating_ugr", "aliases": ["Unified Glare Rating", "unified glare rating (ugr) metric"]}
+{"tag_id": "env.v1_021.shadow_characteristics", "aliases": ["shadow characteristics measure", "shadow characteristics index"]}

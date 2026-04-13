@@ -1,0 +1,50 @@
+{"tag_id": "env.v1_121.visual_hierarchy", "aliases": ["visual hierarchy metric"]}
+{"tag_id": "env.v1_122.vegetation_density", "aliases": ["vegetation density metric"]}
+{"tag_id": "env.v1_123.vegetation_diversity", "aliases": ["vegetation diversity metric"]}
+{"tag_id": "env.v1_125.sky_visibility", "aliases": ["sky visibility metric"]}
+{"tag_id": "env.v1_126.natural_landforms", "aliases": ["natural landforms metric"]}
+{"tag_id": "env.v1_127.view_distance_layers", "aliases": ["view distance layers metric"]}
+{"tag_id": "env.v1_129.natural_material_proportion", "aliases": ["natural material proportion metric"]}
+{"tag_id": "env.v1_130.biomimetic_forms", "aliases": ["biomimetic forms metric"]}
+{"tag_id": "env.v1_131.natural_light_patterns", "aliases": ["natural light patterns metric"]}
+{"tag_id": "env.v1_132.spatial_density", "aliases": ["spatial density metric"]}
+{"tag_id": "env.v1_133.social_density", "aliases": ["social density metric"]}
+{"tag_id": "env.v1_134.perceived_crowding", "aliases": ["perceived crowding metric"]}
+{"tag_id": "env.v1_135.visual_privacy", "aliases": ["visual privacy metric"]}
+{"tag_id": "env.v1_136.acoustic_privacy", "aliases": ["acoustic privacy metric"]}
+{"tag_id": "env.v1_137.territorial_definition", "aliases": ["territorial definition metric"]}
+{"tag_id": "env.v1_138.seating_arrangement", "aliases": ["seating arrangement metric"]}
+{"tag_id": "env.v1_139.collaboration_space_ratio", "aliases": ["collaboration space ratio metric"]}
+{"tag_id": "env.v1_140.temperature_control", "aliases": ["temperature control metric"]}
+{"tag_id": "env.v1_141.lighting_control", "aliases": ["lighting control metric"]}
+{"tag_id": "env.v1_142.acoustic_control", "aliases": ["acoustic control metric"]}
+{"tag_id": "env.v1_143.window_operation", "aliases": ["window operation metric"]}
+{"tag_id": "env.v1_144.workspace_personalization", "aliases": ["workspace personalization metric"]}
+{"tag_id": "env.v1_145.perceived_control", "aliases": ["perceived control metric"]}
+{"tag_id": "env.v2a_004.brightness_gradients_and_brightness_contrast_ratios", "aliases": ["brightness gradients and brightness contrast ratios metric"]}
+{"tag_id": "env.v2a_006.glare_source_count", "aliases": ["glare source count metric"]}
+{"tag_id": "env.v2a_014.presence_of_natural_light_patterns", "aliases": ["presence of natural light patterns metric"]}
+{"tag_id": "env.v2a_068.room_scale_cues", "aliases": ["room scale cues metric"]}
+{"tag_id": "env.v2a_072.blind_corners_vs_transparent_partitions", "aliases": ["blind corners vs transparent partitions metric"]}
+{"tag_id": "env.v2a_073.distance_to_others", "aliases": ["distance to others metric"]}
+{"tag_id": "env.v2a_080.verticality_cues", "aliases": ["verticality cues metric"]}
+{"tag_id": "env.v2a_082.curvature_prevalence_vs_sharp_angles", "aliases": ["curvature prevalence vs sharp angles metric"]}
+{"tag_id": "env.v2a_083.symmetry_and_regularity", "aliases": ["symmetry and regularity metric"]}
+{"tag_id": "env.v2a_087.color_diversity_and_saturation", "aliases": ["color diversity and saturation metric"]}
+{"tag_id": "env.v2a_088.texture_density", "aliases": ["texture density metric"]}
+{"tag_id": "env.v2a_089.artwork_density_and_semantic_content", "aliases": ["artwork density and semantic content metric"]}
+{"tag_id": "env.v2a_090.naturalness_of_materials", "aliases": ["naturalness of materials metric"]}
+{"tag_id": "env.v2a_091.visual_complexity_gradients", "aliases": ["visual complexity gradients metric"]}
+{"tag_id": "env.v2a_093.visual_affordances_for_organization", "aliases": ["visual affordances for organization metric"]}
+{"tag_id": "env.v2a_100.prospect_to_distant_views", "aliases": ["prospect to distant views metric"]}
+{"tag_id": "env.v2a_101.natural_ventilation_cues", "aliases": ["natural ventilation cues metric"]}
+{"tag_id": "env.v2a_102.natural_sound_sources", "aliases": ["natural sound sources metric"]}
+{"tag_id": "env.v2a_104.seasonal_cues", "aliases": ["seasonal cues metric"]}
+{"tag_id": "env.v2a_105.animal_presence_cues", "aliases": ["animal presence cues metric"]}
+{"tag_id": "env.v2a_106.sociopetal_seating", "aliases": ["sociopetal seating metric"]}
+{"tag_id": "env.v2a_113.social_mixing_affordances", "aliases": ["social mixing affordances metric"]}
+{"tag_id": "env.v2a_120.policy_cues_restricting_control", "aliases": ["policy cues restricting control metric"]}
+{"tag_id": "fluency.symmetry", "aliases": ["symmetry metric"]}
+{"tag_id": "isovist.area_25d", "aliases": ["area 25d metric"]}
+{"tag_id": "isovist.compactness_25d", "aliases": ["compactness 25d metric"]}
+{"tag_id": "isovist.confidence", "aliases": ["confidence metric"]}

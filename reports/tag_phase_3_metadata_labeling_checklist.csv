@@ -1,0 +1,22 @@
+tag_id,phase,evidence_type,label_type,evidence_required,negative_samples,confusable_tags
+env.ae.high_ceiling,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+env.ae.high_ceiling_+_hard_surfaces,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+env.ae.low_ceiling,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+affect.cozy,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+affect.jarring,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+affect.scary,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+affect.tranquil,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+affect.welcoming,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+cognitive.coherence,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+cognitive.complexity,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+cognitive.error,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+cognitive.legibility,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+cognitive.mystery,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+cognitive.restoration,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+provenance.architect_kengo_kuma,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+provenance.architect_le_corbusier,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+provenance.iconic_chair_barcelona,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+provenance.iconic_chair_eames,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+psych.coziness,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+tag.evidence_pointer,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions
+tag.request_source,phase_3_metadata,metadata,binary from metadata,survey/annotation source,include edge cases and missing evidence,list top 3 likely confusions

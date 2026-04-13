@@ -1,0 +1,50 @@
+{"tag_id": "env.v1_135.visual_privacy", "aliases": ["visual privacy measure", "visual privacy index"]}
+{"tag_id": "env.v1_136.acoustic_privacy", "aliases": ["acoustic privacy measure", "acoustic privacy index"]}
+{"tag_id": "env.v1_137.territorial_definition", "aliases": ["territorial definition measure", "territorial definition index"]}
+{"tag_id": "env.v1_138.seating_arrangement", "aliases": ["seating arrangement measure", "seating arrangement index"]}
+{"tag_id": "env.v1_139.collaboration_space_ratio", "aliases": ["collaboration space ratio measure", "collaboration space ratio index"]}
+{"tag_id": "env.v1_140.temperature_control", "aliases": ["temperature control measure", "temperature control index"]}
+{"tag_id": "env.v1_141.lighting_control", "aliases": ["lighting control measure", "lighting control index"]}
+{"tag_id": "env.v1_142.acoustic_control", "aliases": ["acoustic control measure", "acoustic control index"]}
+{"tag_id": "env.v1_143.window_operation", "aliases": ["window operation measure", "window operation index"]}
+{"tag_id": "env.v1_144.workspace_personalization", "aliases": ["workspace personalization measure", "workspace personalization index"]}
+{"tag_id": "env.v1_145.perceived_control", "aliases": ["perceived control measure", "perceived control index"]}
+{"tag_id": "env.v2a_001.color_palette_hue_saturation_lightness_harmony_beyond_cct", "aliases": ["Color palette hue / saturation / lightness harmony", "color palette hue / saturation / lightness harmony (beyond cct) metric"]}
+{"tag_id": "env.v2a_002.warm_vs_cool_white_appearance_cct_and_perceived_coziness_activation_cajochen_et", "aliases": ["Warm vs cool white appearance", "warm vs cool white appearance (cct) and perceived coziness / activation (cajochen et al., 2005 metric"]}
+{"tag_id": "env.v2a_003.brightness_level_at_eye_vertical_illuminance_vs_task_plane", "aliases": ["Brightness level at eye", "brightness level at eye (vertical illuminance) vs task plane metric"]}
+{"tag_id": "env.v2a_004.brightness_gradients_and_brightness_contrast_ratios", "aliases": ["brightness gradients and brightness contrast ratios measure", "brightness gradients and brightness contrast ratios index"]}
+{"tag_id": "env.v2a_005.daylight_presence_sky_view_and_view_to_outside_content", "aliases": ["daylight presence, sky view, and view-to-outside content metric", "daylight presence, sky view, and view-to-outside content measure"]}
+{"tag_id": "env.v2a_006.glare_source_count", "aliases": ["glare source count measure", "glare source count index"]}
+{"tag_id": "env.v2a_007.flicker_temporal_modulation_risk_cues_led_drivers", "aliases": ["Flicker / temporal modulation risk cues", "flicker / temporal modulation risk cues (led drivers metric"]}
+{"tag_id": "env.v2a_008.color_rendering_saturation_rendering", "aliases": ["color rendering / saturation rendering metric", "color rendering / saturation rendering measure"]}
+{"tag_id": "env.v2a_009.shadow_softness_hardness", "aliases": ["shadow softness / hardness metric", "shadow softness / hardness measure"]}
+{"tag_id": "env.v2a_010.lighting_control_cues_dimmers_blinds_task_lights", "aliases": ["lighting control cues: dimmers, blinds, task lights metric", "lighting control cues: dimmers, blinds, task lights measure"]}
+{"tag_id": "env.v2a_011.evening_like_ambience_cues_vs_daytime_like_ambience_cues", "aliases": ["evening-like ambience cues vs daytime-like ambience cues metric", "evening-like ambience cues vs daytime-like ambience cues measure"]}
+{"tag_id": "env.v2a_012.visual_privacy_via_lighting_backlit_silhouettes_vs_evenly_lit_faces", "aliases": ["visual privacy via lighting: backlit silhouettes vs evenly lit faces metric", "visual privacy via lighting: backlit silhouettes vs evenly lit faces measure"]}
+{"tag_id": "env.v2a_013.high_contrast_spotlight_social_exposure_cues", "aliases": ["high contrast \u2018spotlight\u2019 social exposure cues metric", "high contrast \u2018spotlight\u2019 social exposure cues measure"]}
+{"tag_id": "env.v2a_014.presence_of_natural_light_patterns", "aliases": ["presence of natural light patterns measure", "presence of natural light patterns index"]}
+{"tag_id": "env.v2a_015.lighting_temperature_mismatch", "aliases": ["lighting \u2018temperature mismatch\u2019 metric", "lighting \u2018temperature mismatch\u2019 measure"]}
+{"tag_id": "env.v2a_067.ceiling_height_and_openness_processing_style", "aliases": ["Ceiling height and openness", "ceiling height and openness (processing style metric"]}
+{"tag_id": "env.v2a_068.room_scale_cues", "aliases": ["room scale cues measure", "room scale cues index"]}
+{"tag_id": "env.v2a_069.enclosure_ratio_wall_to_window_balance", "aliases": ["enclosure ratio: wall-to-window balance metric", "enclosure ratio: wall-to-window balance measure"]}
+{"tag_id": "env.v2a_071.exit_visibility_and_path_to_exit_complexity", "aliases": ["exit visibility and path-to-exit complexity metric", "exit visibility and path-to-exit complexity measure"]}
+{"tag_id": "env.v2a_072.blind_corners_vs_transparent_partitions", "aliases": ["blind corners vs transparent partitions measure", "blind corners vs transparent partitions index"]}
+{"tag_id": "env.v2a_073.distance_to_others", "aliases": ["distance to others measure", "distance to others index"]}
+{"tag_id": "env.v2a_074.wayfinding_legibility_straight_sightlines", "aliases": ["wayfinding legibility: straight sightlines metric", "wayfinding legibility: straight sightlines measure"]}
+{"tag_id": "env.v2a_075.spatial_complexity_branching_corridors_vs_simple_loops", "aliases": ["spatial complexity: branching corridors vs simple loops metric", "spatial complexity: branching corridors vs simple loops measure"]}
+{"tag_id": "env.v2a_076.perceived_territoriality_defined_zones_vs_ambiguous_shared_space", "aliases": ["perceived territoriality: defined zones vs ambiguous shared space. metric", "perceived territoriality: defined zones vs ambiguous shared space. measure"]}
+{"tag_id": "env.v2a_077.barrier_permeability_half_walls_vs_full_walls", "aliases": ["barrier permeability: half-walls vs full walls metric", "barrier permeability: half-walls vs full walls measure"]}
+{"tag_id": "env.v2a_078.visual_access_to_outdoors_nature_as_escape_affordance", "aliases": ["visual access to outdoors / nature as \u2018escape\u2019 affordance. metric", "visual access to outdoors / nature as \u2018escape\u2019 affordance. measure"]}
+{"tag_id": "env.v2a_079.seating_prospect_facing_entrance_vs_back_to_entrance", "aliases": ["seating prospect: facing entrance vs back to entrance metric", "seating prospect: facing entrance vs back to entrance measure"]}
+{"tag_id": "env.v2a_080.verticality_cues", "aliases": ["verticality cues measure", "verticality cues index"]}
+{"tag_id": "env.v2a_081.personal_safety_affordances_lighting_in_corners", "aliases": ["personal safety affordances: lighting in corners metric", "personal safety affordances: lighting in corners measure"]}
+{"tag_id": "env.v2a_082.curvature_prevalence_vs_sharp_angles", "aliases": ["curvature prevalence vs sharp angles measure", "curvature prevalence vs sharp angles index"]}
+{"tag_id": "env.v2a_083.symmetry_and_regularity", "aliases": ["symmetry and regularity measure", "symmetry and regularity index"]}
+{"tag_id": "env.v2a_084.fractal_self_similar_edge_statistics", "aliases": ["fractal / self-similar edge statistics metric", "fractal / self-similar edge statistics measure"]}
+{"tag_id": "env.v2a_085.clutter_disorder_object_density_occlusion_surface_coverage", "aliases": ["clutter / disorder: object density, occlusion, surface coverage metric", "clutter / disorder: object density, occlusion, surface coverage measure"]}
+{"tag_id": "env.v2a_086.cleanliness_maintenance_stains_damage_wear", "aliases": ["cleanliness / maintenance: stains, damage, wear metric", "cleanliness / maintenance: stains, damage, wear measure"]}
+{"tag_id": "env.v2a_087.color_diversity_and_saturation", "aliases": ["color diversity and saturation measure", "color diversity and saturation index"]}
+{"tag_id": "env.v2a_088.texture_density", "aliases": ["texture density measure", "texture density index"]}
+{"tag_id": "env.v2a_089.artwork_density_and_semantic_content", "aliases": ["artwork density and semantic content measure", "artwork density and semantic content index"]}
+{"tag_id": "env.v2a_090.naturalness_of_materials", "aliases": ["naturalness of materials measure", "naturalness of materials index"]}
+{"tag_id": "env.v2a_091.visual_complexity_gradients", "aliases": ["visual complexity gradients measure", "visual complexity gradients index"]}

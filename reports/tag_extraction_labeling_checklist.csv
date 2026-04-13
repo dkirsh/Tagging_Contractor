@@ -1,0 +1,31 @@
+tag_id,phase,evidence_type,label_type,evidence_required,negative_samples,confusable_tags
+env.ae.hard_reflective_surfaces,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.hard_seating,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.high_texture_complexity,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.home-like_decor,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.indoor-outdoor_continuity,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.institutional_decor,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.low_texture_complexity,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.metal_prominent,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.monochrome/minimal_palette,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.natural/earthy_palette,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.nature_imagery,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.open_plan,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.open_windows,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.soft_seating,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.sparse_occupancy,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.stone/marble_prominent,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.strong_verticality,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.surveillance_/_cameras_visible,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.textiles/soft_furnishings,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.visible_dirt/decay,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.visible_windows,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.warm_color_palette,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.well_maintained,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.wood_prominent,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.work_surfaces_present,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.worn/degraded,phase_0_image_2d,image_2d,binary (present/absent),single image,include visually similar but absent cases,list top 3 likely confusions
+env.ae.artworks_prominent,phase_1_image_3d,image_3d,binary + confidence,multi-view or depth,include visually similar but absent cases,list top 3 likely confusions
+env.ae.barriers/guards_present,phase_1_image_3d,image_3d,binary + confidence,multi-view or depth,include visually similar but absent cases,list top 3 likely confusions
+env.ae.clear_circulation_paths,phase_1_image_3d,image_3d,binary + confidence,multi-view or depth,include visually similar but absent cases,list top 3 likely confusions
+env.ae.clear_sightlines,phase_1_image_3d,image_3d,binary + confidence,multi-view or depth,include visually similar but absent cases,list top 3 likely confusions

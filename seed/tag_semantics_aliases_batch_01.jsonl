@@ -1,0 +1,50 @@
+{"tag_id": "affordance.isovist_area", "aliases": ["isovist area feature"]}
+{"tag_id": "affordance.seating_count", "aliases": ["seating count feature"]}
+{"tag_id": "arch.pattern.axial_circulation_clear", "aliases": ["axial circulation clear feature"]}
+{"tag_id": "arch.pattern.bay_window", "aliases": ["bay window feature"]}
+{"tag_id": "arch.pattern.central_hearth", "aliases": ["central hearth feature"]}
+{"tag_id": "arch.pattern.circulation_maze_like", "aliases": ["circulation maze like feature"]}
+{"tag_id": "arch.pattern.colonnade", "aliases": ["colonnade feature"]}
+{"tag_id": "arch.pattern.corner_window", "aliases": ["corner window feature"]}
+{"tag_id": "arch.pattern.daylight_hard", "aliases": ["daylight hard feature"]}
+{"tag_id": "arch.pattern.daylight_soft", "aliases": ["daylight soft feature"]}
+{"tag_id": "arch.pattern.double_height_space", "aliases": ["double height space feature"]}
+{"tag_id": "arch.pattern.gallery_edge", "aliases": ["gallery edge feature"]}
+{"tag_id": "arch.pattern.loft_mezzanine", "aliases": ["loft mezzanine feature"]}
+{"tag_id": "arch.pattern.long_view_corridor", "aliases": ["long view corridor feature"]}
+{"tag_id": "arch.pattern.perimeter_seating", "aliases": ["perimeter seating feature"]}
+{"tag_id": "arch.pattern.prospect_strong", "aliases": ["prospect strong feature"]}
+{"tag_id": "arch.pattern.refuge_nook", "aliases": ["refuge nook feature"]}
+{"tag_id": "arch.pattern.refuge_strong", "aliases": ["refuge strong feature"]}
+{"tag_id": "arch.pattern.skylight_dominant", "aliases": ["skylight dominant feature"]}
+{"tag_id": "arch.pattern.staircase_sculptural", "aliases": ["staircase sculptural feature"]}
+{"tag_id": "arch.pattern.threshold_emphasized", "aliases": ["threshold emphasized feature"]}
+{"tag_id": "arch.pattern.window_seat_niche", "aliases": ["window seat niche feature"]}
+{"tag_id": "biophilia.plant_count", "aliases": ["plant count feature"]}
+{"tag_id": "cnfa.biophilic.natural_material_ratio", "aliases": ["natural material ratio metric"]}
+{"tag_id": "cnfa.cognitive.activity_zones_count", "aliases": ["activity zones count metric"]}
+{"tag_id": "cnfa.cognitive.landmark_salience", "aliases": ["landmark salience metric"]}
+{"tag_id": "cnfa.cognitive.legibility_score", "aliases": ["legibility score metric"]}
+{"tag_id": "cnfa.depth.depth_variance", "aliases": ["depth variance metric"]}
+{"tag_id": "cnfa.depth.mean_depth", "aliases": ["mean depth metric"]}
+{"tag_id": "cnfa.dynamic.optic_flow_magnitude", "aliases": ["optic flow magnitude metric"]}
+{"tag_id": "cnfa.dynamic.path_glare_max", "aliases": ["path glare max metric"]}
+{"tag_id": "cnfa.dynamic.reflection_flow", "aliases": ["reflection flow metric"]}
+{"tag_id": "cnfa.dynamic.revelation_rate", "aliases": ["revelation rate metric"]}
+{"tag_id": "cnfa.dynamic.texture_gradient", "aliases": ["texture gradient metric"]}
+{"tag_id": "cnfa.fluency.anomaly_count", "aliases": ["anomaly count metric"]}
+{"tag_id": "cnfa.fluency.autoencoder_recon_error", "aliases": ["autoencoder recon error metric"]}
+{"tag_id": "cnfa.fluency.clutter_density_count", "aliases": ["clutter density count metric"]}
+{"tag_id": "cnfa.fluency.color_palette_entropy", "aliases": ["color palette entropy metric"]}
+{"tag_id": "cnfa.fluency.compression_ratio", "aliases": ["compression ratio metric"]}
+{"tag_id": "cnfa.fluency.edge_clarity_mean", "aliases": ["edge clarity mean metric"]}
+{"tag_id": "cnfa.fluency.figure_ground_clarity", "aliases": ["figure ground clarity metric"]}
+{"tag_id": "cnfa.fluency.hierarchy_depth", "aliases": ["hierarchy depth metric"]}
+{"tag_id": "cnfa.fluency.map.edge_density", "aliases": ["edge density metric"]}
+{"tag_id": "cnfa.fluency.map.fractal_dimension", "aliases": ["fractal dimension metric"]}
+{"tag_id": "cnfa.fluency.map.spatial_entropy", "aliases": ["spatial entropy metric"]}
+{"tag_id": "cnfa.fluency.map.symmetry", "aliases": ["symmetry metric"]}
+{"tag_id": "cnfa.fluency.pattern_rhythm_regularity", "aliases": ["pattern rhythm regularity metric"]}
+{"tag_id": "cnfa.fluency.processing_load_proxy", "aliases": ["processing load proxy metric"]}
+{"tag_id": "cnfa.fluency.surprisal_mean", "aliases": ["surprisal mean metric"]}
+{"tag_id": "cnfa.fluency.symmetry_score_horizontal", "aliases": ["symmetry score horizontal metric"]}

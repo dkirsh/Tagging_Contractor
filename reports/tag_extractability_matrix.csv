@@ -1,0 +1,425 @@
+tag_id,canonical_name,namespace,extractability_class,sources,relation_count
+affect.cozy,Cozy,affect,mixed_metadata,metadata_reported;visual_3d,0
+affect.jarring,Jarring,affect,mixed_metadata,metadata_reported;visual_3d,0
+affect.scary,Scary,affect,mixed_metadata,metadata_reported;visual_3d,0
+affect.tranquil,Tranquil,affect,mixed_metadata,metadata_reported;visual_3d,0
+affect.welcoming,Welcoming,affect,mixed_metadata,metadata_reported;visual_3d,0
+affordance.isovist_area,Isovist Area,affordance,mixed_visual,visual_2d;visual_3d,0
+affordance.seating_count,Seating Count,affordance,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.axial_circulation_clear,Axial Circulation Clear,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.bay_window,Bay Window,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.central_hearth,Central Hearth,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.circulation_maze_like,Circulation Maze Like,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.colonnade,Colonnade,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.corner_window,Corner Window,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.daylight_hard,Daylight Hard,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.daylight_soft,Daylight Soft,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.double_height_space,Double Height Space,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.gallery_edge,Gallery Edge,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.loft_mezzanine,Loft Mezzanine,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.long_view_corridor,Long View Corridor,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.perimeter_seating,Perimeter Seating,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.prospect_strong,Prospect Strong,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.refuge_nook,Refuge Nook,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.refuge_strong,Refuge Strong,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.skylight_dominant,Skylight Dominant,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.staircase_sculptural,Staircase Sculptural,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.threshold_emphasized,Threshold Emphasized,arch,mixed_visual,visual_2d;visual_3d,0
+arch.pattern.window_seat_niche,Window Seat Niche,arch,mixed_visual,visual_2d;visual_3d,0
+biophilia.plant_count,Plant Count,biophilia,mixed_visual,visual_2d;visual_3d,0
+cnfa.biophilic.natural_material_ratio,Natural Material Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.cognitive.activity_zones_count,Activity Zones Count,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.cognitive.landmark_salience,Landmark Salience,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.cognitive.legibility_score,Legibility Score,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.depth.depth_variance,Depth Variance,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.depth.mean_depth,Mean Depth,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.dynamic.optic_flow_magnitude,Optic Flow Magnitude,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.dynamic.path_glare_max,Path Glare Max,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.dynamic.reflection_flow,Reflection Flow,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.dynamic.revelation_rate,Revelation Rate,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.dynamic.texture_gradient,Texture Gradient,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.anomaly_count,Anomaly Count,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.autoencoder_recon_error,Autoencoder Recon Error,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.clutter_density_count,Clutter Density Count,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.color_palette_entropy,Color Palette Entropy,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.compression_ratio,Compression Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.edge_clarity_mean,Edge Clarity Mean,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.figure_ground_clarity,Figure Ground Clarity,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.hierarchy_depth,Hierarchy Depth,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.map.edge_density,Edge Density,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.map.fractal_dimension,Fractal Dimension,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.map.spatial_entropy,Spatial Entropy,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.map.symmetry,Symmetry,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.pattern_rhythm_regularity,Pattern Rhythm Regularity,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.processing_load_proxy,Processing Load Proxy,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.surprisal_mean,Surprisal Mean,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.symmetry_score_horizontal,Symmetry Score Horizontal,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.visual_entropy_spatial,Visual Entropy Spatial,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fluency.zoning_clarity,Zoning Clarity,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fractal.lacunarity,Lacunarity,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fractal.multifractal_width,Multifractal Width,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fractal.spectral_slope_1overf,Spectral Slope 1Overf,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fractal_dimension,Fractal Dimension,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fractal_dimension_edges,Fractal Dimension Edges,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.fractal_dimension_luminance,Fractal Dimension Luminance,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.geometry.curvature_index,Curvature Index,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.geometry.fractal_curve_intersection,Fractal Curve Intersection,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.geometry.rectilinearity_index,Rectilinearity Index,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.haptic.soft_surface_ratio,Soft Surface Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.haptic.texture_variation_index,Texture Variation Index,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.layout.opening_ratio,Opening Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.light.brightness_variance,Brightness Variance,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.light.diffuse_vs_direct_ratio,Diffuse Vs Direct Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.light.vertical_illuminance_proxy,Vertical Illuminance Proxy,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.light.warm_vs_cool_ratio,Warm Vs Cool Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.spatial.ceiling_height_avg,Ceiling Height Avg,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.spatial.enclosure_index,Enclosure Index,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cnfa.spatial.prospect_to_refuge_ratio,Prospect To Refuge Ratio,cnfa,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+cognitive.coherence,Coherence,cognitive,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+cognitive.complexity,Complexity,cognitive,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+cognitive.error,Error,cognitive,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+cognitive.legibility,Legibility,cognitive,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+cognitive.mystery,Mystery,cognitive,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+cognitive.restoration,Restoration,cognitive,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+color.lab_volume,Lab Volume,color,mixed_sensor,sensor_required;visual_2d;visual_3d,0
+color.lightness_contrast,Lightness Contrast,color,mixed_visual,visual_2d;visual_3d,0
+color.luminance,Luminance,color,mixed_visual,visual_2d;visual_3d,0
+color.perceptual_lightness,Perceptual Lightness,color,mixed_visual,visual_2d;visual_3d,0
+color.saturation,Saturation,color,mixed_visual,visual_2d;visual_3d,0
+color.warmth,Warmth,color,mixed_visual,visual_2d;visual_3d,0
+color.warmth_ratio,Warmth Ratio,color,mixed_visual,visual_2d;visual_3d,0
+complexity.edge_density,Edge Density,complexity,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+complexity.shannon_entropy,Shannon Entropy,complexity,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+complexity.spatial_entropy,Spatial Entropy,complexity,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+component.bathroom.fixture.material.brass,Brass,component,mixed_visual,visual_2d;visual_3d,0
+component.bathroom.fixture.material.matte_black,Matte Black,component,mixed_visual,visual_2d;visual_3d,0
+component.bathroom.fixture.type.rain_showerhead,Rain Showerhead,component,mixed_visual,visual_2d;visual_3d,0
+component.ceiling.coffered,Coffered,component,mixed_visual,visual_2d;visual_3d,0
+component.ceiling.cove_lighting,Cove Lighting,component,mixed_visual,visual_2d;visual_3d,0
+component.ceiling.exposed_beam,Exposed Beam,component,mixed_visual,visual_2d;visual_3d,0
+component.ceiling.tray,Tray,component,mixed_visual,visual_2d;visual_3d,0
+component.ceiling.vaulted,Vaulted,component,mixed_visual,visual_2d;visual_3d,0
+component.kitchen.hardware.material.brass,Brass,component,mixed_visual,visual_2d;visual_3d,0
+component.kitchen.hardware.material.chrome,Chrome,component,mixed_visual,visual_2d;visual_3d,0
+component.kitchen.hardware.material.matte_black,Matte Black,component,mixed_visual,visual_2d;visual_3d,0
+component.kitchen.hardware.type.bar_pull,Bar Pull,component,mixed_visual,visual_2d;visual_3d,0
+component.kitchen.hardware.type.handleless,Handleless,component,mixed_visual,visual_2d;visual_3d,0
+component.kitchen.hardware.type.knob,Knob,component,mixed_visual,visual_2d;visual_3d,0
+component.wall.material.brick_exposed,Brick Exposed,component,mixed_visual,visual_2d;visual_3d,0
+component.wall.material.stone_wall,Stone Wall,component,mixed_visual,visual_2d;visual_3d,0
+component.wall.material.wood_slat,Wood Slat,component,mixed_visual,visual_2d;visual_3d,0
+component.wall.treatment.wainscoting,Wainscoting,component,mixed_visual,visual_2d;visual_3d,0
+component.wall.treatment.wallpaper_patterned,Wallpaper Patterned,component,mixed_visual,visual_2d;visual_3d,0
+env.ae.artworks_prominent,Artworks Prominent,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.barriers/guards_present,Barriers/Guards Present,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.clear_circulation_paths,Clear Circulation Paths,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.clear_exits/wayfinding_signage,Clear Exits/Wayfinding Signage,env,mixed_sensor,sensor_required;visual_2d;visual_3d,2
+env.ae.clear_sightlines,Clear Sightlines,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.commercial_branding,Commercial Branding,env,mixed_computed,computed_metric;visual_2d;visual_3d,2
+env.ae.compartmentalized_plan,Compartmentalized Plan,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.complex_geometry,Complex Geometry,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.concrete_prominent,Concrete Prominent,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.cool_color_palette,Cool Color Palette,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.cool_lighting_(high_cct),Cool Lighting (High CCT),env,mixed_sensor,metadata_reported;sensor_required;visual_2d;visual_3d,2
+env.ae.crowded_space,Crowded Space,env,mixed_computed,computed_metric;visual_2d;visual_3d,2
+env.ae.curvilinear_forms,Curvilinear Forms,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.daylighting,Daylighting,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.dynamic_lighting,Dynamic Lighting,env,mixed_sensor,metadata_reported;sensor_required;visual_2d;visual_3d,2
+env.ae.fans_visible,Fans Visible,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.fractal-like_pattern,Fractal-Like Pattern,env,mixed_computed,computed_metric;visual_2d;visual_3d,2
+env.ae.glare_present,Glare Present,env,mixed_computed,computed_metric;metadata_reported;visual_2d;visual_3d,2
+env.ae.glass_prominent,Glass Prominent,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.hard_reflective_surfaces,Hard Reflective Surfaces,env,visual_2d,visual_2d,2
+env.ae.hard_seating,Hard Seating,env,visual_2d,visual_2d,2
+env.ae.hazard_indicators,Hazard Indicators,env,sensor_required,sensor_required,2
+env.ae.high_ceiling,High Ceiling,env,mixed_metadata,metadata_reported;visual_3d,2
+env.ae.high_ceiling_+_hard_surfaces,High Ceiling + Hard Surfaces,env,mixed_metadata,metadata_reported;visual_3d,2
+env.ae.high_cleanliness,High Cleanliness,env,computed_metric,computed_metric,2
+env.ae.high_clutter,High Clutter,env,mixed_sensor,computed_metric;sensor_required,2
+env.ae.high_color_contrast,High Color Contrast,env,computed_metric,computed_metric,2
+env.ae.high_color_entropy,High Color Entropy,env,visual_3d,visual_3d,2
+env.ae.high_contrast_lighting,High Contrast Lighting,env,mixed_computed,computed_metric;metadata_reported,2
+env.ae.high_edge_density,High Edge Density,env,visual_3d,visual_3d,2
+env.ae.high_fractal_dimension_(2d),High Fractal Dimension (2D),env,mixed_computed,computed_metric;visual_3d,2
+env.ae.high_illuminance,High Illuminance,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.high_orderliness,High Orderliness,env,computed_metric,computed_metric,2
+env.ae.high_saturation,High Saturation,env,computed_metric,computed_metric,2
+env.ae.high_seating_density,High Seating Density,env,visual_3d,visual_3d,2
+env.ae.high_spatial_frequency_content,High Spatial Frequency Content,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.high_symmetry,High Symmetry,env,mixed_computed,computed_metric;visual_2d;visual_3d,2
+env.ae.high_texture_complexity,High Texture Complexity,env,visual_2d,visual_2d,2
+env.ae.home-like_decor,Home-like Decor,env,visual_2d,visual_2d,2
+env.ae.indoor-outdoor_continuity,Indoor-Outdoor Continuity,env,visual_2d,visual_2d,2
+env.ae.indoor_plants,Indoor Plants,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.institutional_decor,Institutional Decor,env,visual_2d,visual_2d,2
+env.ae.irregular_pattern,Irregular Pattern,env,mixed_sensor,computed_metric;sensor_required,2
+env.ae.large_enclosure_volume,Large Enclosure Volume,env,visual_3d,visual_3d,2
+env.ae.large_window_area,Large Window Area,env,visual_3d,visual_3d,2
+env.ae.low_ceiling,Low Ceiling,env,mixed_metadata,metadata_reported;visual_3d,2
+env.ae.low_edge_density,Low Edge Density,env,visual_3d,visual_3d,2
+env.ae.low_illuminance,Low Illuminance,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.low_orderliness,Low Orderliness,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.low_saturation,Low Saturation,env,computed_metric,computed_metric,2
+env.ae.low_spatial_frequency_content,Low Spatial Frequency Content,env,visual_3d,visual_3d,2
+env.ae.low_symmetry,Low Symmetry,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.low_texture_complexity,Low Texture Complexity,env,visual_2d,visual_2d,2
+env.ae.maze-like_layout,Maze-Like Layout,env,mixed_sensor,computed_metric;sensor_required;visual_2d,2
+env.ae.metal_prominent,Metal Prominent,env,visual_2d,visual_2d,2
+env.ae.minimal_signage,Minimal Signage,env,sensor_required,sensor_required,2
+env.ae.monochrome/minimal_palette,Monochrome/Minimal Palette,env,visual_2d,visual_2d,2
+env.ae.narrow_corridor,Narrow Corridor,env,mixed_computed,computed_metric;metadata_reported;visual_3d,2
+env.ae.natural/earthy_palette,Natural/Earthy Palette,env,visual_2d,visual_2d,2
+env.ae.naturalistic_forms,Naturalistic Forms,env,visual_3d,visual_3d,2
+env.ae.nature_imagery,Nature Imagery,env,visual_2d,visual_2d,2
+env.ae.occluded_sightlines,Occluded Sightlines,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.open_plan,Open Plan,env,visual_2d,visual_2d,2
+env.ae.open_windows,Open Windows,env,visual_2d,visual_2d,2
+env.ae.poor_visibility_/_dark_corners,Poor Visibility / Dark Corners,env,computed_metric,computed_metric,2
+env.ae.private/enclosed_niche,Private/Enclosed Niche,env,computed_metric,computed_metric,2
+env.ae.public/exposed_area,Public/Exposed Area,env,computed_metric,computed_metric,2
+env.ae.rectilinear_forms,Rectilinear Forms,env,visual_3d,visual_3d,2
+env.ae.religious_symbols,Religious Symbols,env,sensor_required,sensor_required,2
+env.ae.repeating_pattern,Repeating Pattern,env,visual_3d,visual_3d,2
+env.ae.seating_available,Seating Available,env,sensor_required,sensor_required,2
+env.ae.soft_acoustic_treatments,Soft Acoustic Treatments,env,sensor_required,sensor_required,2
+env.ae.soft_seating,Soft Seating,env,visual_2d,visual_2d,2
+env.ae.sparse_occupancy,Sparse Occupancy,env,visual_2d,visual_2d,2
+env.ae.stone/marble_prominent,Stone/Marble Prominent,env,visual_2d,visual_2d,2
+env.ae.strong_central_landmark,Strong Central Landmark,env,mixed_computed,computed_metric;visual_3d,2
+env.ae.strong_horizontality,Strong Horizontality,env,visual_3d,visual_3d,2
+env.ae.strong_verticality,Strong Verticality,env,visual_2d,visual_2d,2
+env.ae.surveillance_/_cameras_visible,Surveillance / Cameras Visible,env,visual_2d,visual_2d,2
+env.ae.text/information_density_high,Text/Information Density High,env,mixed_sensor,computed_metric;sensor_required;visual_3d,2
+env.ae.textiles/soft_furnishings,Textiles/Soft Furnishings,env,visual_2d,visual_2d,2
+env.ae.uniform_lighting,Uniform Lighting,env,computed_metric,computed_metric,2
+env.ae.view_to_outdoors,View to Outdoors,env,mixed_visual,visual_2d;visual_3d,2
+env.ae.visible_dirt/decay,Visible Dirt/Decay,env,visual_2d,visual_2d,2
+env.ae.visible_hvac_vents,Visible HVAC Vents,env,mixed_sensor,metadata_reported;sensor_required,2
+env.ae.visible_windows,Visible Windows,env,visual_2d,visual_2d,2
+env.ae.warm_color_palette,Warm Color Palette,env,visual_2d,visual_2d,2
+env.ae.warm_lighting,Warm Lighting,env,mixed_sensor,computed_metric;metadata_reported;sensor_required,2
+env.ae.well_maintained,Well Maintained,env,visual_2d,visual_2d,2
+env.ae.wood_prominent,Wood Prominent,env,visual_2d,visual_2d,2
+env.ae.work_surfaces_present,Work Surfaces Present,env,visual_2d,visual_2d,2
+env.ae.worn/degraded,Worn/Degraded,env,visual_2d,visual_2d,2
+env.v1_001.illuminance_level_task_surface,Illuminance level (task surface),env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_002.illuminance_level_ambient,Illuminance level (ambient),env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_003.luminance_distribution,Luminance distribution,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_004.contrast_ratio,Contrast ratio,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_005.uniformity_ratio,Uniformity ratio,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_006.daylight_factor,Daylight factor,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_007.daylight_autonomy,Daylight autonomy,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_008.correlated_color_temperature_cct,Correlated color temperature (CCT),env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_009.spectral_power_distribution,Spectral power distribution,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_010.color_rendering_index_cri,Color rendering index (CRI),env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_011.melanopic_lux,Melanopic lux,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_012.dominant_wavelength,Dominant wavelength,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_013.flicker_frequency,Flicker frequency,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_014.flicker_modulation_depth,Flicker modulation depth,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_015.circadian_timing_of_exposure,Circadian timing of exposure,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_016.rate_of_illuminance_change,Rate of illuminance change,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_017.diurnal_variation_pattern,Diurnal variation pattern,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_018.direct_indirect_ratio,Direct/indirect ratio,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_019.light_directionality,Light directionality,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_020.unified_glare_rating_ugr,Unified Glare Rating (UGR),env,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+env.v1_021.shadow_characteristics,Shadow characteristics,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_022.natural_artificial_ratio,Natural/artificial ratio,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_023.point_vs_diffuse_illumination,Point vs. diffuse illumination,env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+env.v1_024.window_sky_type_visible,Window/sky type visible,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_025.solar_penetration_depth,Solar penetration depth,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_026.view_to_exterior,View to exterior,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_090.ceiling_height,Ceiling height,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_091.room_volume,Room volume,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_092.floor_area,Floor area,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_093.aspect_ratios,Aspect ratios,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_094.degree_of_enclosure,Degree of enclosure,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_095.boundary_definition,Boundary definition,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_096.visual_permeability,Visual permeability,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_097.spatial_layering,Spatial layering,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_098.visual_access_extent,Visual access extent,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_099.prospect_quality,Prospect quality,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_100.refuge_degree,Refuge degree,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_101.prospect_refuge_balance,Prospect-refuge balance,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_102.defensible_space,Defensible space,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_103.plan_complexity,Plan complexity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_104.spatial_hierarchy,Spatial hierarchy,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_105.wayfinding_affordances,Wayfinding affordances,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_106.mystery,Mystery,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_107.coherence,Coherence,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_108.legibility,Legibility,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_109.angular_vs_curvilinear,Angular vs. curvilinear,env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+env.v1_110.symmetry,Symmetry,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_111.proportion,Proportion,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_112.fractal_dimension,Fractal dimension,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_113.self_similarity_scale_range,Self-similarity scale range,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_114.visual_entropy,Visual entropy,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_115.edge_density,Edge density,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_116.color_diversity,Color diversity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_117.element_count,Element count,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_118.visual_noise,Visual noise,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_119.pattern_regularity,Pattern regularity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_120.figure_ground_clarity,Figure-ground clarity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_121.visual_hierarchy,Visual hierarchy,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_122.vegetation_density,Vegetation density,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_123.vegetation_diversity,Vegetation diversity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_124.water_features,Water features,env,computed_metric,computed_metric,2
+env.v1_125.sky_visibility,Sky visibility,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_126.natural_landforms,Natural landforms,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_127.view_distance_layers,View distance layers,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_128.nature_vs_urban_view,Nature vs. urban view,env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+env.v1_129.natural_material_proportion,Natural material proportion,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_130.biomimetic_forms,Biomimetic forms,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_131.natural_light_patterns,Natural light patterns,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_132.spatial_density,Spatial density,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_133.social_density,Social density,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_134.perceived_crowding,Perceived crowding,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_135.visual_privacy,Visual privacy,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_136.acoustic_privacy,Acoustic privacy,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_137.territorial_definition,Territorial definition,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_138.seating_arrangement,Seating arrangement,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_139.collaboration_space_ratio,Collaboration space ratio,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_140.temperature_control,Temperature control,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_141.lighting_control,Lighting control,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_142.acoustic_control,Acoustic control,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_143.window_operation,Window operation,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_144.workspace_personalization,Workspace personalization,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v1_145.perceived_control,Perceived control,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_001.color_palette_hue_saturation_lightness_harmony_beyond_cct,Color palette hue/saturation/lightness harmony (beyond CCT),env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_002.warm_vs_cool_white_appearance_cct_and_perceived_coziness_activation_cajochen_et,"Warm vs cool white appearance (CCT) and perceived coziness/activation (Cajochen et al., 2005",env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+env.v2a_003.brightness_level_at_eye_vertical_illuminance_vs_task_plane,Brightness level at eye (vertical illuminance) vs task plane,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_004.brightness_gradients_and_brightness_contrast_ratios,Brightness gradients and brightness contrast ratios,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_005.daylight_presence_sky_view_and_view_to_outside_content,"Daylight presence, sky view, and view-to-outside content",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_006.glare_source_count,Glare source count,env,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+env.v2a_007.flicker_temporal_modulation_risk_cues_led_drivers,Flicker/temporal modulation risk cues (LED drivers,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_008.color_rendering_saturation_rendering,Color rendering / saturation rendering,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_009.shadow_softness_hardness,Shadow softness/hardness,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_010.lighting_control_cues_dimmers_blinds_task_lights,"Lighting control cues: dimmers, blinds, task lights",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_011.evening_like_ambience_cues_vs_daytime_like_ambience_cues,Evening-like ambience cues vs daytime-like ambience cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_012.visual_privacy_via_lighting_backlit_silhouettes_vs_evenly_lit_faces,Visual privacy via lighting: backlit silhouettes vs evenly lit faces,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_013.high_contrast_spotlight_social_exposure_cues,High contrast ‘spotlight’ social exposure cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_014.presence_of_natural_light_patterns,Presence of natural light patterns,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_015.lighting_temperature_mismatch,Lighting ‘temperature mismatch’,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_067.ceiling_height_and_openness_processing_style,Ceiling height and openness (processing style,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_068.room_scale_cues,Room scale cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_069.enclosure_ratio_wall_to_window_balance,Enclosure ratio: wall-to-window balance,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_070.prospect_refuge_ability_to_see_without_being_seen,Prospect–refuge: ability to see without being seen,env,mixed_computed,computed_metric;visual_2d;visual_3d,4
+env.v2a_071.exit_visibility_and_path_to_exit_complexity,Exit visibility and path-to-exit complexity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_072.blind_corners_vs_transparent_partitions,Blind corners vs transparent partitions,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_073.distance_to_others,Distance to others,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_074.wayfinding_legibility_straight_sightlines,Wayfinding legibility: straight sightlines,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_075.spatial_complexity_branching_corridors_vs_simple_loops,Spatial complexity: branching corridors vs simple loops,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_076.perceived_territoriality_defined_zones_vs_ambiguous_shared_space,Perceived territoriality: defined zones vs ambiguous shared space.,env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+env.v2a_077.barrier_permeability_half_walls_vs_full_walls,Barrier permeability: half-walls vs full walls,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_078.visual_access_to_outdoors_nature_as_escape_affordance,Visual access to outdoors/nature as ‘escape’ affordance.,env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+env.v2a_079.seating_prospect_facing_entrance_vs_back_to_entrance,Seating prospect: facing entrance vs back to entrance,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_080.verticality_cues,Verticality cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_081.personal_safety_affordances_lighting_in_corners,Personal safety affordances: lighting in corners,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_082.curvature_prevalence_vs_sharp_angles,Curvature prevalence vs sharp angles,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_083.symmetry_and_regularity,Symmetry and regularity,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_084.fractal_self_similar_edge_statistics,Fractal/self-similar edge statistics,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_085.clutter_disorder_object_density_occlusion_surface_coverage,"Clutter/disorder: object density, occlusion, surface coverage",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_086.cleanliness_maintenance_stains_damage_wear,"Cleanliness/maintenance: stains, damage, wear",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_087.color_diversity_and_saturation,Color diversity and saturation,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_088.texture_density,Texture density,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_089.artwork_density_and_semantic_content,Artwork density and semantic content,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_090.naturalness_of_materials,Naturalness of materials,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_091.visual_complexity_gradients,Visual complexity gradients,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_092.signage_density_informational_load,Signage density (informational load,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_093.visual_affordances_for_organization,Visual affordances for organization,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_094.orderliness_of_lines_alignment,Orderliness of lines: alignment,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_095.perceptual_mystery_cues,Perceptual ‘mystery’ cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_096.visible_vegetation_quantity_proximity_and_distribution,"Visible vegetation quantity, proximity, and distribution",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_097.window_view_content_greenery_sky_water_vs_built_up,"Window view content: greenery, sky, water vs built-up",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_098.natural_materials_wood_stone,Natural materials: wood/stone,env,computed_metric,computed_metric,2
+env.v2a_099.blue_space,Blue-space,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_100.prospect_to_distant_views,Prospect to distant views,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_101.natural_ventilation_cues,Natural ventilation cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_102.natural_sound_sources,Natural sound sources,env,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+env.v2a_103.daylight_nature_coupling,Daylight + nature coupling,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_104.seasonal_cues,Seasonal cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_105.animal_presence_cues,Animal presence cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_106.sociopetal_seating,Sociopetal seating,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_107.density_crowding_proxies_chairs_per_area_people_present_queueing_lines,"Density/crowding proxies: chairs per area, people present, queueing lines",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_108.surveillance_cues_cameras_exposed_workstations_panoramic_visibility,"Surveillance cues: cameras, exposed workstations, panoramic visibility",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_109.privacy_cues_partitions_doors_curtains,"Privacy cues: partitions, doors, curtains",env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_110.territoriality_markers_name_plates,Territoriality markers: name plates,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_111.norm_cues_formal_vs_informal,Norm cues: formal vs informal,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_112.shared_resource_competition_cues,Shared-resource competition cues,env,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+env.v2a_113.social_mixing_affordances,Social mixing affordances,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_114.conflict_overhearing_risk_cues,Conflict/overhearing risk cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_115.waiting_time_cues,Waiting-time cues,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_116.user_controls_visible_and_accessible_dimmers_blinds_thermostats,"User controls visible and accessible: dimmers, blinds, thermostats",env,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+env.v2a_117.furniture_adjustability_movable_chairs_tables,Furniture adjustability: movable chairs/tables,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_118.choice_richness_multiple_zones,Choice richness: multiple zones,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_119.personalization_affordances_pinboards,Personalization affordances: pinboards,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_120.policy_cues_restricting_control,Policy cues restricting control,env,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+env.v2a_121.control_over_privacy_doors,Control over privacy: doors,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_122.control_over_sound_headsets,Control over sound: headsets,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_123.control_over_thermal_fans,Control over thermal: fans,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_124.control_over_lighting_task_lamps,Control over lighting: task lamps,env,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+env.v2a_125.information_control_clear_wayfinding_reduces_uncertainty,Information control: clear wayfinding reduces uncertainty.,env,mixed_computed,computed_metric;visual_2d;visual_3d,0
+fluency.symmetry,Symmetry,fluency,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+isovist.area_25d,Area 25D,isovist,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+isovist.compactness_25d,Compactness 25D,isovist,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+isovist.confidence,Confidence,isovist,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+material.glass_coverage,Glass Coverage,material,mixed_visual,visual_2d;visual_3d,0
+material.metal_coverage,Metal Coverage,material,mixed_visual,visual_2d;visual_3d,0
+material.wood_coverage,Wood Coverage,material,mixed_visual,visual_2d;visual_3d,0
+materials.cues.brightness_mean,Brightness Mean,materials,mixed_visual,visual_2d;visual_3d,0
+materials.cues.saturation_mean,Saturation Mean,materials,mixed_visual,visual_2d;visual_3d,0
+materials.cues.specularity_proxy,Specularity Proxy,materials,mixed_visual,visual_2d;visual_3d,0
+materials.cues.texture_variance,Texture Variance,materials,mixed_visual,visual_2d;visual_3d,0
+materials.cues.value_mean,Value Mean,materials,mixed_computed,computed_metric;visual_2d;visual_3d,0
+materials.substrate.plaster_gypsum,Plaster Gypsum,materials,mixed_visual,visual_2d;visual_3d,0
+materials.substrate.stone_concrete,Stone Concrete,materials,mixed_visual,visual_2d;visual_3d,0
+materials.substrate.tile_ceramic,Tile Ceramic,materials,mixed_visual,visual_2d;visual_3d,0
+provenance.architect_kengo_kuma,Architect Kengo Kuma,provenance,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+provenance.architect_le_corbusier,Architect Le Corbusier,provenance,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+provenance.iconic_chair_barcelona,Iconic Chair Barcelona,provenance,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+provenance.iconic_chair_eames,Iconic Chair Eames,provenance,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+psych.coziness,Coziness,psych,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+science.organized_complexity,Organized Complexity,science,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+science.organized_complexity_bin,Organized Complexity Bin,science,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+science.visual_richness,Visual Richness,science,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+science.visual_richness_bin,Visual Richness Bin,science,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+smell.concentration_dfa_exponent,Concentration Dfa Exponent,smell,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+smell.intensity_rating,Intensity Rating,smell,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+smell.pleasantness_rating,Pleasantness Rating,smell,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+social.occupancy,Occupancy,social,mixed_visual,visual_2d;visual_3d,0
+social.privacy,Privacy,social,mixed_visual,visual_2d;visual_3d,0
+social.sociopetal,Sociopetal,social,mixed_visual,visual_2d;visual_3d,0
+sound.amplitude_fractal_dimension,Amplitude Fractal Dimension,sound,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+sound.noise_color_beta,Noise Color Beta,sound,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+sound.one_over_f_slope,One Over F Slope,sound,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+sound.reverberation_rt60,Reverberation Rt60,sound,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+spatial.central_openness,Central Openness,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.depth_contrast,Depth Contrast,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.depth_mean,Depth Mean,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.isovist_openness,Isovist Openness,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.refuge_quality,Refuge Quality,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.room_function.bathroom,Bathroom,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.room_function.bedroom,Bedroom,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.room_function.home_office,Home Office,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.room_function.kitchen,Kitchen,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.room_function.living_room,Living Room,spatial,mixed_visual,visual_2d;visual_3d,0
+spatial.visual_clutter,Visual Clutter,spatial,mixed_visual,visual_2d;visual_3d,0
+style.bohemian,Bohemian,style,mixed_visual,visual_2d;visual_3d,0
+style.farmhouse,Farmhouse,style,mixed_visual,visual_2d;visual_3d,0
+style.industrial,Industrial,style,mixed_visual,visual_2d;visual_3d,0
+style.japandi,Japandi,style,mixed_visual,visual_2d;visual_3d,0
+style.mid_century_modern,Mid Century Modern,style,mixed_visual,visual_2d;visual_3d,0
+style.minimalist,Minimalist,style,mixed_visual,visual_2d;visual_3d,0
+style.modern,Modern,style,mixed_visual,visual_2d;visual_3d,0
+style.modernity,Modernity,style,mixed_visual,visual_2d;visual_3d,0
+style.rustic,Rustic,style,mixed_visual,visual_2d;visual_3d,0
+style.scandinavian,Scandinavian,style,mixed_visual,visual_2d;visual_3d,0
+style.traditional,Traditional,style,mixed_visual,visual_2d;visual_3d,0
+tag.evidence_pointer,Evidence Pointer,tag,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+tag.request_source,Request Source,tag,mixed_metadata,metadata_reported;visual_2d;visual_3d,0
+texture.macro.contrast,Contrast,texture,mixed_visual,visual_2d;visual_3d,0
+texture.macro.homogeneity,Homogeneity,texture,mixed_visual,visual_2d;visual_3d,0
+texture.micro.contrast,Contrast,texture,mixed_visual,visual_2d;visual_3d,0
+texture.micro.homogeneity,Homogeneity,texture,mixed_visual,visual_2d;visual_3d,0
+touch.haptic_fractal_dimension,Haptic Fractal Dimension,touch,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0
+touch.hardness_rating,Hardness Rating,touch,mixed_sensor,computed_metric;metadata_reported;sensor_required;visual_2d;visual_3d,0
+touch.surface_roughness_spectrum_slope,Surface Roughness Spectrum Slope,touch,mixed_sensor,computed_metric;sensor_required;visual_2d;visual_3d,0

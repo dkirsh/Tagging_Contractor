@@ -1,0 +1,50 @@
+{"tag_id": "component.kitchen.hardware.type.knob", "aliases": ["knob material"]}
+{"tag_id": "component.wall.material.brick_exposed", "aliases": ["brick exposed material"]}
+{"tag_id": "component.wall.material.stone_wall", "aliases": ["stone wall material"]}
+{"tag_id": "component.wall.material.wood_slat", "aliases": ["wood slat material"]}
+{"tag_id": "component.wall.treatment.wainscoting", "aliases": ["wainscoting material"]}
+{"tag_id": "component.wall.treatment.wallpaper_patterned", "aliases": ["wallpaper patterned material"]}
+{"tag_id": "env.v1_003.luminance_distribution", "aliases": ["luminance distribution metric"]}
+{"tag_id": "env.v1_004.contrast_ratio", "aliases": ["contrast ratio metric"]}
+{"tag_id": "env.v1_005.uniformity_ratio", "aliases": ["uniformity ratio metric"]}
+{"tag_id": "env.v1_006.daylight_factor", "aliases": ["daylight factor metric"]}
+{"tag_id": "env.v1_007.daylight_autonomy", "aliases": ["daylight autonomy metric"]}
+{"tag_id": "env.v1_009.spectral_power_distribution", "aliases": ["spectral power distribution metric"]}
+{"tag_id": "env.v1_011.melanopic_lux", "aliases": ["melanopic lux metric"]}
+{"tag_id": "env.v1_012.dominant_wavelength", "aliases": ["dominant wavelength metric"]}
+{"tag_id": "env.v1_013.flicker_frequency", "aliases": ["flicker frequency metric"]}
+{"tag_id": "env.v1_014.flicker_modulation_depth", "aliases": ["flicker modulation depth metric"]}
+{"tag_id": "env.v1_015.circadian_timing_of_exposure", "aliases": ["circadian timing of exposure metric"]}
+{"tag_id": "env.v1_016.rate_of_illuminance_change", "aliases": ["rate of illuminance change metric"]}
+{"tag_id": "env.v1_017.diurnal_variation_pattern", "aliases": ["diurnal variation pattern metric"]}
+{"tag_id": "env.v1_019.light_directionality", "aliases": ["light directionality metric"]}
+{"tag_id": "env.v1_021.shadow_characteristics", "aliases": ["shadow characteristics metric"]}
+{"tag_id": "env.v1_025.solar_penetration_depth", "aliases": ["solar penetration depth metric"]}
+{"tag_id": "env.v1_026.view_to_exterior", "aliases": ["view to exterior metric"]}
+{"tag_id": "env.v1_090.ceiling_height", "aliases": ["ceiling height metric"]}
+{"tag_id": "env.v1_091.room_volume", "aliases": ["room volume metric"]}
+{"tag_id": "env.v1_092.floor_area", "aliases": ["floor area metric"]}
+{"tag_id": "env.v1_093.aspect_ratios", "aliases": ["aspect ratios metric"]}
+{"tag_id": "env.v1_094.degree_of_enclosure", "aliases": ["degree of enclosure metric"]}
+{"tag_id": "env.v1_095.boundary_definition", "aliases": ["boundary definition metric"]}
+{"tag_id": "env.v1_096.visual_permeability", "aliases": ["visual permeability metric"]}
+{"tag_id": "env.v1_097.spatial_layering", "aliases": ["spatial layering metric"]}
+{"tag_id": "env.v1_098.visual_access_extent", "aliases": ["visual access extent metric"]}
+{"tag_id": "env.v1_099.prospect_quality", "aliases": ["prospect quality metric"]}
+{"tag_id": "env.v1_100.refuge_degree", "aliases": ["refuge degree metric"]}
+{"tag_id": "env.v1_102.defensible_space", "aliases": ["defensible space metric"]}
+{"tag_id": "env.v1_103.plan_complexity", "aliases": ["plan complexity metric"]}
+{"tag_id": "env.v1_104.spatial_hierarchy", "aliases": ["spatial hierarchy metric"]}
+{"tag_id": "env.v1_105.wayfinding_affordances", "aliases": ["wayfinding affordances metric"]}
+{"tag_id": "env.v1_106.mystery", "aliases": ["mystery metric"]}
+{"tag_id": "env.v1_107.coherence", "aliases": ["coherence metric"]}
+{"tag_id": "env.v1_108.legibility", "aliases": ["legibility metric"]}
+{"tag_id": "env.v1_110.symmetry", "aliases": ["symmetry metric"]}
+{"tag_id": "env.v1_111.proportion", "aliases": ["proportion metric"]}
+{"tag_id": "env.v1_112.fractal_dimension", "aliases": ["fractal dimension metric"]}
+{"tag_id": "env.v1_114.visual_entropy", "aliases": ["visual entropy metric"]}
+{"tag_id": "env.v1_115.edge_density", "aliases": ["edge density metric"]}
+{"tag_id": "env.v1_116.color_diversity", "aliases": ["color diversity metric"]}
+{"tag_id": "env.v1_117.element_count", "aliases": ["element count metric"]}
+{"tag_id": "env.v1_118.visual_noise", "aliases": ["visual noise metric"]}
+{"tag_id": "env.v1_119.pattern_regularity", "aliases": ["pattern regularity metric"]}

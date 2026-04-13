@@ -1,0 +1,16 @@
+model_family,inputs,outputs,examples
+annotation_review,unknown,unknown,n/a
+audio_analysis,audio,acoustic metrics,RT60
+depth_estimation,image,depth map,spatial ratios
+layout_estimation,image,layout lines,room openness
+metric_computation,derived features,indices,complexity metrics
+multi_view_geometry,unknown,unknown,n/a
+ocr_text,image,text regions,signage density
+olfactory_sensing,sensor data,odor metrics,intensity
+photometric_metrics,image + calibration,lux/CCT proxies,"CCT, CRI"
+scene_classification,image,scene attributes,"open_plan, home_like"
+sensor_generic,unknown,unknown,n/a
+spatial_metrics,depth or 3D,computed metrics,"isovist, enclosure"
+survey_data,unknown,unknown,n/a
+tactile_sensing,sensor data,tactile metrics,roughness
+user_reports,survey/annotations,reported labels,"affect, cognitive"

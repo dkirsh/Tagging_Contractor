@@ -1,0 +1,50 @@
+{"tag_id": "cnfa.fluency.visual_entropy_spatial", "aliases": ["visual entropy spatial metric"]}
+{"tag_id": "cnfa.fluency.zoning_clarity", "aliases": ["zoning clarity metric"]}
+{"tag_id": "cnfa.fractal.lacunarity", "aliases": ["lacunarity metric"]}
+{"tag_id": "cnfa.fractal.multifractal_width", "aliases": ["multifractal width metric"]}
+{"tag_id": "cnfa.fractal.spectral_slope_1overf", "aliases": ["spectral slope 1overf metric"]}
+{"tag_id": "cnfa.fractal_dimension", "aliases": ["fractal dimension metric"]}
+{"tag_id": "cnfa.fractal_dimension_edges", "aliases": ["fractal dimension edges metric"]}
+{"tag_id": "cnfa.fractal_dimension_luminance", "aliases": ["fractal dimension luminance metric"]}
+{"tag_id": "cnfa.geometry.curvature_index", "aliases": ["curvature index metric"]}
+{"tag_id": "cnfa.geometry.fractal_curve_intersection", "aliases": ["fractal curve intersection metric"]}
+{"tag_id": "cnfa.geometry.rectilinearity_index", "aliases": ["rectilinearity index metric"]}
+{"tag_id": "cnfa.haptic.soft_surface_ratio", "aliases": ["soft surface ratio metric"]}
+{"tag_id": "cnfa.haptic.texture_variation_index", "aliases": ["texture variation index metric"]}
+{"tag_id": "cnfa.layout.opening_ratio", "aliases": ["opening ratio metric"]}
+{"tag_id": "cnfa.light.brightness_variance", "aliases": ["brightness variance metric"]}
+{"tag_id": "cnfa.light.diffuse_vs_direct_ratio", "aliases": ["diffuse vs direct ratio metric"]}
+{"tag_id": "cnfa.light.vertical_illuminance_proxy", "aliases": ["vertical illuminance proxy metric"]}
+{"tag_id": "cnfa.light.warm_vs_cool_ratio", "aliases": ["warm vs cool ratio metric"]}
+{"tag_id": "cnfa.spatial.ceiling_height_avg", "aliases": ["ceiling height avg metric"]}
+{"tag_id": "cnfa.spatial.enclosure_index", "aliases": ["enclosure index metric"]}
+{"tag_id": "cnfa.spatial.prospect_to_refuge_ratio", "aliases": ["prospect to refuge ratio metric"]}
+{"tag_id": "cognitive.coherence", "aliases": ["perceived coherence"]}
+{"tag_id": "cognitive.complexity", "aliases": ["perceived complexity"]}
+{"tag_id": "cognitive.error", "aliases": ["perceived error"]}
+{"tag_id": "cognitive.legibility", "aliases": ["perceived legibility"]}
+{"tag_id": "cognitive.mystery", "aliases": ["perceived mystery"]}
+{"tag_id": "cognitive.restoration", "aliases": ["perceived restoration"]}
+{"tag_id": "color.lab_volume", "aliases": ["lab volume color"]}
+{"tag_id": "color.lightness_contrast", "aliases": ["lightness contrast color"]}
+{"tag_id": "color.luminance", "aliases": ["luminance color"]}
+{"tag_id": "color.perceptual_lightness", "aliases": ["perceptual lightness color"]}
+{"tag_id": "color.saturation", "aliases": ["saturation color"]}
+{"tag_id": "color.warmth", "aliases": ["warmth color"]}
+{"tag_id": "color.warmth_ratio", "aliases": ["warmth ratio color"]}
+{"tag_id": "complexity.edge_density", "aliases": ["edge density metric"]}
+{"tag_id": "complexity.shannon_entropy", "aliases": ["shannon entropy metric"]}
+{"tag_id": "complexity.spatial_entropy", "aliases": ["spatial entropy metric"]}
+{"tag_id": "component.bathroom.fixture.material.brass", "aliases": ["brass material"]}
+{"tag_id": "component.bathroom.fixture.material.matte_black", "aliases": ["matte black material"]}
+{"tag_id": "component.bathroom.fixture.type.rain_showerhead", "aliases": ["rain showerhead material"]}
+{"tag_id": "component.ceiling.coffered", "aliases": ["coffered material"]}
+{"tag_id": "component.ceiling.cove_lighting", "aliases": ["cove lighting material"]}
+{"tag_id": "component.ceiling.exposed_beam", "aliases": ["exposed beam material"]}
+{"tag_id": "component.ceiling.tray", "aliases": ["tray material"]}
+{"tag_id": "component.ceiling.vaulted", "aliases": ["vaulted material"]}
+{"tag_id": "component.kitchen.hardware.material.brass", "aliases": ["brass material"]}
+{"tag_id": "component.kitchen.hardware.material.chrome", "aliases": ["chrome material"]}
+{"tag_id": "component.kitchen.hardware.material.matte_black", "aliases": ["matte black material"]}
+{"tag_id": "component.kitchen.hardware.type.bar_pull", "aliases": ["bar pull material"]}
+{"tag_id": "component.kitchen.hardware.type.handleless", "aliases": ["handleless material"]}

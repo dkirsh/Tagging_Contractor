@@ -1,0 +1,45 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Safer defaults
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+# Tunables for slow/spotty networks (can be overridden at build time)
+ARG PIP_DEFAULT_TIMEOUT=600
+ARG PIP_RETRIES=10
+
+# Optional heavier ML deps (kept OFF by default)
+ARG INSTALL_ML_DEPS=0
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Base API deps (small, stable)
+COPY backend/requirements.txt /app/requirements.txt
+RUN python -m pip install --upgrade pip \
+    && python -m pip install --no-cache-dir \
+        --retries ${PIP_RETRIES} \
+        --default-timeout ${PIP_DEFAULT_TIMEOUT} \
+        -r /app/requirements.txt
+
+# Optional ML deps (torch/transformers). Keep OFF for core reliability.
+RUN if [ "${INSTALL_ML_DEPS}" = "1" ]; then \
+      echo "Installing optional ML deps: torch, transformers" && \
+      python -m pip install --no-cache-dir \
+        --retries ${PIP_RETRIES} \
+        --default-timeout ${PIP_DEFAULT_TIMEOUT} \
+        torch transformers; \
+    else \
+      echo "Skipping optional ML deps (INSTALL_ML_DEPS=${INSTALL_ML_DEPS})"; \
+    fi
+
+COPY backend/app /app/app
+COPY core /app/core
+COPY VERSION.txt /app/VERSION.txt
+
+EXPOSE 8401
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8401"]

@@ -1,0 +1,50 @@
+{"tag_id": "env.v2a_092.signage_density_informational_load", "aliases": ["Signage density", "signage density (informational load metric"]}
+{"tag_id": "env.v2a_093.visual_affordances_for_organization", "aliases": ["visual affordances for organization measure", "visual affordances for organization index"]}
+{"tag_id": "env.v2a_094.orderliness_of_lines_alignment", "aliases": ["orderliness of lines: alignment metric", "orderliness of lines: alignment measure"]}
+{"tag_id": "env.v2a_095.perceptual_mystery_cues", "aliases": ["perceptual \u2018mystery\u2019 cues metric", "perceptual \u2018mystery\u2019 cues measure"]}
+{"tag_id": "env.v2a_096.visible_vegetation_quantity_proximity_and_distribution", "aliases": ["visible vegetation quantity, proximity, and distribution metric", "visible vegetation quantity, proximity, and distribution measure"]}
+{"tag_id": "env.v2a_097.window_view_content_greenery_sky_water_vs_built_up", "aliases": ["window view content: greenery, sky, water vs built-up metric", "window view content: greenery, sky, water vs built-up measure"]}
+{"tag_id": "env.v2a_099.blue_space", "aliases": ["blue-space metric", "blue-space measure"]}
+{"tag_id": "env.v2a_100.prospect_to_distant_views", "aliases": ["prospect to distant views measure", "prospect to distant views index"]}
+{"tag_id": "env.v2a_101.natural_ventilation_cues", "aliases": ["natural ventilation cues measure", "natural ventilation cues index"]}
+{"tag_id": "env.v2a_102.natural_sound_sources", "aliases": ["natural sound sources measure", "natural sound sources index"]}
+{"tag_id": "env.v2a_103.daylight_nature_coupling", "aliases": ["daylight + nature coupling metric", "daylight + nature coupling measure"]}
+{"tag_id": "env.v2a_104.seasonal_cues", "aliases": ["seasonal cues measure", "seasonal cues index"]}
+{"tag_id": "env.v2a_105.animal_presence_cues", "aliases": ["animal presence cues measure", "animal presence cues index"]}
+{"tag_id": "env.v2a_106.sociopetal_seating", "aliases": ["sociopetal seating measure", "sociopetal seating index"]}
+{"tag_id": "env.v2a_107.density_crowding_proxies_chairs_per_area_people_present_queueing_lines", "aliases": ["density / crowding proxies: chairs per area, people present, queueing lines metric", "density / crowding proxies: chairs per area, people present, queueing lines measure"]}
+{"tag_id": "env.v2a_108.surveillance_cues_cameras_exposed_workstations_panoramic_visibility", "aliases": ["surveillance cues: cameras, exposed workstations, panoramic visibility metric", "surveillance cues: cameras, exposed workstations, panoramic visibility measure"]}
+{"tag_id": "env.v2a_109.privacy_cues_partitions_doors_curtains", "aliases": ["privacy cues: partitions, doors, curtains metric", "privacy cues: partitions, doors, curtains measure"]}
+{"tag_id": "env.v2a_110.territoriality_markers_name_plates", "aliases": ["territoriality markers: name plates metric", "territoriality markers: name plates measure"]}
+{"tag_id": "env.v2a_111.norm_cues_formal_vs_informal", "aliases": ["norm cues: formal vs informal metric", "norm cues: formal vs informal measure"]}
+{"tag_id": "env.v2a_112.shared_resource_competition_cues", "aliases": ["shared-resource competition cues metric", "shared-resource competition cues measure"]}
+{"tag_id": "env.v2a_113.social_mixing_affordances", "aliases": ["social mixing affordances measure", "social mixing affordances index"]}
+{"tag_id": "env.v2a_114.conflict_overhearing_risk_cues", "aliases": ["conflict / overhearing risk cues metric", "conflict / overhearing risk cues measure"]}
+{"tag_id": "env.v2a_115.waiting_time_cues", "aliases": ["waiting-time cues metric", "waiting-time cues measure"]}
+{"tag_id": "env.v2a_116.user_controls_visible_and_accessible_dimmers_blinds_thermostats", "aliases": ["user controls visible and accessible: dimmers, blinds, thermostats metric", "user controls visible and accessible: dimmers, blinds, thermostats measure"]}
+{"tag_id": "env.v2a_117.furniture_adjustability_movable_chairs_tables", "aliases": ["furniture adjustability: movable chairs / tables metric", "furniture adjustability: movable chairs / tables measure"]}
+{"tag_id": "env.v2a_118.choice_richness_multiple_zones", "aliases": ["choice richness: multiple zones metric", "choice richness: multiple zones measure"]}
+{"tag_id": "env.v2a_119.personalization_affordances_pinboards", "aliases": ["personalization affordances: pinboards metric", "personalization affordances: pinboards measure"]}
+{"tag_id": "env.v2a_120.policy_cues_restricting_control", "aliases": ["policy cues restricting control measure", "policy cues restricting control index"]}
+{"tag_id": "env.v2a_121.control_over_privacy_doors", "aliases": ["control over privacy: doors metric", "control over privacy: doors measure"]}
+{"tag_id": "env.v2a_122.control_over_sound_headsets", "aliases": ["control over sound: headsets metric", "control over sound: headsets measure"]}
+{"tag_id": "env.v2a_123.control_over_thermal_fans", "aliases": ["control over thermal: fans metric", "control over thermal: fans measure"]}
+{"tag_id": "env.v2a_124.control_over_lighting_task_lamps", "aliases": ["control over lighting: task lamps metric", "control over lighting: task lamps measure"]}
+{"tag_id": "env.v2a_125.information_control_clear_wayfinding_reduces_uncertainty", "aliases": ["information control: clear wayfinding reduces uncertainty. metric", "information control: clear wayfinding reduces uncertainty. measure"]}
+{"tag_id": "fluency.symmetry", "aliases": ["symmetry measure", "symmetry index"]}
+{"tag_id": "isovist.area_25d", "aliases": ["area 25d measure", "area 25d index"]}
+{"tag_id": "isovist.compactness_25d", "aliases": ["compactness 25d measure", "compactness 25d index"]}
+{"tag_id": "isovist.confidence", "aliases": ["confidence measure", "confidence index"]}
+{"tag_id": "material.glass_coverage", "aliases": ["glass coverage finish", "glass coverage component"]}
+{"tag_id": "material.metal_coverage", "aliases": ["metal coverage finish", "metal coverage component"]}
+{"tag_id": "material.wood_coverage", "aliases": ["wood coverage finish", "wood coverage component"]}
+{"tag_id": "materials.cues.brightness_mean", "aliases": ["brightness mean finish", "brightness mean component"]}
+{"tag_id": "materials.cues.saturation_mean", "aliases": ["saturation mean finish", "saturation mean component"]}
+{"tag_id": "materials.cues.specularity_proxy", "aliases": ["specularity proxy finish", "specularity proxy component"]}
+{"tag_id": "materials.cues.texture_variance", "aliases": ["texture variance finish", "texture variance component"]}
+{"tag_id": "materials.cues.value_mean", "aliases": ["value mean finish", "value mean component"]}
+{"tag_id": "materials.substrate.plaster_gypsum", "aliases": ["plaster gypsum finish", "plaster gypsum component"]}
+{"tag_id": "materials.substrate.stone_concrete", "aliases": ["stone concrete finish", "stone concrete component"]}
+{"tag_id": "materials.substrate.tile_ceramic", "aliases": ["tile ceramic finish", "tile ceramic component"]}
+{"tag_id": "psych.coziness", "aliases": ["coziness feeling", "coziness response"]}
+{"tag_id": "science.organized_complexity", "aliases": ["organized complexity measure", "organized complexity index"]}

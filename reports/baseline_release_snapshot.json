@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-28T13:34:58.346768",
+  "registry_path": "core/trs-core/v0.2.8/registry/registry_v0.2.8.json",
+  "hashes": {
+    "registry": "5155b671a4066874632a278090e6c2e03022c18852e012ec2b21630e1c789c5d",
+    "reports/tag_usability_audit.csv": "cf7fb1a7c564dd237a32600620103ea4358d012d16d9dcd935099593391d0bc3",
+    "reports/tag_extractability_evidence.csv": "e1bb1cd928e44cf2e4d60a10d51ca5805f1bd0acbf2f35200cb5396623056a0c",
+    "reports/tag_extraction_roadmap.csv": "417e2e5fdd97b850cfb635a840ccf8d4e9d89ca3469cde6a0b7154707a61a3e3",
+    "reports/tag_phase0_execution_plan.csv": "acf7ee942a8290f51714a3689d433b0fb3daa7a04bec1d646aa6efd01d860760",
+    "reports/tag_phase1_execution_plan.csv": "e3e9352bee112e6d8e154befb753ca877eff0caa039e56464134797e231ab87b"
+  }
+}

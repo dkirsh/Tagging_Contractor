@@ -1,0 +1,24 @@
+{"tag_id": "science.organized_complexity_bin", "aliases": ["organized complexity bin measure", "organized complexity bin index"]}
+{"tag_id": "science.visual_richness", "aliases": ["visual richness measure", "visual richness index"]}
+{"tag_id": "science.visual_richness_bin", "aliases": ["visual richness bin measure", "visual richness bin index"]}
+{"tag_id": "smell.concentration_dfa_exponent", "aliases": ["concentration dfa exponent measurement", "concentration dfa exponent metric"]}
+{"tag_id": "smell.intensity_rating", "aliases": ["intensity rating measurement", "intensity rating metric"]}
+{"tag_id": "smell.pleasantness_rating", "aliases": ["pleasantness rating measurement", "pleasantness rating metric"]}
+{"tag_id": "sound.amplitude_fractal_dimension", "aliases": ["amplitude fractal dimension measurement", "amplitude fractal dimension metric"]}
+{"tag_id": "sound.noise_color_beta", "aliases": ["noise color beta measurement", "noise color beta metric"]}
+{"tag_id": "sound.one_over_f_slope", "aliases": ["one over f slope measurement", "one over f slope metric"]}
+{"tag_id": "sound.reverberation_rt60", "aliases": ["reverberation rt60 measurement", "reverberation rt60 metric"]}
+{"tag_id": "style.bohemian", "aliases": ["bohemian design", "bohemian aesthetic"]}
+{"tag_id": "style.farmhouse", "aliases": ["farmhouse design", "farmhouse aesthetic"]}
+{"tag_id": "style.industrial", "aliases": ["industrial design", "industrial aesthetic"]}
+{"tag_id": "style.japandi", "aliases": ["japandi design", "japandi aesthetic"]}
+{"tag_id": "style.mid_century_modern", "aliases": ["mid century modern design", "mid century modern aesthetic"]}
+{"tag_id": "style.minimalist", "aliases": ["minimalist design", "minimalist aesthetic"]}
+{"tag_id": "style.modern", "aliases": ["modern design", "modern aesthetic"]}
+{"tag_id": "style.modernity", "aliases": ["modernity design", "modernity aesthetic"]}
+{"tag_id": "style.rustic", "aliases": ["rustic design", "rustic aesthetic"]}
+{"tag_id": "style.scandinavian", "aliases": ["scandinavian design", "scandinavian aesthetic"]}
+{"tag_id": "style.traditional", "aliases": ["traditional design", "traditional aesthetic"]}
+{"tag_id": "touch.haptic_fractal_dimension", "aliases": ["haptic fractal dimension measurement", "haptic fractal dimension metric"]}
+{"tag_id": "touch.hardness_rating", "aliases": ["hardness rating measurement", "hardness rating metric"]}
+{"tag_id": "touch.surface_roughness_spectrum_slope", "aliases": ["surface roughness spectrum slope measurement", "surface roughness spectrum slope metric"]}

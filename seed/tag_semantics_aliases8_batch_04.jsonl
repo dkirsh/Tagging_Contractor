@@ -1,0 +1,50 @@
+{"tag_id": "env.v1_022.natural_artificial_ratio", "aliases": ["natural / artificial ratio metric", "natural / artificial ratio measure"]}
+{"tag_id": "env.v1_023.point_vs_diffuse_illumination", "aliases": ["point vs. diffuse illumination metric", "point vs. diffuse illumination measure"]}
+{"tag_id": "env.v1_024.window_sky_type_visible", "aliases": ["window / sky type visible metric", "window / sky type visible measure"]}
+{"tag_id": "env.v1_025.solar_penetration_depth", "aliases": ["solar penetration depth measure", "solar penetration depth index"]}
+{"tag_id": "env.v1_026.view_to_exterior", "aliases": ["view to exterior measure", "view to exterior index"]}
+{"tag_id": "env.v1_090.ceiling_height", "aliases": ["ceiling height measure", "ceiling height index"]}
+{"tag_id": "env.v1_091.room_volume", "aliases": ["room volume measure", "room volume index"]}
+{"tag_id": "env.v1_092.floor_area", "aliases": ["floor area measure", "floor area index"]}
+{"tag_id": "env.v1_093.aspect_ratios", "aliases": ["aspect ratios measure", "aspect ratios index"]}
+{"tag_id": "env.v1_094.degree_of_enclosure", "aliases": ["degree of enclosure measure", "degree of enclosure index"]}
+{"tag_id": "env.v1_095.boundary_definition", "aliases": ["boundary definition measure", "boundary definition index"]}
+{"tag_id": "env.v1_096.visual_permeability", "aliases": ["visual permeability measure", "visual permeability index"]}
+{"tag_id": "env.v1_097.spatial_layering", "aliases": ["spatial layering measure", "spatial layering index"]}
+{"tag_id": "env.v1_098.visual_access_extent", "aliases": ["visual access extent measure", "visual access extent index"]}
+{"tag_id": "env.v1_099.prospect_quality", "aliases": ["prospect quality measure", "prospect quality index"]}
+{"tag_id": "env.v1_100.refuge_degree", "aliases": ["refuge degree measure", "refuge degree index"]}
+{"tag_id": "env.v1_101.prospect_refuge_balance", "aliases": ["prospect-refuge balance metric", "prospect-refuge balance measure"]}
+{"tag_id": "env.v1_102.defensible_space", "aliases": ["defensible space measure", "defensible space index"]}
+{"tag_id": "env.v1_103.plan_complexity", "aliases": ["plan complexity measure", "plan complexity index"]}
+{"tag_id": "env.v1_104.spatial_hierarchy", "aliases": ["spatial hierarchy measure", "spatial hierarchy index"]}
+{"tag_id": "env.v1_105.wayfinding_affordances", "aliases": ["wayfinding affordances measure", "wayfinding affordances index"]}
+{"tag_id": "env.v1_106.mystery", "aliases": ["mystery measure", "mystery index"]}
+{"tag_id": "env.v1_107.coherence", "aliases": ["coherence measure", "coherence index"]}
+{"tag_id": "env.v1_108.legibility", "aliases": ["legibility measure", "legibility index"]}
+{"tag_id": "env.v1_109.angular_vs_curvilinear", "aliases": ["angular vs. curvilinear metric", "angular vs. curvilinear measure"]}
+{"tag_id": "env.v1_110.symmetry", "aliases": ["symmetry measure", "symmetry index"]}
+{"tag_id": "env.v1_111.proportion", "aliases": ["proportion measure", "proportion index"]}
+{"tag_id": "env.v1_112.fractal_dimension", "aliases": ["fractal dimension measure", "fractal dimension index"]}
+{"tag_id": "env.v1_113.self_similarity_scale_range", "aliases": ["self-similarity scale range metric", "self-similarity scale range measure"]}
+{"tag_id": "env.v1_114.visual_entropy", "aliases": ["visual entropy measure", "visual entropy index"]}
+{"tag_id": "env.v1_115.edge_density", "aliases": ["edge density measure", "edge density index"]}
+{"tag_id": "env.v1_116.color_diversity", "aliases": ["color diversity measure", "color diversity index"]}
+{"tag_id": "env.v1_117.element_count", "aliases": ["element count measure", "element count index"]}
+{"tag_id": "env.v1_118.visual_noise", "aliases": ["visual noise measure", "visual noise index"]}
+{"tag_id": "env.v1_119.pattern_regularity", "aliases": ["pattern regularity measure", "pattern regularity index"]}
+{"tag_id": "env.v1_120.figure_ground_clarity", "aliases": ["figure-ground clarity metric", "figure-ground clarity measure"]}
+{"tag_id": "env.v1_121.visual_hierarchy", "aliases": ["visual hierarchy measure", "visual hierarchy index"]}
+{"tag_id": "env.v1_122.vegetation_density", "aliases": ["vegetation density measure", "vegetation density index"]}
+{"tag_id": "env.v1_123.vegetation_diversity", "aliases": ["vegetation diversity measure", "vegetation diversity index"]}
+{"tag_id": "env.v1_124.water_features", "aliases": ["Water features", "water features metric"]}
+{"tag_id": "env.v1_125.sky_visibility", "aliases": ["sky visibility measure", "sky visibility index"]}
+{"tag_id": "env.v1_126.natural_landforms", "aliases": ["natural landforms measure", "natural landforms index"]}
+{"tag_id": "env.v1_127.view_distance_layers", "aliases": ["view distance layers measure", "view distance layers index"]}
+{"tag_id": "env.v1_128.nature_vs_urban_view", "aliases": ["nature vs. urban view metric", "nature vs. urban view measure"]}
+{"tag_id": "env.v1_129.natural_material_proportion", "aliases": ["natural material proportion measure", "natural material proportion index"]}
+{"tag_id": "env.v1_130.biomimetic_forms", "aliases": ["biomimetic forms measure", "biomimetic forms index"]}
+{"tag_id": "env.v1_131.natural_light_patterns", "aliases": ["natural light patterns measure", "natural light patterns index"]}
+{"tag_id": "env.v1_132.spatial_density", "aliases": ["spatial density measure", "spatial density index"]}
+{"tag_id": "env.v1_133.social_density", "aliases": ["social density measure", "social density index"]}
+{"tag_id": "env.v1_134.perceived_crowding", "aliases": ["perceived crowding measure", "perceived crowding index"]}

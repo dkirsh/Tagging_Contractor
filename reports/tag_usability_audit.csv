@@ -1,0 +1,425 @@
+tag_id,canonical_name,has_definition_short,has_definition_long,has_any_definition,alias_count,examples_positive_count,examples_negative_count,has_any_examples,scope_includes_count,scope_excludes_count,has_any_scope,has_notes_2d,has_notes_3d,has_any_extraction_notes,relation_count
+affect.cozy,Cozy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+affect.jarring,Jarring,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+affect.scary,Scary,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+affect.tranquil,Tranquil,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+affect.welcoming,Welcoming,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+affordance.isovist_area,Isovist Area,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+affordance.seating_count,Seating Count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.axial_circulation_clear,Axial Circulation Clear,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.bay_window,Bay Window,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.central_hearth,Central Hearth,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.circulation_maze_like,Circulation Maze Like,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.colonnade,Colonnade,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.corner_window,Corner Window,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.daylight_hard,Daylight Hard,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.daylight_soft,Daylight Soft,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.double_height_space,Double Height Space,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.gallery_edge,Gallery Edge,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.loft_mezzanine,Loft Mezzanine,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.long_view_corridor,Long View Corridor,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.perimeter_seating,Perimeter Seating,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.prospect_strong,Prospect Strong,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.refuge_nook,Refuge Nook,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.refuge_strong,Refuge Strong,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.skylight_dominant,Skylight Dominant,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.staircase_sculptural,Staircase Sculptural,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.threshold_emphasized,Threshold Emphasized,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+arch.pattern.window_seat_niche,Window Seat Niche,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+biophilia.plant_count,Plant Count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.biophilic.natural_material_ratio,Natural Material Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.cognitive.activity_zones_count,Activity Zones Count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.cognitive.landmark_salience,Landmark Salience,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.cognitive.legibility_score,Legibility Score,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.depth.depth_variance,Depth Variance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.depth.mean_depth,Mean Depth,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.dynamic.optic_flow_magnitude,Optic Flow Magnitude,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.dynamic.path_glare_max,Path Glare Max,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.dynamic.reflection_flow,Reflection Flow,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.dynamic.revelation_rate,Revelation Rate,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.dynamic.texture_gradient,Texture Gradient,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.anomaly_count,Anomaly Count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.autoencoder_recon_error,Autoencoder Recon Error,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.clutter_density_count,Clutter Density Count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.color_palette_entropy,Color Palette Entropy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.compression_ratio,Compression Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.edge_clarity_mean,Edge Clarity Mean,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.figure_ground_clarity,Figure Ground Clarity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.hierarchy_depth,Hierarchy Depth,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.map.edge_density,Edge Density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.map.fractal_dimension,Fractal Dimension,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.map.spatial_entropy,Spatial Entropy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.map.symmetry,Symmetry,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.pattern_rhythm_regularity,Pattern Rhythm Regularity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.processing_load_proxy,Processing Load Proxy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.surprisal_mean,Surprisal Mean,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.symmetry_score_horizontal,Symmetry Score Horizontal,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.visual_entropy_spatial,Visual Entropy Spatial,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fluency.zoning_clarity,Zoning Clarity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fractal.lacunarity,Lacunarity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fractal.multifractal_width,Multifractal Width,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fractal.spectral_slope_1overf,Spectral Slope 1Overf,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fractal_dimension,Fractal Dimension,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fractal_dimension_edges,Fractal Dimension Edges,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.fractal_dimension_luminance,Fractal Dimension Luminance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.geometry.curvature_index,Curvature Index,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.geometry.fractal_curve_intersection,Fractal Curve Intersection,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.geometry.rectilinearity_index,Rectilinearity Index,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.haptic.soft_surface_ratio,Soft Surface Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.haptic.texture_variation_index,Texture Variation Index,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.layout.opening_ratio,Opening Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.light.brightness_variance,Brightness Variance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.light.diffuse_vs_direct_ratio,Diffuse Vs Direct Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.light.vertical_illuminance_proxy,Vertical Illuminance Proxy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.light.warm_vs_cool_ratio,Warm Vs Cool Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.spatial.ceiling_height_avg,Ceiling Height Avg,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.spatial.enclosure_index,Enclosure Index,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cnfa.spatial.prospect_to_refuge_ratio,Prospect To Refuge Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cognitive.coherence,Coherence,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cognitive.complexity,Complexity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cognitive.error,Error,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cognitive.legibility,Legibility,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cognitive.mystery,Mystery,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+cognitive.restoration,Restoration,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.lab_volume,Lab Volume,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.lightness_contrast,Lightness Contrast,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.luminance,Luminance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.perceptual_lightness,Perceptual Lightness,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.saturation,Saturation,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.warmth,Warmth,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+color.warmth_ratio,Warmth Ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+complexity.edge_density,Edge Density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+complexity.shannon_entropy,Shannon Entropy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+complexity.spatial_entropy,Spatial Entropy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.bathroom.fixture.material.brass,Brass,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.bathroom.fixture.material.matte_black,Matte Black,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.bathroom.fixture.type.rain_showerhead,Rain Showerhead,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.ceiling.coffered,Coffered,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.ceiling.cove_lighting,Cove Lighting,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.ceiling.exposed_beam,Exposed Beam,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.ceiling.tray,Tray,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.ceiling.vaulted,Vaulted,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.kitchen.hardware.material.brass,Brass,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.kitchen.hardware.material.chrome,Chrome,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.kitchen.hardware.material.matte_black,Matte Black,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.kitchen.hardware.type.bar_pull,Bar Pull,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.kitchen.hardware.type.handleless,Handleless,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.kitchen.hardware.type.knob,Knob,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.wall.material.brick_exposed,Brick Exposed,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.wall.material.stone_wall,Stone Wall,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.wall.material.wood_slat,Wood Slat,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.wall.treatment.wainscoting,Wainscoting,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+component.wall.treatment.wallpaper_patterned,Wallpaper Patterned,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.ae.artworks_prominent,Artworks Prominent,True,True,True,11,3,3,True,4,3,True,True,True,True,2
+env.ae.barriers/guards_present,Barriers/Guards Present,True,True,True,11,3,3,True,5,3,True,True,True,True,2
+env.ae.clear_circulation_paths,Clear Circulation Paths,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.clear_exits/wayfinding_signage,Clear Exits/Wayfinding Signage,True,True,True,10,3,3,True,5,3,True,True,True,True,2
+env.ae.clear_sightlines,Clear Sightlines,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.commercial_branding,Commercial Branding,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.compartmentalized_plan,Compartmentalized Plan,True,True,True,8,3,3,True,3,3,True,True,True,True,2
+env.ae.complex_geometry,Complex Geometry,True,True,True,8,3,3,True,5,3,True,True,True,True,2
+env.ae.concrete_prominent,Concrete Prominent,True,True,True,8,3,3,True,3,3,True,True,True,True,2
+env.ae.cool_color_palette,Cool Color Palette,True,True,True,9,3,3,True,3,3,True,True,True,True,2
+env.ae.cool_lighting_(high_cct),Cool Lighting (High CCT),True,True,True,9,3,3,True,3,3,True,True,True,True,2
+env.ae.crowded_space,Crowded Space,True,True,True,8,3,3,True,3,3,True,True,True,True,2
+env.ae.curvilinear_forms,Curvilinear Forms,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.daylighting,Daylighting,True,True,True,8,3,3,True,3,3,True,True,True,True,2
+env.ae.dynamic_lighting,Dynamic Lighting,True,True,True,10,3,3,True,4,3,True,True,True,True,2
+env.ae.fans_visible,Fans Visible,True,True,True,8,3,3,True,3,3,True,True,True,True,2
+env.ae.fractal-like_pattern,Fractal-Like Pattern,True,True,True,9,3,3,True,3,3,True,True,True,True,2
+env.ae.glare_present,Glare Present,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.glass_prominent,Glass Prominent,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.hard_reflective_surfaces,Hard Reflective Surfaces,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.hard_seating,Hard Seating,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.hazard_indicators,Hazard Indicators,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.high_ceiling,High Ceiling,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_ceiling_+_hard_surfaces,High Ceiling + Hard Surfaces,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_cleanliness,High Cleanliness,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_clutter,High Clutter,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_color_contrast,High Color Contrast,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_color_entropy,High Color Entropy,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_contrast_lighting,High Contrast Lighting,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_edge_density,High Edge Density,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_fractal_dimension_(2d),High Fractal Dimension (2D),True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_illuminance,High Illuminance,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.high_orderliness,High Orderliness,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.high_saturation,High Saturation,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_seating_density,High Seating Density,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_spatial_frequency_content,High Spatial Frequency Content,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_symmetry,High Symmetry,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.high_texture_complexity,High Texture Complexity,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.home-like_decor,Home-like Decor,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.indoor-outdoor_continuity,Indoor-Outdoor Continuity,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.indoor_plants,Indoor Plants,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.institutional_decor,Institutional Decor,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.irregular_pattern,Irregular Pattern,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.large_enclosure_volume,Large Enclosure Volume,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.large_window_area,Large Window Area,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_ceiling,Low Ceiling,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_edge_density,Low Edge Density,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_illuminance,Low Illuminance,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_orderliness,Low Orderliness,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_saturation,Low Saturation,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_spatial_frequency_content,Low Spatial Frequency Content,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_symmetry,Low Symmetry,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.low_texture_complexity,Low Texture Complexity,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.maze-like_layout,Maze-Like Layout,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.metal_prominent,Metal Prominent,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.minimal_signage,Minimal Signage,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.monochrome/minimal_palette,Monochrome/Minimal Palette,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.narrow_corridor,Narrow Corridor,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.natural/earthy_palette,Natural/Earthy Palette,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.naturalistic_forms,Naturalistic Forms,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.nature_imagery,Nature Imagery,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.occluded_sightlines,Occluded Sightlines,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.open_plan,Open Plan,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.open_windows,Open Windows,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.poor_visibility_/_dark_corners,Poor Visibility / Dark Corners,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.private/enclosed_niche,Private/Enclosed Niche,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.public/exposed_area,Public/Exposed Area,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.rectilinear_forms,Rectilinear Forms,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.religious_symbols,Religious Symbols,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.repeating_pattern,Repeating Pattern,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.seating_available,Seating Available,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.soft_acoustic_treatments,Soft Acoustic Treatments,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.soft_seating,Soft Seating,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.sparse_occupancy,Sparse Occupancy,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.stone/marble_prominent,Stone/Marble Prominent,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.strong_central_landmark,Strong Central Landmark,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.strong_horizontality,Strong Horizontality,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.strong_verticality,Strong Verticality,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.surveillance_/_cameras_visible,Surveillance / Cameras Visible,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.text/information_density_high,Text/Information Density High,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.textiles/soft_furnishings,Textiles/Soft Furnishings,True,True,True,10,3,3,True,4,3,True,True,True,True,2
+env.ae.uniform_lighting,Uniform Lighting,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.view_to_outdoors,View to Outdoors,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.visible_dirt/decay,Visible Dirt/Decay,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.ae.visible_hvac_vents,Visible HVAC Vents,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.visible_windows,Visible Windows,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.warm_color_palette,Warm Color Palette,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.warm_lighting,Warm Lighting,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.well_maintained,Well Maintained,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.wood_prominent,Wood Prominent,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.work_surfaces_present,Work Surfaces Present,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.ae.worn/degraded,Worn/Degraded,True,True,True,9,3,3,True,4,3,True,True,True,True,2
+env.v1_001.illuminance_level_task_surface,Illuminance level (task surface),True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_002.illuminance_level_ambient,Illuminance level (ambient),True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_003.luminance_distribution,Luminance distribution,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_004.contrast_ratio,Contrast ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_005.uniformity_ratio,Uniformity ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_006.daylight_factor,Daylight factor,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_007.daylight_autonomy,Daylight autonomy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_008.correlated_color_temperature_cct,Correlated color temperature (CCT),True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_009.spectral_power_distribution,Spectral power distribution,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_010.color_rendering_index_cri,Color rendering index (CRI),True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_011.melanopic_lux,Melanopic lux,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_012.dominant_wavelength,Dominant wavelength,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_013.flicker_frequency,Flicker frequency,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_014.flicker_modulation_depth,Flicker modulation depth,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_015.circadian_timing_of_exposure,Circadian timing of exposure,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_016.rate_of_illuminance_change,Rate of illuminance change,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_017.diurnal_variation_pattern,Diurnal variation pattern,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_018.direct_indirect_ratio,Direct/indirect ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_019.light_directionality,Light directionality,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_020.unified_glare_rating_ugr,Unified Glare Rating (UGR),True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_021.shadow_characteristics,Shadow characteristics,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_022.natural_artificial_ratio,Natural/artificial ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_023.point_vs_diffuse_illumination,Point vs. diffuse illumination,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_024.window_sky_type_visible,Window/sky type visible,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_025.solar_penetration_depth,Solar penetration depth,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_026.view_to_exterior,View to exterior,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_090.ceiling_height,Ceiling height,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_091.room_volume,Room volume,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_092.floor_area,Floor area,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_093.aspect_ratios,Aspect ratios,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_094.degree_of_enclosure,Degree of enclosure,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_095.boundary_definition,Boundary definition,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_096.visual_permeability,Visual permeability,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_097.spatial_layering,Spatial layering,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_098.visual_access_extent,Visual access extent,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_099.prospect_quality,Prospect quality,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_100.refuge_degree,Refuge degree,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_101.prospect_refuge_balance,Prospect-refuge balance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_102.defensible_space,Defensible space,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_103.plan_complexity,Plan complexity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_104.spatial_hierarchy,Spatial hierarchy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_105.wayfinding_affordances,Wayfinding affordances,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_106.mystery,Mystery,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_107.coherence,Coherence,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_108.legibility,Legibility,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_109.angular_vs_curvilinear,Angular vs. curvilinear,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_110.symmetry,Symmetry,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_111.proportion,Proportion,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_112.fractal_dimension,Fractal dimension,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_113.self_similarity_scale_range,Self-similarity scale range,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_114.visual_entropy,Visual entropy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_115.edge_density,Edge density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_116.color_diversity,Color diversity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_117.element_count,Element count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_118.visual_noise,Visual noise,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_119.pattern_regularity,Pattern regularity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_120.figure_ground_clarity,Figure-ground clarity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_121.visual_hierarchy,Visual hierarchy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_122.vegetation_density,Vegetation density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_123.vegetation_diversity,Vegetation diversity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_124.water_features,Water features,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.v1_125.sky_visibility,Sky visibility,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_126.natural_landforms,Natural landforms,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_127.view_distance_layers,View distance layers,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_128.nature_vs_urban_view,Nature vs. urban view,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_129.natural_material_proportion,Natural material proportion,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_130.biomimetic_forms,Biomimetic forms,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_131.natural_light_patterns,Natural light patterns,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_132.spatial_density,Spatial density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_133.social_density,Social density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_134.perceived_crowding,Perceived crowding,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_135.visual_privacy,Visual privacy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_136.acoustic_privacy,Acoustic privacy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_137.territorial_definition,Territorial definition,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_138.seating_arrangement,Seating arrangement,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_139.collaboration_space_ratio,Collaboration space ratio,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_140.temperature_control,Temperature control,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_141.lighting_control,Lighting control,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_142.acoustic_control,Acoustic control,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_143.window_operation,Window operation,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_144.workspace_personalization,Workspace personalization,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v1_145.perceived_control,Perceived control,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_001.color_palette_hue_saturation_lightness_harmony_beyond_cct,Color palette hue/saturation/lightness harmony (beyond CCT),True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_002.warm_vs_cool_white_appearance_cct_and_perceived_coziness_activation_cajochen_et,"Warm vs cool white appearance (CCT) and perceived coziness/activation (Cajochen et al., 2005",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_003.brightness_level_at_eye_vertical_illuminance_vs_task_plane,Brightness level at eye (vertical illuminance) vs task plane,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_004.brightness_gradients_and_brightness_contrast_ratios,Brightness gradients and brightness contrast ratios,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_005.daylight_presence_sky_view_and_view_to_outside_content,"Daylight presence, sky view, and view-to-outside content",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_006.glare_source_count,Glare source count,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_007.flicker_temporal_modulation_risk_cues_led_drivers,Flicker/temporal modulation risk cues (LED drivers,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_008.color_rendering_saturation_rendering,Color rendering / saturation rendering,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_009.shadow_softness_hardness,Shadow softness/hardness,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_010.lighting_control_cues_dimmers_blinds_task_lights,"Lighting control cues: dimmers, blinds, task lights",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_011.evening_like_ambience_cues_vs_daytime_like_ambience_cues,Evening-like ambience cues vs daytime-like ambience cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_012.visual_privacy_via_lighting_backlit_silhouettes_vs_evenly_lit_faces,Visual privacy via lighting: backlit silhouettes vs evenly lit faces,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_013.high_contrast_spotlight_social_exposure_cues,High contrast ‘spotlight’ social exposure cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_014.presence_of_natural_light_patterns,Presence of natural light patterns,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_015.lighting_temperature_mismatch,Lighting ‘temperature mismatch’,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_067.ceiling_height_and_openness_processing_style,Ceiling height and openness (processing style,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_068.room_scale_cues,Room scale cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_069.enclosure_ratio_wall_to_window_balance,Enclosure ratio: wall-to-window balance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_070.prospect_refuge_ability_to_see_without_being_seen,Prospect–refuge: ability to see without being seen,True,True,True,10,3,3,True,5,3,True,True,True,True,4
+env.v2a_071.exit_visibility_and_path_to_exit_complexity,Exit visibility and path-to-exit complexity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_072.blind_corners_vs_transparent_partitions,Blind corners vs transparent partitions,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_073.distance_to_others,Distance to others,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_074.wayfinding_legibility_straight_sightlines,Wayfinding legibility: straight sightlines,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_075.spatial_complexity_branching_corridors_vs_simple_loops,Spatial complexity: branching corridors vs simple loops,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_076.perceived_territoriality_defined_zones_vs_ambiguous_shared_space,Perceived territoriality: defined zones vs ambiguous shared space.,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_077.barrier_permeability_half_walls_vs_full_walls,Barrier permeability: half-walls vs full walls,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_078.visual_access_to_outdoors_nature_as_escape_affordance,Visual access to outdoors/nature as ‘escape’ affordance.,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_079.seating_prospect_facing_entrance_vs_back_to_entrance,Seating prospect: facing entrance vs back to entrance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_080.verticality_cues,Verticality cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_081.personal_safety_affordances_lighting_in_corners,Personal safety affordances: lighting in corners,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_082.curvature_prevalence_vs_sharp_angles,Curvature prevalence vs sharp angles,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_083.symmetry_and_regularity,Symmetry and regularity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_084.fractal_self_similar_edge_statistics,Fractal/self-similar edge statistics,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_085.clutter_disorder_object_density_occlusion_surface_coverage,"Clutter/disorder: object density, occlusion, surface coverage",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_086.cleanliness_maintenance_stains_damage_wear,"Cleanliness/maintenance: stains, damage, wear",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_087.color_diversity_and_saturation,Color diversity and saturation,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_088.texture_density,Texture density,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_089.artwork_density_and_semantic_content,Artwork density and semantic content,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_090.naturalness_of_materials,Naturalness of materials,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_091.visual_complexity_gradients,Visual complexity gradients,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_092.signage_density_informational_load,Signage density (informational load,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_093.visual_affordances_for_organization,Visual affordances for organization,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_094.orderliness_of_lines_alignment,Orderliness of lines: alignment,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_095.perceptual_mystery_cues,Perceptual ‘mystery’ cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_096.visible_vegetation_quantity_proximity_and_distribution,"Visible vegetation quantity, proximity, and distribution",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_097.window_view_content_greenery_sky_water_vs_built_up,"Window view content: greenery, sky, water vs built-up",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_098.natural_materials_wood_stone,Natural materials: wood/stone,True,True,True,8,3,3,True,4,3,True,True,True,True,2
+env.v2a_099.blue_space,Blue-space,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_100.prospect_to_distant_views,Prospect to distant views,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_101.natural_ventilation_cues,Natural ventilation cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_102.natural_sound_sources,Natural sound sources,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_103.daylight_nature_coupling,Daylight + nature coupling,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_104.seasonal_cues,Seasonal cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_105.animal_presence_cues,Animal presence cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_106.sociopetal_seating,Sociopetal seating,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_107.density_crowding_proxies_chairs_per_area_people_present_queueing_lines,"Density/crowding proxies: chairs per area, people present, queueing lines",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_108.surveillance_cues_cameras_exposed_workstations_panoramic_visibility,"Surveillance cues: cameras, exposed workstations, panoramic visibility",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_109.privacy_cues_partitions_doors_curtains,"Privacy cues: partitions, doors, curtains",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_110.territoriality_markers_name_plates,Territoriality markers: name plates,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_111.norm_cues_formal_vs_informal,Norm cues: formal vs informal,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_112.shared_resource_competition_cues,Shared-resource competition cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_113.social_mixing_affordances,Social mixing affordances,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_114.conflict_overhearing_risk_cues,Conflict/overhearing risk cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_115.waiting_time_cues,Waiting-time cues,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_116.user_controls_visible_and_accessible_dimmers_blinds_thermostats,"User controls visible and accessible: dimmers, blinds, thermostats",True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_117.furniture_adjustability_movable_chairs_tables,Furniture adjustability: movable chairs/tables,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_118.choice_richness_multiple_zones,Choice richness: multiple zones,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_119.personalization_affordances_pinboards,Personalization affordances: pinboards,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_120.policy_cues_restricting_control,Policy cues restricting control,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_121.control_over_privacy_doors,Control over privacy: doors,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_122.control_over_sound_headsets,Control over sound: headsets,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_123.control_over_thermal_fans,Control over thermal: fans,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_124.control_over_lighting_task_lamps,Control over lighting: task lamps,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+env.v2a_125.information_control_clear_wayfinding_reduces_uncertainty,Information control: clear wayfinding reduces uncertainty.,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+fluency.symmetry,Symmetry,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+isovist.area_25d,Area 25D,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+isovist.compactness_25d,Compactness 25D,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+isovist.confidence,Confidence,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+material.glass_coverage,Glass Coverage,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+material.metal_coverage,Metal Coverage,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+material.wood_coverage,Wood Coverage,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.cues.brightness_mean,Brightness Mean,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.cues.saturation_mean,Saturation Mean,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.cues.specularity_proxy,Specularity Proxy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.cues.texture_variance,Texture Variance,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.cues.value_mean,Value Mean,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.substrate.plaster_gypsum,Plaster Gypsum,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.substrate.stone_concrete,Stone Concrete,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+materials.substrate.tile_ceramic,Tile Ceramic,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+provenance.architect_kengo_kuma,Architect Kengo Kuma,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+provenance.architect_le_corbusier,Architect Le Corbusier,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+provenance.iconic_chair_barcelona,Iconic Chair Barcelona,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+provenance.iconic_chair_eames,Iconic Chair Eames,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+psych.coziness,Coziness,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+science.organized_complexity,Organized Complexity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+science.organized_complexity_bin,Organized Complexity Bin,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+science.visual_richness,Visual Richness,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+science.visual_richness_bin,Visual Richness Bin,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+smell.concentration_dfa_exponent,Concentration Dfa Exponent,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+smell.intensity_rating,Intensity Rating,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+smell.pleasantness_rating,Pleasantness Rating,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+social.occupancy,Occupancy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+social.privacy,Privacy,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+social.sociopetal,Sociopetal,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+sound.amplitude_fractal_dimension,Amplitude Fractal Dimension,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+sound.noise_color_beta,Noise Color Beta,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+sound.one_over_f_slope,One Over F Slope,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+sound.reverberation_rt60,Reverberation Rt60,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.central_openness,Central Openness,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.depth_contrast,Depth Contrast,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.depth_mean,Depth Mean,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.isovist_openness,Isovist Openness,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.refuge_quality,Refuge Quality,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.room_function.bathroom,Bathroom,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.room_function.bedroom,Bedroom,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.room_function.home_office,Home Office,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.room_function.kitchen,Kitchen,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.room_function.living_room,Living Room,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+spatial.visual_clutter,Visual Clutter,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.bohemian,Bohemian,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.farmhouse,Farmhouse,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.industrial,Industrial,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.japandi,Japandi,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.mid_century_modern,Mid Century Modern,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.minimalist,Minimalist,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.modern,Modern,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.modernity,Modernity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.rustic,Rustic,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.scandinavian,Scandinavian,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+style.traditional,Traditional,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+tag.evidence_pointer,Evidence Pointer,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+tag.request_source,Request Source,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+texture.macro.contrast,Contrast,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+texture.macro.homogeneity,Homogeneity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+texture.micro.contrast,Contrast,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+texture.micro.homogeneity,Homogeneity,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+touch.haptic_fractal_dimension,Haptic Fractal Dimension,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+touch.hardness_rating,Hardness Rating,True,True,True,8,3,3,True,3,3,True,True,True,True,0
+touch.surface_roughness_spectrum_slope,Surface Roughness Spectrum Slope,True,True,True,8,3,3,True,3,3,True,True,True,True,0

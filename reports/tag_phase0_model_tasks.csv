@@ -1,0 +1,27 @@
+tag_id,model_family,model_task,inputs,outputs,metric,threshold,abstain_rule
+env.ae.hard_reflective_surfaces,material_reflectance,surface_reflectance_estimation,image,"specular_map, gloss_score",AUC / F1,specular_area>=0.20 OR glossy_surface_area>=0.25,"low light, strong glare bloom, heavy occlusion, low resolution"
+env.ae.hard_seating,object_detection+material,object_detection + material_classification,image,"objects, material_labels",mAP + material_acc,seats>=1 AND hard_material_ratio>=0.6,seating occluded or material uncertain
+env.ae.high_texture_complexity,texture_analysis,texture_complexity_estimation,image,"entropy, edge_density",AUC,entropy>=P75 AND edge_density>=P75,motion blur or low-res imagery
+env.ae.home-like_decor,style_classification,style_classification,image,style_scores,AUC,style_confidence>=0.6,mixed-use or staged commercial settings
+env.ae.indoor-outdoor_continuity,scene_layout,layout_estimation (2D),image,"layout_lines, openness_score",IoU / AUC,opening_width_ratio>=0.25 AND exterior_view_present,single narrow window only
+env.ae.institutional_decor,style_classification,style_classification,image,style_scores,AUC,style_confidence>=0.6,small sample or ambiguous setting
+env.ae.low_texture_complexity,texture_analysis,texture_complexity_estimation,image,"entropy, edge_density",AUC,entropy<=P25 AND edge_density<=P25,overexposed or heavily compressed images
+env.ae.metal_prominent,material_classification,material_segmentation,image,material_mask,mIoU,metal_area>=0.20,specular ambiguity vs glass
+env.ae.monochrome/minimal_palette,color_analysis,color_palette_analysis,image,"palette_hist, warmth_score",AUC,palette_entropy<=P25,color cast or white balance failure
+env.ae.natural/earthy_palette,color_analysis,color_palette_analysis,image,"palette_hist, warmth_score",AUC,earth_tone_ratio>=0.35,mixed lighting or strong color filters
+env.ae.nature_imagery,object_detection+scene,scene_attribute_classification,image,attribute_score,AUC,nature_artwork_count>=1,actual windows to nature (not imagery)
+env.ae.open_plan,layout_estimation,layout_estimation (2D),image,layout_lines,IoU,partition_density<=P25 AND visible_area_span>=P75,cropped views or narrow FOV
+env.ae.open_windows,object_detection,object_detection,image,"boxes, classes",mAP,open_window_count>=1,reflections or curtains obscure state
+env.ae.soft_seating,object_detection+material,object_detection + material_classification,image,"objects, material_labels",mAP + material_acc,seats>=1 AND soft_material_ratio>=0.6,seating occluded or material uncertain
+env.ae.sparse_occupancy,people_detection,people_detection + density,image,"people_count, density",count MAE,people_count<=1 OR people_density<=0.02 per m^2,crowd occlusion or limited FOV
+env.ae.stone/marble_prominent,material_classification,material_segmentation,image,material_mask,mIoU,stone_area>=0.20,patterned porcelain vs stone ambiguity
+env.ae.strong_verticality,geometry_lines,line_orientation_analysis,image,line_orientation_hist,AUC,vertical_line_ratio>=0.6,tilted camera or strong perspective skew
+env.ae.surveillance_/_cameras_visible,object_detection,object_detection,image,"boxes, classes",mAP,camera_count>=1,small/low-res ceiling fixtures ambiguous
+env.ae.textiles/soft_furnishings,material_classification,material_segmentation,image,material_mask,mIoU,textile_area>=0.15,small accents only
+env.ae.visible_dirt/decay,defect_detection,surface_defect_detection,image,"defect_mask, defect_score",F1,defect_score>=0.6,low resolution or compression artifacts
+env.ae.visible_windows,object_detection,object_detection,image,"boxes, classes",mAP,window_count>=1,ambiguous openings or mirrors
+env.ae.warm_color_palette,color_analysis,color_palette_analysis,image,"palette_hist, warmth_score",AUC,warm_ratio>=0.35,mixed lighting or white balance drift
+env.ae.well_maintained,defect_detection,surface_defect_detection,image,"defect_mask, defect_score",F1,defect_score<=0.2,insufficient visible surfaces
+env.ae.wood_prominent,material_classification,material_segmentation,image,material_mask,mIoU,wood_area>=0.20,strong color cast or low resolution
+env.ae.work_surfaces_present,object_detection,object_detection,image,"boxes, classes",mAP,work_surfaces>=1,partial views with ambiguous surfaces
+env.ae.worn/degraded,defect_detection,surface_defect_detection,image,"defect_mask, defect_score",F1,wear_score>=0.6,low lighting or extreme filters

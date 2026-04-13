@@ -1,0 +1,521 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+cd "$REPO_ROOT"
+
+say(){ printf "%s\n" "$*"; }
+
+governance_assert_version_and_manifest(){
+  local prod_mode="${1:-}"
+  # Expected system version is from .env SYSTEM_VERSION if set, otherwise VERSION.txt.
+  local expected_system=""
+  if [[ -f "$REPO_ROOT/.env" ]]; then
+    expected_system="$(grep -E '^SYSTEM_VERSION=' "$REPO_ROOT/.env" | tail -1 | cut -d= -f2- || true)"
+  fi
+  local actual_system=""
+  actual_system="$(cat "$REPO_ROOT/VERSION.txt" 2>/dev/null | tr -d '\r' || true)"
+
+  if [[ -z "$actual_system" ]]; then
+    say "NO-GO: VERSION.txt missing or empty"
+    exit 1
+  fi
+
+  if [[ -n "$expected_system" && "$actual_system" != "$expected_system" ]]; then
+    say "NO-GO: VERSION mismatch"
+    say "  Expected System: $expected_system"
+    say "  Actual System:   $actual_system"
+    exit 1
+  fi
+
+  local manifest_path="$REPO_ROOT/_archive/sedimentary/manifests/${actual_system}.manifest.json"
+  if [[ ! -f "$manifest_path" ]]; then
+    say "NO-GO: Sedimentary manifest missing for $actual_system"
+    say "  Expected: $manifest_path"
+    say "  Fix: run ./bin/tc release $actual_system"
+    exit 1
+  fi
+
+  if [[ "$prod_mode" == "--prod" ]]; then
+    local release_zip="$REPO_ROOT/release_artifacts/Tagging_Contractor_${actual_system}.zip"
+    if [[ ! -f "$release_zip" ]]; then
+      say "NO-GO: Missing release zip for $actual_system"
+      say "  Expected: $release_zip"
+      exit 2
+    fi
+  fi
+
+  say "OK: System version matches ($actual_system)"
+  say "OK: Sedimentary manifest exists"
+  if [[ "$prod_mode" == "--prod" ]]; then
+    say "OK: release zip exists"
+  fi
+}
+
+backup(){
+  python3 "$REPO_ROOT/scripts/backup.py"
+}
+
+history(){
+  say "== History =="
+  ls -lt "$REPO_ROOT/release_artifacts" 2>/dev/null | head -30 || true
+  say ""
+  say "== Sedimentary Manifests =="
+  ls -lt "$REPO_ROOT/_archive/sedimentary/manifests" 2>/dev/null | head -30 || true
+}
+
+env_cmd(){
+  ensure_env
+  local system_ver
+  system_ver="$(cat "$REPO_ROOT/VERSION.txt" 2>/dev/null | tr -d '\r' || true)"
+  say "Repo: $REPO_ROOT"
+  say "System: ${system_ver:-UNKNOWN}"
+  say "Core: $TRS_CORE_VER"
+  say "TRS_API_PORT: $TRS_API_PORT"
+  say "TRS_UI_PORT: $TRS_UI_PORT"
+  if [[ $# -gt 0 ]]; then
+    "$REPO_ROOT/bin/tc" "$@"
+  fi
+}
+
+wait_for_url(){
+  local url="$1"
+  local name="$2"
+  local max_tries="${3:-60}"
+  local sleep_s="${4:-2}"
+  local i=1
+  while (( i <= max_tries )); do
+    if command -v curl >/dev/null 2>&1; then
+      if curl -fsS --max-time 2 "$url" >/dev/null 2>&1; then
+        say "OK: $name"
+        return 0
+      fi
+    else
+      say "WARN: curl not found; skipping health check for $name"
+      return 0
+    fi
+    sleep "$sleep_s"
+    i=$((i + 1))
+  done
+  say "NO-GO: $name did not become healthy at $url"
+  return 2
+}
+
+ensure_registry_json(){
+  local reg_dir="$REPO_ROOT/core/trs-core/$TRS_CORE_VER/registry"
+  local json_path="$reg_dir/registry_${TRS_CORE_VER}.json"
+  if [[ -f "$json_path" ]]; then
+    return 0
+  fi
+  say "Registry JSON missing; exporting from API..."
+  export REPO_ROOT TRS_CORE_VER TRS_API_PORT
+  python3 - <<'PY'
+import json, os, sys, urllib.request
+from pathlib import Path
+
+repo = Path(os.environ.get("REPO_ROOT", "."))
+core_ver = os.environ.get("TRS_CORE_VER", "v0.2.8")
+api_port = os.environ.get("TRS_API_PORT", "8401")
+reg_dir = repo / "core" / "trs-core" / core_ver / "registry"
+reg_dir.mkdir(parents=True, exist_ok=True)
+out = reg_dir / f"registry_{core_ver}.json"
+try:
+    data = urllib.request.urlopen(f"http://localhost:{api_port}/registry", timeout=10).read()
+    j = json.loads(data.decode("utf-8"))
+    out.write_text(json.dumps(j, indent=2, sort_keys=True), encoding="utf-8")
+    print(f"OK: wrote {out}")
+except Exception as e:
+    print(f"NO-GO: failed to export registry JSON: {e}")
+    sys.exit(2)
+PY
+}
+
+port_in_use(){
+  local port="${1:-}"
+  lsof -nP -iTCP:"$port" -sTCP:LISTEN 2>/dev/null | tail -n +2
+}
+
+write_env_var(){
+  local key="$1"
+  local val="$2"
+  local envfile="$REPO_ROOT/.env"
+  if [[ -f "$envfile" ]]; then
+    if grep -qE "^${key}=" "$envfile"; then
+      sed -i '' -E "s#^${key}=.*#${key}=${val}#g" "$envfile"
+    else
+      printf "\n%s=%s\n" "$key" "$val" >> "$envfile"
+    fi
+  else
+    printf "%s=%s\n" "$key" "$val" > "$envfile"
+  fi
+}
+
+find_free_port(){
+  local start="$1"
+  local p="$start"
+  while true; do
+    if ! lsof -nP -iTCP:"$p" -sTCP:LISTEN >/dev/null 2>&1; then
+      echo "$p"
+      return 0
+    fi
+    p=$((p+1))
+    if (( p > start + 50 )); then
+      return 1
+    fi
+  done
+}
+
+dump_failure_context(){
+  say ""
+  say "NO-GO: Services did not become healthy in time."
+  say ""
+  docker compose ps || true
+  say ""
+  say "=== trs_api logs (tail 200) ==="
+  docker compose logs --tail=200 trs_api || true
+  say ""
+  say "=== trs_ui logs (tail 200) ==="
+  docker compose logs --tail=200 trs_ui || true
+  say ""
+}
+
+ensure_ports_free_or_autopick(){
+  ensure_env
+  local api="${TRS_API_PORT:-8401}"
+  local ui="${TRS_UI_PORT:-8501}"
+
+  local api_hit=""; api_hit="$(port_in_use "$api" || true)"
+  local ui_hit="";  ui_hit="$(port_in_use "$ui" || true)"
+
+  if [[ -z "$api_hit" && -z "$ui_hit" ]]; then
+    return 0
+  fi
+
+  say "Ports in use; auto-picking next free ports..."
+  local new_api; new_api="$(find_free_port "$api" || true)"
+  local new_ui;  new_ui="$(find_free_port "$ui" || true)"
+
+  if [[ -z "$new_api" || -z "$new_ui" ]]; then
+    say "NO-GO: Could not find free ports near $api/$ui"
+    exit 2
+  fi
+  if [[ "$new_api" == "$new_ui" ]]; then
+    new_ui="$(find_free_port "$((new_ui+1))" || true)"
+  fi
+
+  write_env_var "TRS_API_PORT" "$new_api"
+  write_env_var "TRS_UI_PORT" "$new_ui"
+
+  say "Using TRS_API_PORT=$new_api"
+  say "Using TRS_UI_PORT=$new_ui"
+
+  ensure_env
+}
+
+
+ensure_env(){
+  if [[ ! -f "$REPO_ROOT/.env" ]]; then
+    if [[ -f "$REPO_ROOT/.env.example" ]]; then
+      cp "$REPO_ROOT/.env.example" "$REPO_ROOT/.env"
+      say "Created .env from .env.example"
+    else
+      cat > "$REPO_ROOT/.env" << 'E'
+TRS_CORE_VER=v0.2.8
+TRS_API_PORT=8401
+TRS_UI_PORT=8501
+E
+      say "Created default .env"
+    fi
+  fi
+  # shellcheck disable=SC1091
+  set -a; source "$REPO_ROOT/.env"; set +a
+  : "${TRS_CORE_VER:=v0.2.8}"
+  : "${TRS_API_PORT:=8401}"
+  : "${TRS_UI_PORT:=8501}"
+}
+
+doctor(){
+  local prod_mode=""
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --prod) prod_mode="--prod"; shift ;;
+      *) say "Usage: ./bin/tc doctor [--prod]"; exit 2 ;;
+    esac
+  done
+  ensure_env
+  governance_assert_version_and_manifest "$prod_mode"
+  if [[ "$prod_mode" == "--prod" ]]; then
+    python3 "$REPO_ROOT/tools/semantics_gate.py"
+  fi
+  say "== Doctor =="
+  say "Repo: $REPO_ROOT"
+  say "Version: $(cat "$REPO_ROOT/VERSION.txt" 2>/dev/null || echo 'UNKNOWN')"
+  say "Core: $TRS_CORE_VER"
+  command -v docker >/dev/null 2>&1 || { say "NO-GO: docker not found"; exit 2; }
+  docker compose version >/dev/null 2>&1 || { say "NO-GO: docker compose not available"; exit 2; }
+  [[ -f "$REPO_ROOT/docker-compose.yml" ]] || { say "NO-GO: missing docker-compose.yml"; exit 2; }
+  [[ -f "$REPO_ROOT/Dockerfile.api" ]] || { say "NO-GO: missing Dockerfile.api"; exit 2; }
+  [[ -f "$REPO_ROOT/Dockerfile.ui" ]] || { say "NO-GO: missing Dockerfile.ui"; exit 2; }
+  [[ -d "$REPO_ROOT/core/trs-core/$TRS_CORE_VER" ]] || { say "NO-GO: missing core/trs-core/$TRS_CORE_VER"; exit 2; }
+  say "GO"
+}
+
+status(){
+  say "== Status =="
+  say "Repo: $REPO_ROOT"
+  say "Version: $(cat "$REPO_ROOT/VERSION.txt" 2>/dev/null || echo '(missing VERSION.txt)')"
+  say "Running:"
+  docker compose ps || true
+  say "Releases:"
+  ls -1 "$REPO_ROOT/release_artifacts" 2>/dev/null | sed 's/^/  - /' || true
+}
+
+release(){
+  local ver="${1:-}"
+  [[ -n "$ver" ]] || { say "Usage: ./bin/tc release vX.Y.Z"; exit 2; }
+  ensure_env
+  backup
+  local core_ver="${TRS_CORE_VER:-v0.2.8}"
+  local json_path="$REPO_ROOT/core/trs-core/$core_ver/registry/registry_${core_ver}.json"
+  if [[ ! -f "$json_path" ]]; then
+    docker compose up -d trs_api
+  fi
+  ensure_registry_json
+  python3 "$REPO_ROOT/scripts/sediment.py" --system "$ver" --core "$TRS_CORE_VER"
+  doctor
+  python3 "$REPO_ROOT/scripts/release.py" "$ver"
+}
+
+install(){
+  chmod +x "$REPO_ROOT/install.sh" 2>/dev/null || true
+  exec "$REPO_ROOT/install.sh"
+}
+
+up(){
+  doctor
+  ensure_env
+
+  # If already running, don't re-pick ports (they are in use by us).
+  local api_running=""
+  local ui_running=""
+  api_running="$(docker compose ps --status running -q trs_api 2>/dev/null || true)"
+  ui_running="$(docker compose ps --status running -q trs_ui 2>/dev/null || true)"
+
+  if [[ -z "$api_running" || -z "$ui_running" ]]; then
+    ensure_ports_free_or_autopick
+  fi
+
+  docker compose up --build -d
+  health
+}
+
+down(){
+  ensure_env
+  docker compose down
+}
+
+logs(){
+  ensure_env
+  local svc="${1:-}"
+  if [[ -z "$svc" ]]; then
+    docker compose logs --tail=200
+  else
+    docker compose logs --tail=200 "$svc"
+  fi
+}
+
+health(){
+  ensure_env
+  say "== Health =="
+  if ! wait_for_url "http://localhost:${TRS_API_PORT}/health" "API" 60 2; then
+    dump_failure_context
+    exit 3
+  fi
+  if ! wait_for_url "http://localhost:${TRS_UI_PORT}" "UI" 60 2; then
+    dump_failure_context
+    exit 3
+  fi
+  say "GO"
+}
+
+audit_tags(){
+  ensure_env
+  local core_ver="${TRS_CORE_VER:-v0.2.8}"
+  local reg_path="$REPO_ROOT/core/trs-core/$core_ver/registry/registry_${core_ver}.json"
+  local out_dir="$REPO_ROOT/reports"
+  if [[ ! -f "$reg_path" ]]; then
+    say "NO-GO: registry not found: $reg_path"
+    exit 2
+  fi
+  python3 "$REPO_ROOT/tools/tag_audit.py" "$reg_path" "$out_dir"
+}
+
+audit_semantics(){
+  ensure_env
+  local core_ver="${TRS_CORE_VER:-v0.2.8}"
+  local reg_path="$REPO_ROOT/core/trs-core/$core_ver/registry/registry_${core_ver}.json"
+  local audit_path="$REPO_ROOT/reports/tag_audit.csv"
+  local out_csv="$REPO_ROOT/reports/tag_semantics_completeness.csv"
+  local out_md="$REPO_ROOT/reports/tag_semantics_completeness_summary.md"
+  local out_next25="$REPO_ROOT/reports/relation_linked_semantics_priority_next25.csv"
+  if [[ ! -f "$reg_path" ]]; then
+    say "NO-GO: registry not found: $reg_path"
+    exit 2
+  fi
+  if [[ ! -f "$audit_path" ]]; then
+    say "NO-GO: audit not found: $audit_path"
+    say "  Fix: ./bin/tc audit-tags"
+    exit 2
+  fi
+  python3 "$REPO_ROOT/tools/tag_semantics_completeness.py" \
+    --repo-root "$REPO_ROOT" \
+    --registry "$reg_path" \
+    --audit "$audit_path" \
+    --out-csv "$out_csv" \
+    --out-md "$out_md" \
+    --out-next25 "$out_next25"
+  python3 - <<'PY'
+import csv
+from pathlib import Path
+
+path = Path("reports/tag_semantics_completeness.csv")
+if not path.exists():
+    raise SystemExit(0)
+rows = []
+with path.open(newline="", encoding="utf-8") as f:
+    r = csv.DictReader(f)
+    for row in r:
+        if row.get("bucket") == "P0":
+            rows.append(row)
+
+def score(row):
+    try:
+        return int(float(row.get("completeness_score") or 0))
+    except Exception:
+        return 0
+
+rows.sort(key=lambda r: (score(r), r.get("tag_id", "")))
+print("Top 10 P0 tags (lowest score):")
+for i, row in enumerate(rows[:10], start=1):
+    tag_id = row.get("tag_id", "")
+    missing = row.get("missing_fields", "")
+    print(f" {i:>2}. {tag_id} score={score(row)} missing={missing}")
+PY
+}
+
+audit_usability(){
+  ensure_env
+  local core_ver="${TRS_CORE_VER:-v0.2.8}"
+  local reg_path="$REPO_ROOT/core/trs-core/$core_ver/registry/registry_${core_ver}.json"
+  local out_csv="$REPO_ROOT/reports/tag_usability_audit.csv"
+  local out_md="$REPO_ROOT/reports/tag_usability_summary.md"
+  if [[ ! -f "$reg_path" ]]; then
+    say "NO-GO: registry not found: $reg_path"
+    exit 2
+  fi
+  python3 "$REPO_ROOT/tools/tag_usability_audit.py" \
+    --repo-root "$REPO_ROOT" \
+    --registry "$reg_path" \
+    --out-csv "$out_csv" \
+    --out-md "$out_md"
+}
+
+audit_usability_backlog(){
+  local audit_csv="$REPO_ROOT/reports/tag_usability_audit.csv"
+  local out_csv="$REPO_ROOT/reports/tag_usability_backlog.csv"
+  local out_md="$REPO_ROOT/reports/tag_usability_backlog_summary.md"
+  if [[ ! -f "$audit_csv" ]]; then
+    say "NO-GO: usability audit CSV missing: $audit_csv"
+    say "  Fix: ./bin/tc audit-usability"
+    exit 2
+  fi
+  python3 "$REPO_ROOT/tools/tag_usability_backlog.py" \
+    --repo-root "$REPO_ROOT" \
+    --audit "$audit_csv" \
+    --out-csv "$out_csv" \
+    --out-md "$out_md"
+}
+
+audit_extraction_plan(){
+  ensure_env
+  local core_ver="${TRS_CORE_VER:-v0.2.8}"
+  local reg_path="$REPO_ROOT/core/trs-core/$core_ver/registry/registry_${core_ver}.json"
+  local audit_csv="$REPO_ROOT/reports/tag_usability_audit.csv"
+  local out_evidence="$REPO_ROOT/reports/tag_extractability_evidence.csv"
+  local out_model="$REPO_ROOT/reports/tag_model_family_map.csv"
+  local out_roadmap="$REPO_ROOT/reports/tag_extraction_roadmap.csv"
+  local out_md="$REPO_ROOT/reports/tag_extraction_roadmap_summary.md"
+  if [[ ! -f "$reg_path" ]]; then
+    say "NO-GO: registry not found: $reg_path"
+    exit 2
+  fi
+  if [[ ! -f "$audit_csv" ]]; then
+    say "NO-GO: usability audit CSV missing: $audit_csv"
+    say "  Fix: ./bin/tc audit-usability"
+    exit 2
+  fi
+  python3 "$REPO_ROOT/tools/tag_extraction_plan.py" \
+    --repo-root "$REPO_ROOT" \
+    --registry "$reg_path" \
+    --audit "$audit_csv" \
+    --out-evidence-csv "$out_evidence" \
+    --out-model-csv "$out_model" \
+    --out-roadmap-csv "$out_roadmap" \
+    --out-md "$out_md"
+}
+
+check_regressions(){
+  local snapshot="$REPO_ROOT/reports/baseline_release_snapshot.json"
+  local snapshots_dir="$REPO_ROOT/reports/snapshots"
+  python3 "$REPO_ROOT/tools/check_snapshot_regression.py" \
+    --snapshot "$snapshot" \
+    --current "$snapshots_dir"
+}
+
+generate_min_semantics(){
+  local n="50"
+  local prefix=""
+  local out="$REPO_ROOT/seed/tag_semantics_min_batch_01.jsonl"
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      --n) n="$2"; shift 2 ;;
+      --prefix) prefix="$2"; shift 2 ;;
+      --out) out="$2"; shift 2 ;;
+      *) say "Usage: ./bin/tc generate-min-semantics [--n 50] [--prefix affect.] [--out seed/...jsonl]"; exit 2 ;;
+    esac
+  done
+  local args=(
+    --repo-root "$REPO_ROOT"
+    --completeness "$REPO_ROOT/reports/tag_semantics_completeness.csv"
+    --n "$n"
+    --out "$out"
+  )
+  if [[ -n "$prefix" ]]; then
+    args+=(--prefix "$prefix")
+  fi
+  python3 "$REPO_ROOT/tools/generate_min_semantics_batch.py" "${args[@]}"
+}
+
+case "${1:-}" in
+  backup) backup ;;
+  history) history ;;
+  env) shift; env_cmd "$@" ;;
+
+  install) install ;;
+  doctor) shift; doctor "$@" ;;
+  status) status ;;
+  release) shift; release "$@" ;;
+  up) up ;;
+  down) down ;;
+  logs) shift; logs "$@" ;;
+  health) health ;;
+  audit-tags) audit_tags ;;
+  audit-semantics) audit_semantics ;;
+  audit-usability) audit_usability ;;
+  audit-usability-backlog) audit_usability_backlog ;;
+  audit-extraction-plan) audit_extraction_plan ;;
+  check-regressions) check_regressions ;;
+  generate-min-semantics) shift; generate_min_semantics "$@" ;;
+  *) say "Usage: ./bin/tc {backup|history|env|install|status|doctor [--prod]|release vX.Y.Z|up|down|logs [service]|health|audit-tags|audit-semantics|audit-usability|audit-usability-backlog|audit-extraction-plan|check-regressions|generate-min-semantics}"; exit 1 ;;
+esac

@@ -1,0 +1,50 @@
+{"tag_id": "cnfa.spatial.ceiling_height_avg", "aliases": ["ceiling height avg measure", "ceiling height avg index"]}
+{"tag_id": "cnfa.spatial.enclosure_index", "aliases": ["enclosure index measure", "enclosure index index"]}
+{"tag_id": "cnfa.spatial.prospect_to_refuge_ratio", "aliases": ["prospect to refuge ratio measure", "prospect to refuge ratio index"]}
+{"tag_id": "cognitive.coherence", "aliases": ["coherence feeling", "coherence response"]}
+{"tag_id": "cognitive.complexity", "aliases": ["complexity feeling", "complexity response"]}
+{"tag_id": "cognitive.error", "aliases": ["error feeling", "error response"]}
+{"tag_id": "cognitive.legibility", "aliases": ["legibility feeling", "legibility response"]}
+{"tag_id": "cognitive.mystery", "aliases": ["mystery feeling", "mystery response"]}
+{"tag_id": "cognitive.restoration", "aliases": ["restoration feeling", "restoration response"]}
+{"tag_id": "color.lab_volume", "aliases": ["lab volume lighting", "lab volume tone"]}
+{"tag_id": "color.lightness_contrast", "aliases": ["lightness contrast lighting", "lightness contrast tone"]}
+{"tag_id": "color.luminance", "aliases": ["luminance lighting", "luminance tone"]}
+{"tag_id": "color.perceptual_lightness", "aliases": ["perceptual lightness lighting", "perceptual lightness tone"]}
+{"tag_id": "color.saturation", "aliases": ["saturation lighting", "saturation tone"]}
+{"tag_id": "color.warmth", "aliases": ["warmth lighting", "warmth tone"]}
+{"tag_id": "color.warmth_ratio", "aliases": ["warmth ratio lighting", "warmth ratio tone"]}
+{"tag_id": "complexity.edge_density", "aliases": ["edge density measure", "edge density index"]}
+{"tag_id": "complexity.shannon_entropy", "aliases": ["shannon entropy measure", "shannon entropy index"]}
+{"tag_id": "complexity.spatial_entropy", "aliases": ["spatial entropy measure", "spatial entropy index"]}
+{"tag_id": "component.bathroom.fixture.material.brass", "aliases": ["brass finish", "brass component"]}
+{"tag_id": "component.bathroom.fixture.material.matte_black", "aliases": ["matte black finish", "matte black component"]}
+{"tag_id": "component.bathroom.fixture.type.rain_showerhead", "aliases": ["rain showerhead finish", "rain showerhead component"]}
+{"tag_id": "component.ceiling.coffered", "aliases": ["coffered finish", "coffered component"]}
+{"tag_id": "component.ceiling.cove_lighting", "aliases": ["cove lighting finish", "cove lighting component"]}
+{"tag_id": "component.ceiling.exposed_beam", "aliases": ["exposed beam finish", "exposed beam component"]}
+{"tag_id": "component.ceiling.tray", "aliases": ["tray finish", "tray component"]}
+{"tag_id": "component.ceiling.vaulted", "aliases": ["vaulted finish", "vaulted component"]}
+{"tag_id": "component.kitchen.hardware.material.brass", "aliases": ["brass finish", "brass component"]}
+{"tag_id": "component.kitchen.hardware.material.chrome", "aliases": ["chrome finish", "chrome component"]}
+{"tag_id": "component.kitchen.hardware.material.matte_black", "aliases": ["matte black finish", "matte black component"]}
+{"tag_id": "component.kitchen.hardware.type.bar_pull", "aliases": ["bar pull finish", "bar pull component"]}
+{"tag_id": "component.kitchen.hardware.type.handleless", "aliases": ["handleless finish", "handleless component"]}
+{"tag_id": "component.kitchen.hardware.type.knob", "aliases": ["knob finish", "knob component"]}
+{"tag_id": "component.wall.material.brick_exposed", "aliases": ["brick exposed finish", "brick exposed component"]}
+{"tag_id": "component.wall.material.stone_wall", "aliases": ["stone wall finish", "stone wall component"]}
+{"tag_id": "component.wall.material.wood_slat", "aliases": ["wood slat finish", "wood slat component"]}
+{"tag_id": "component.wall.treatment.wainscoting", "aliases": ["wainscoting finish", "wainscoting component"]}
+{"tag_id": "component.wall.treatment.wallpaper_patterned", "aliases": ["wallpaper patterned finish", "wallpaper patterned component"]}
+{"tag_id": "env.ae.clear_sightlines", "aliases": ["clear sightlines attribute"]}
+{"tag_id": "env.ae.high_ceiling", "aliases": ["high ceiling attribute"]}
+{"tag_id": "env.ae.high_ceiling_+_hard_surfaces", "aliases": ["high ceiling + hard surfaces attribute"]}
+{"tag_id": "env.ae.high_cleanliness", "aliases": ["high cleanliness attribute"]}
+{"tag_id": "env.ae.high_color_contrast", "aliases": ["high color contrast attribute"]}
+{"tag_id": "env.ae.high_color_entropy", "aliases": ["high color entropy attribute"]}
+{"tag_id": "env.ae.high_contrast_lighting", "aliases": ["high contrast lighting attribute"]}
+{"tag_id": "env.ae.high_edge_density", "aliases": ["high edge density attribute"]}
+{"tag_id": "env.ae.high_fractal_dimension_(2d)", "aliases": ["High Fractal Dimension"]}
+{"tag_id": "env.ae.high_saturation", "aliases": ["high saturation attribute"]}
+{"tag_id": "env.ae.high_seating_density", "aliases": ["high seating density attribute"]}
+{"tag_id": "env.ae.high_spatial_frequency_content", "aliases": ["high spatial frequency content attribute"]}

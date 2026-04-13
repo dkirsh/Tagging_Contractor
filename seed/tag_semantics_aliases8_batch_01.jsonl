@@ -1,0 +1,47 @@
+{"tag_id": "affordance.isovist_area", "aliases": ["isovist area characteristic", "dominant isovist area"]}
+{"tag_id": "affordance.seating_count", "aliases": ["seating count characteristic", "dominant seating count"]}
+{"tag_id": "arch.pattern.axial_circulation_clear", "aliases": ["axial circulation clear characteristic", "dominant axial circulation clear"]}
+{"tag_id": "arch.pattern.bay_window", "aliases": ["bay window characteristic", "dominant bay window"]}
+{"tag_id": "arch.pattern.central_hearth", "aliases": ["central hearth characteristic", "dominant central hearth"]}
+{"tag_id": "arch.pattern.circulation_maze_like", "aliases": ["circulation maze like characteristic", "dominant circulation maze like"]}
+{"tag_id": "arch.pattern.colonnade", "aliases": ["colonnade characteristic", "dominant colonnade"]}
+{"tag_id": "arch.pattern.corner_window", "aliases": ["corner window characteristic", "dominant corner window"]}
+{"tag_id": "arch.pattern.daylight_hard", "aliases": ["daylight hard characteristic", "dominant daylight hard"]}
+{"tag_id": "arch.pattern.daylight_soft", "aliases": ["daylight soft characteristic", "dominant daylight soft"]}
+{"tag_id": "arch.pattern.double_height_space", "aliases": ["double height space characteristic", "dominant double height space"]}
+{"tag_id": "arch.pattern.gallery_edge", "aliases": ["gallery edge characteristic", "dominant gallery edge"]}
+{"tag_id": "arch.pattern.loft_mezzanine", "aliases": ["loft mezzanine characteristic", "dominant loft mezzanine"]}
+{"tag_id": "arch.pattern.long_view_corridor", "aliases": ["long view corridor characteristic", "dominant long view corridor"]}
+{"tag_id": "arch.pattern.perimeter_seating", "aliases": ["perimeter seating characteristic", "dominant perimeter seating"]}
+{"tag_id": "arch.pattern.prospect_strong", "aliases": ["prospect strong characteristic", "dominant prospect strong"]}
+{"tag_id": "arch.pattern.refuge_nook", "aliases": ["refuge nook characteristic", "dominant refuge nook"]}
+{"tag_id": "arch.pattern.refuge_strong", "aliases": ["refuge strong characteristic", "dominant refuge strong"]}
+{"tag_id": "arch.pattern.skylight_dominant", "aliases": ["skylight dominant characteristic", "dominant skylight dominant"]}
+{"tag_id": "arch.pattern.staircase_sculptural", "aliases": ["staircase sculptural characteristic", "dominant staircase sculptural"]}
+{"tag_id": "arch.pattern.threshold_emphasized", "aliases": ["threshold emphasized characteristic", "dominant threshold emphasized"]}
+{"tag_id": "arch.pattern.window_seat_niche", "aliases": ["window seat niche characteristic", "dominant window seat niche"]}
+{"tag_id": "biophilia.plant_count", "aliases": ["plant count characteristic", "dominant plant count"]}
+{"tag_id": "provenance.architect_kengo_kuma", "aliases": ["architect kengo kuma characteristic", "dominant architect kengo kuma"]}
+{"tag_id": "provenance.architect_le_corbusier", "aliases": ["architect le corbusier characteristic", "dominant architect le corbusier"]}
+{"tag_id": "provenance.iconic_chair_barcelona", "aliases": ["iconic chair barcelona characteristic", "dominant iconic chair barcelona"]}
+{"tag_id": "provenance.iconic_chair_eames", "aliases": ["iconic chair eames characteristic", "dominant iconic chair eames"]}
+{"tag_id": "social.occupancy", "aliases": ["occupancy characteristic", "dominant occupancy"]}
+{"tag_id": "social.privacy", "aliases": ["privacy characteristic", "dominant privacy"]}
+{"tag_id": "social.sociopetal", "aliases": ["sociopetal characteristic", "dominant sociopetal"]}
+{"tag_id": "spatial.central_openness", "aliases": ["central openness characteristic", "dominant central openness"]}
+{"tag_id": "spatial.depth_contrast", "aliases": ["depth contrast characteristic", "dominant depth contrast"]}
+{"tag_id": "spatial.depth_mean", "aliases": ["depth mean characteristic", "dominant depth mean"]}
+{"tag_id": "spatial.isovist_openness", "aliases": ["isovist openness characteristic", "dominant isovist openness"]}
+{"tag_id": "spatial.refuge_quality", "aliases": ["refuge quality characteristic", "dominant refuge quality"]}
+{"tag_id": "spatial.room_function.bathroom", "aliases": ["bathroom characteristic", "dominant bathroom"]}
+{"tag_id": "spatial.room_function.bedroom", "aliases": ["bedroom characteristic", "dominant bedroom"]}
+{"tag_id": "spatial.room_function.home_office", "aliases": ["home office characteristic", "dominant home office"]}
+{"tag_id": "spatial.room_function.kitchen", "aliases": ["kitchen characteristic", "dominant kitchen"]}
+{"tag_id": "spatial.room_function.living_room", "aliases": ["living room characteristic", "dominant living room"]}
+{"tag_id": "spatial.visual_clutter", "aliases": ["visual clutter characteristic", "dominant visual clutter"]}
+{"tag_id": "tag.evidence_pointer", "aliases": ["evidence pointer characteristic", "dominant evidence pointer"]}
+{"tag_id": "tag.request_source", "aliases": ["request source characteristic", "dominant request source"]}
+{"tag_id": "texture.macro.contrast", "aliases": ["contrast characteristic", "dominant contrast"]}
+{"tag_id": "texture.macro.homogeneity", "aliases": ["homogeneity characteristic", "dominant homogeneity"]}
+{"tag_id": "texture.micro.contrast", "aliases": ["contrast characteristic", "dominant contrast"]}
+{"tag_id": "texture.micro.homogeneity", "aliases": ["homogeneity characteristic", "dominant homogeneity"]}

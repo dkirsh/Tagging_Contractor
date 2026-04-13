@@ -1,0 +1,50 @@
+{"tag_id": "material.glass_coverage", "aliases": ["glass coverage material"]}
+{"tag_id": "material.metal_coverage", "aliases": ["metal coverage material"]}
+{"tag_id": "material.wood_coverage", "aliases": ["wood coverage material"]}
+{"tag_id": "materials.cues.brightness_mean", "aliases": ["brightness mean material"]}
+{"tag_id": "materials.cues.saturation_mean", "aliases": ["saturation mean material"]}
+{"tag_id": "materials.cues.specularity_proxy", "aliases": ["specularity proxy material"]}
+{"tag_id": "materials.cues.texture_variance", "aliases": ["texture variance material"]}
+{"tag_id": "materials.cues.value_mean", "aliases": ["value mean material"]}
+{"tag_id": "materials.substrate.plaster_gypsum", "aliases": ["plaster gypsum material"]}
+{"tag_id": "materials.substrate.stone_concrete", "aliases": ["stone concrete material"]}
+{"tag_id": "materials.substrate.tile_ceramic", "aliases": ["tile ceramic material"]}
+{"tag_id": "provenance.architect_kengo_kuma", "aliases": ["architect kengo kuma feature"]}
+{"tag_id": "provenance.architect_le_corbusier", "aliases": ["architect le corbusier feature"]}
+{"tag_id": "provenance.iconic_chair_barcelona", "aliases": ["iconic chair barcelona feature"]}
+{"tag_id": "provenance.iconic_chair_eames", "aliases": ["iconic chair eames feature"]}
+{"tag_id": "psych.coziness", "aliases": ["perceived coziness"]}
+{"tag_id": "science.organized_complexity", "aliases": ["organized complexity metric"]}
+{"tag_id": "science.organized_complexity_bin", "aliases": ["organized complexity bin metric"]}
+{"tag_id": "science.visual_richness", "aliases": ["visual richness metric"]}
+{"tag_id": "science.visual_richness_bin", "aliases": ["visual richness bin metric"]}
+{"tag_id": "smell.concentration_dfa_exponent", "aliases": ["measured concentration dfa exponent"]}
+{"tag_id": "smell.intensity_rating", "aliases": ["measured intensity rating"]}
+{"tag_id": "smell.pleasantness_rating", "aliases": ["measured pleasantness rating"]}
+{"tag_id": "social.occupancy", "aliases": ["occupancy feature"]}
+{"tag_id": "social.privacy", "aliases": ["privacy feature"]}
+{"tag_id": "social.sociopetal", "aliases": ["sociopetal feature"]}
+{"tag_id": "sound.amplitude_fractal_dimension", "aliases": ["measured amplitude fractal dimension"]}
+{"tag_id": "sound.noise_color_beta", "aliases": ["measured noise color beta"]}
+{"tag_id": "sound.one_over_f_slope", "aliases": ["measured one over f slope"]}
+{"tag_id": "sound.reverberation_rt60", "aliases": ["measured reverberation rt60"]}
+{"tag_id": "spatial.central_openness", "aliases": ["central openness feature"]}
+{"tag_id": "spatial.depth_contrast", "aliases": ["depth contrast feature"]}
+{"tag_id": "spatial.depth_mean", "aliases": ["depth mean feature"]}
+{"tag_id": "spatial.isovist_openness", "aliases": ["isovist openness feature"]}
+{"tag_id": "spatial.refuge_quality", "aliases": ["refuge quality feature"]}
+{"tag_id": "spatial.room_function.bathroom", "aliases": ["bathroom feature"]}
+{"tag_id": "spatial.room_function.bedroom", "aliases": ["bedroom feature"]}
+{"tag_id": "spatial.room_function.home_office", "aliases": ["home office feature"]}
+{"tag_id": "spatial.room_function.kitchen", "aliases": ["kitchen feature"]}
+{"tag_id": "spatial.room_function.living_room", "aliases": ["living room feature"]}
+{"tag_id": "spatial.visual_clutter", "aliases": ["visual clutter feature"]}
+{"tag_id": "style.bohemian", "aliases": ["bohemian style"]}
+{"tag_id": "style.farmhouse", "aliases": ["farmhouse style"]}
+{"tag_id": "style.industrial", "aliases": ["industrial style"]}
+{"tag_id": "style.japandi", "aliases": ["japandi style"]}
+{"tag_id": "style.mid_century_modern", "aliases": ["mid century modern style"]}
+{"tag_id": "style.minimalist", "aliases": ["minimalist style"]}
+{"tag_id": "style.modern", "aliases": ["modern style"]}
+{"tag_id": "style.modernity", "aliases": ["modernity style"]}
+{"tag_id": "style.rustic", "aliases": ["rustic style"]}

@@ -1,0 +1,425 @@
+tag_id,canonical_name,has_definition_short,definition_short_len,has_definition_long,alias_count,has_examples,has_scope_includes_excludes,has_extraction_notes_2d,has_extraction_notes_3d,relation_count,current_priority
+affect.cozy,Cozy,False,0,False,0,False,False,False,False,0,P0
+affect.jarring,Jarring,False,0,False,0,False,False,False,False,0,P0
+affect.scary,Scary,False,0,False,0,False,False,False,False,0,P0
+affect.tranquil,Tranquil,False,0,False,0,False,False,False,False,0,P0
+affect.welcoming,Welcoming,False,0,False,0,False,False,False,False,0,P0
+affordance.isovist_area,Isovist Area,False,0,False,0,False,False,False,False,0,P0
+affordance.seating_count,Seating Count,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.axial_circulation_clear,Axial Circulation Clear,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.bay_window,Bay Window,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.central_hearth,Central Hearth,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.circulation_maze_like,Circulation Maze Like,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.colonnade,Colonnade,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.corner_window,Corner Window,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.daylight_hard,Daylight Hard,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.daylight_soft,Daylight Soft,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.double_height_space,Double Height Space,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.gallery_edge,Gallery Edge,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.loft_mezzanine,Loft Mezzanine,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.long_view_corridor,Long View Corridor,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.perimeter_seating,Perimeter Seating,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.prospect_strong,Prospect Strong,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.refuge_nook,Refuge Nook,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.refuge_strong,Refuge Strong,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.skylight_dominant,Skylight Dominant,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.staircase_sculptural,Staircase Sculptural,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.threshold_emphasized,Threshold Emphasized,False,0,False,0,False,False,False,False,0,P0
+arch.pattern.window_seat_niche,Window Seat Niche,False,0,False,0,False,False,False,False,0,P0
+biophilia.plant_count,Plant Count,False,0,False,0,False,False,False,False,0,P0
+cnfa.biophilic.natural_material_ratio,Natural Material Ratio,False,0,False,0,False,False,False,False,0,P0
+cnfa.cognitive.activity_zones_count,Activity Zones Count,False,0,False,0,False,False,False,False,0,P0
+cnfa.cognitive.landmark_salience,Landmark Salience,False,0,False,0,False,False,False,False,0,P0
+cnfa.cognitive.legibility_score,Legibility Score,False,0,False,0,False,False,False,False,0,P0
+cnfa.depth.depth_variance,Depth Variance,False,0,False,0,False,False,False,False,0,P0
+cnfa.depth.mean_depth,Mean Depth,False,0,False,0,False,False,False,False,0,P0
+cnfa.dynamic.optic_flow_magnitude,Optic Flow Magnitude,False,0,False,0,False,False,False,False,0,P0
+cnfa.dynamic.path_glare_max,Path Glare Max,False,0,False,0,False,False,False,False,0,P0
+cnfa.dynamic.reflection_flow,Reflection Flow,False,0,False,0,False,False,False,False,0,P0
+cnfa.dynamic.revelation_rate,Revelation Rate,False,0,False,0,False,False,False,False,0,P0
+cnfa.dynamic.texture_gradient,Texture Gradient,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.anomaly_count,Anomaly Count,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.autoencoder_recon_error,Autoencoder Recon Error,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.clutter_density_count,Clutter Density Count,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.color_palette_entropy,Color Palette Entropy,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.compression_ratio,Compression Ratio,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.edge_clarity_mean,Edge Clarity Mean,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.figure_ground_clarity,Figure Ground Clarity,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.hierarchy_depth,Hierarchy Depth,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.map.edge_density,Edge Density,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.map.fractal_dimension,Fractal Dimension,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.map.spatial_entropy,Spatial Entropy,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.map.symmetry,Symmetry,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.pattern_rhythm_regularity,Pattern Rhythm Regularity,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.processing_load_proxy,Processing Load Proxy,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.surprisal_mean,Surprisal Mean,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.symmetry_score_horizontal,Symmetry Score Horizontal,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.visual_entropy_spatial,Visual Entropy Spatial,False,0,False,0,False,False,False,False,0,P0
+cnfa.fluency.zoning_clarity,Zoning Clarity,False,0,False,0,False,False,False,False,0,P0
+cnfa.fractal.lacunarity,Lacunarity,False,0,False,0,False,False,False,False,0,P0
+cnfa.fractal.multifractal_width,Multifractal Width,False,0,False,0,False,False,False,False,0,P0
+cnfa.fractal.spectral_slope_1overf,Spectral Slope 1Overf,False,0,False,0,False,False,False,False,0,P0
+cnfa.fractal_dimension,Fractal Dimension,False,0,False,0,False,False,False,False,0,P0
+cnfa.fractal_dimension_edges,Fractal Dimension Edges,False,0,False,0,False,False,False,False,0,P0
+cnfa.fractal_dimension_luminance,Fractal Dimension Luminance,False,0,False,0,False,False,False,False,0,P0
+cnfa.geometry.curvature_index,Curvature Index,False,0,False,0,False,False,False,False,0,P0
+cnfa.geometry.fractal_curve_intersection,Fractal Curve Intersection,False,0,False,0,False,False,False,False,0,P0
+cnfa.geometry.rectilinearity_index,Rectilinearity Index,False,0,False,0,False,False,False,False,0,P0
+cnfa.haptic.soft_surface_ratio,Soft Surface Ratio,False,0,False,0,False,False,False,False,0,P0
+cnfa.haptic.texture_variation_index,Texture Variation Index,False,0,False,0,False,False,False,False,0,P0
+cnfa.layout.opening_ratio,Opening Ratio,False,0,False,0,False,False,False,False,0,P0
+cnfa.light.brightness_variance,Brightness Variance,False,0,False,0,False,False,False,False,0,P0
+cnfa.light.diffuse_vs_direct_ratio,Diffuse Vs Direct Ratio,False,0,False,0,False,False,False,False,0,P0
+cnfa.light.vertical_illuminance_proxy,Vertical Illuminance Proxy,False,0,False,0,False,False,False,False,0,P0
+cnfa.light.warm_vs_cool_ratio,Warm Vs Cool Ratio,False,0,False,0,False,False,False,False,0,P0
+cnfa.spatial.ceiling_height_avg,Ceiling Height Avg,False,0,False,0,False,False,False,False,0,P0
+cnfa.spatial.enclosure_index,Enclosure Index,False,0,False,0,False,False,False,False,0,P0
+cnfa.spatial.prospect_to_refuge_ratio,Prospect To Refuge Ratio,False,0,False,0,False,False,False,False,0,P0
+cognitive.coherence,Coherence,False,0,False,0,False,False,False,False,0,P0
+cognitive.complexity,Complexity,False,0,False,0,False,False,False,False,0,P0
+cognitive.error,Error,False,0,False,0,False,False,False,False,0,P0
+cognitive.legibility,Legibility,False,0,False,0,False,False,False,False,0,P0
+cognitive.mystery,Mystery,False,0,False,0,False,False,False,False,0,P0
+cognitive.restoration,Restoration,False,0,False,0,False,False,False,False,0,P0
+color.lab_volume,Lab Volume,False,0,False,0,False,False,False,False,0,P0
+color.lightness_contrast,Lightness Contrast,False,0,False,0,False,False,False,False,0,P0
+color.luminance,Luminance,False,0,False,0,False,False,False,False,0,P0
+color.perceptual_lightness,Perceptual Lightness,False,0,False,0,False,False,False,False,0,P0
+color.saturation,Saturation,False,0,False,0,False,False,False,False,0,P0
+color.warmth,Warmth,False,0,False,0,False,False,False,False,0,P0
+color.warmth_ratio,Warmth Ratio,False,0,False,0,False,False,False,False,0,P0
+complexity.edge_density,Edge Density,False,0,False,0,False,False,False,False,0,P0
+complexity.shannon_entropy,Shannon Entropy,False,0,False,0,False,False,False,False,0,P0
+complexity.spatial_entropy,Spatial Entropy,False,0,False,0,False,False,False,False,0,P0
+component.bathroom.fixture.material.brass,Brass,False,0,False,0,False,False,False,False,0,P0
+component.bathroom.fixture.material.matte_black,Matte Black,False,0,False,0,False,False,False,False,0,P0
+component.bathroom.fixture.type.rain_showerhead,Rain Showerhead,False,0,False,0,False,False,False,False,0,P0
+component.ceiling.coffered,Coffered,False,0,False,0,False,False,False,False,0,P0
+component.ceiling.cove_lighting,Cove Lighting,False,0,False,0,False,False,False,False,0,P0
+component.ceiling.exposed_beam,Exposed Beam,False,0,False,0,False,False,False,False,0,P0
+component.ceiling.tray,Tray,False,0,False,0,False,False,False,False,0,P0
+component.ceiling.vaulted,Vaulted,False,0,False,0,False,False,False,False,0,P0
+component.kitchen.hardware.material.brass,Brass,False,0,False,0,False,False,False,False,0,P0
+component.kitchen.hardware.material.chrome,Chrome,False,0,False,0,False,False,False,False,0,P0
+component.kitchen.hardware.material.matte_black,Matte Black,False,0,False,0,False,False,False,False,0,P0
+component.kitchen.hardware.type.bar_pull,Bar Pull,False,0,False,0,False,False,False,False,0,P0
+component.kitchen.hardware.type.handleless,Handleless,False,0,False,0,False,False,False,False,0,P0
+component.kitchen.hardware.type.knob,Knob,False,0,False,0,False,False,False,False,0,P0
+component.wall.material.brick_exposed,Brick Exposed,False,0,False,0,False,False,False,False,0,P0
+component.wall.material.stone_wall,Stone Wall,False,0,False,0,False,False,False,False,0,P0
+component.wall.material.wood_slat,Wood Slat,False,0,False,0,False,False,False,False,0,P0
+component.wall.treatment.wainscoting,Wainscoting,False,0,False,0,False,False,False,False,0,P0
+component.wall.treatment.wallpaper_patterned,Wallpaper Patterned,False,0,False,0,False,False,False,False,0,P0
+env.ae.artworks_prominent,Artworks Prominent,True,252,True,11,False,True,True,True,2,P2
+env.ae.barriers/guards_present,Barriers/Guards Present,True,273,True,11,False,True,True,True,2,P2
+env.ae.clear_circulation_paths,Clear Circulation Paths,True,232,True,8,False,True,True,True,2,P2
+env.ae.clear_exits/wayfinding_signage,Clear Exits/Wayfinding Signage,True,239,True,10,False,True,True,True,2,P2
+env.ae.clear_sightlines,Clear Sightlines,True,201,True,7,False,True,True,True,2,P2
+env.ae.commercial_branding,Commercial Branding,True,237,True,9,False,True,True,True,2,P2
+env.ae.compartmentalized_plan,Compartmentalized Plan,True,225,True,8,False,True,True,True,2,P2
+env.ae.complex_geometry,Complex Geometry,True,338,True,8,False,True,True,True,2,P2
+env.ae.concrete_prominent,Concrete Prominent,True,234,True,8,False,True,True,True,2,P2
+env.ae.cool_color_palette,Cool Color Palette,True,205,True,9,False,True,True,True,2,P2
+env.ae.cool_lighting_(high_cct),Cool Lighting (High CCT),True,185,True,9,False,True,True,True,2,P2
+env.ae.crowded_space,Crowded Space,True,189,True,8,False,True,True,True,2,P2
+env.ae.curvilinear_forms,Curvilinear Forms,True,250,True,9,False,True,True,True,2,P2
+env.ae.daylighting,Daylighting,True,241,True,8,False,True,True,True,2,P2
+env.ae.dynamic_lighting,Dynamic Lighting,True,304,True,10,False,True,True,True,2,P2
+env.ae.fans_visible,Fans Visible,True,201,True,8,False,True,True,True,2,P2
+env.ae.fractal-like_pattern,Fractal-Like Pattern,True,277,True,9,False,True,True,True,2,P2
+env.ae.glare_present,Glare Present,True,277,True,8,False,True,True,True,2,P2
+env.ae.glass_prominent,Glass Prominent,True,186,True,9,False,True,True,True,2,P2
+env.ae.hard_reflective_surfaces,Hard Reflective Surfaces,True,376,True,8,False,True,True,True,2,P2
+env.ae.hard_seating,Hard Seating,True,456,True,9,False,True,True,True,2,P2
+env.ae.hazard_indicators,Hazard Indicators,True,383,True,9,False,True,True,True,2,P2
+env.ae.high_ceiling,High Ceiling,True,287,True,7,False,True,True,True,2,P2
+env.ae.high_ceiling_+_hard_surfaces,High Ceiling + Hard Surfaces,True,432,True,7,False,True,True,True,2,P2
+env.ae.high_cleanliness,High Cleanliness,True,385,True,7,False,True,True,True,2,P2
+env.ae.high_clutter,High Clutter,True,318,True,9,False,True,True,True,2,P2
+env.ae.high_color_contrast,High Color Contrast,True,447,True,7,False,True,True,True,2,P2
+env.ae.high_color_entropy,High Color Entropy,True,327,True,7,False,True,True,True,2,P2
+env.ae.high_contrast_lighting,High Contrast Lighting,True,325,True,7,False,True,True,True,2,P2
+env.ae.high_edge_density,High Edge Density,True,438,True,7,False,True,True,True,2,P2
+env.ae.high_fractal_dimension_(2d),High Fractal Dimension (2D),True,440,True,7,False,True,True,True,2,P2
+env.ae.high_illuminance,High Illuminance,True,330,True,9,False,True,True,True,2,P2
+env.ae.high_orderliness,High Orderliness,True,331,True,9,False,True,True,True,2,P2
+env.ae.high_saturation,High Saturation,True,303,True,7,False,True,True,True,2,P2
+env.ae.high_seating_density,High Seating Density,True,387,True,7,False,True,True,True,2,P2
+env.ae.high_spatial_frequency_content,High Spatial Frequency Content,True,404,True,7,False,True,True,True,2,P2
+env.ae.high_symmetry,High Symmetry,True,473,True,7,False,True,True,True,2,P2
+env.ae.high_texture_complexity,High Texture Complexity,True,410,True,7,False,True,True,True,2,P2
+env.ae.home-like_decor,Home-like Decor,True,375,True,8,False,True,True,True,2,P2
+env.ae.indoor-outdoor_continuity,Indoor-Outdoor Continuity,True,443,True,7,False,True,True,True,2,P2
+env.ae.indoor_plants,Indoor Plants,True,315,True,9,False,True,True,True,2,P2
+env.ae.institutional_decor,Institutional Decor,True,445,True,7,False,True,True,True,2,P2
+env.ae.irregular_pattern,Irregular Pattern,True,411,True,7,False,True,True,True,2,P2
+env.ae.large_enclosure_volume,Large Enclosure Volume,True,381,True,7,False,True,True,True,2,P2
+env.ae.large_window_area,Large Window Area,True,371,True,7,False,True,True,True,2,P2
+env.ae.low_ceiling,Low Ceiling,True,360,True,7,False,True,True,True,2,P2
+env.ae.low_edge_density,Low Edge Density,True,334,True,7,False,True,True,True,2,P2
+env.ae.low_illuminance,Low Illuminance,True,278,True,8,False,True,True,True,2,P2
+env.ae.low_orderliness,Low Orderliness,True,309,True,8,False,True,True,True,2,P2
+env.ae.low_saturation,Low Saturation,True,331,True,7,False,True,True,True,2,P2
+env.ae.low_spatial_frequency_content,Low Spatial Frequency Content,True,392,True,7,False,True,True,True,2,P2
+env.ae.low_symmetry,Low Symmetry,True,351,True,7,False,True,True,True,2,P2
+env.ae.low_texture_complexity,Low Texture Complexity,True,335,True,7,False,True,True,True,2,P2
+env.ae.maze-like_layout,Maze-Like Layout,True,330,True,7,False,True,True,True,2,P2
+env.ae.metal_prominent,Metal Prominent,True,360,True,8,False,True,True,True,2,P2
+env.ae.minimal_signage,Minimal Signage,True,400,True,7,False,True,True,True,2,P2
+env.ae.monochrome/minimal_palette,Monochrome/Minimal Palette,True,328,True,9,False,True,True,True,2,P2
+env.ae.narrow_corridor,Narrow Corridor,True,321,True,7,False,True,True,True,2,P2
+env.ae.natural/earthy_palette,Natural/Earthy Palette,True,332,True,7,False,True,True,True,2,P2
+env.ae.naturalistic_forms,Naturalistic Forms,True,355,True,9,False,True,True,True,2,P2
+env.ae.nature_imagery,Nature Imagery,True,402,True,8,False,True,True,True,2,P2
+env.ae.occluded_sightlines,Occluded Sightlines,True,368,True,7,False,True,True,True,2,P2
+env.ae.open_plan,Open Plan,True,329,True,7,False,True,True,True,2,P2
+env.ae.open_windows,Open Windows,True,306,True,8,False,True,True,True,2,P2
+env.ae.poor_visibility_/_dark_corners,Poor Visibility / Dark Corners,True,428,True,7,False,True,True,True,2,P2
+env.ae.private/enclosed_niche,Private/Enclosed Niche,True,357,True,9,False,True,True,True,2,P2
+env.ae.public/exposed_area,Public/Exposed Area,True,366,True,7,False,True,True,True,2,P2
+env.ae.rectilinear_forms,Rectilinear Forms,True,370,True,8,False,True,True,True,2,P2
+env.ae.religious_symbols,Religious Symbols,True,349,True,9,False,True,True,True,2,P2
+env.ae.repeating_pattern,Repeating Pattern,True,344,True,7,False,True,True,True,2,P2
+env.ae.seating_available,Seating Available,True,333,True,7,False,True,True,True,2,P2
+env.ae.soft_acoustic_treatments,Soft Acoustic Treatments,True,403,True,8,False,True,True,True,2,P2
+env.ae.soft_seating,Soft Seating,True,305,True,9,False,True,True,True,2,P2
+env.ae.sparse_occupancy,Sparse Occupancy,True,293,True,8,False,True,True,True,2,P2
+env.ae.stone/marble_prominent,Stone/Marble Prominent,True,351,True,9,False,True,True,True,2,P2
+env.ae.strong_central_landmark,Strong Central Landmark,True,366,True,7,False,True,True,True,2,P2
+env.ae.strong_horizontality,Strong Horizontality,True,371,True,7,False,True,True,True,2,P2
+env.ae.strong_verticality,Strong Verticality,True,422,True,8,False,True,True,True,2,P2
+env.ae.surveillance_/_cameras_visible,Surveillance / Cameras Visible,True,351,True,8,False,True,True,True,2,P2
+env.ae.text/information_density_high,Text/Information Density High,True,334,True,8,False,True,True,True,2,P2
+env.ae.textiles/soft_furnishings,Textiles/Soft Furnishings,True,338,True,10,False,True,True,True,2,P2
+env.ae.uniform_lighting,Uniform Lighting,True,342,True,7,False,True,True,True,2,P2
+env.ae.view_to_outdoors,View to Outdoors,True,351,True,8,False,True,True,True,2,P2
+env.ae.visible_dirt/decay,Visible Dirt/Decay,True,307,True,9,False,True,True,True,2,P2
+env.ae.visible_hvac_vents,Visible HVAC Vents,True,351,True,7,False,True,True,True,2,P2
+env.ae.visible_windows,Visible Windows,True,288,True,8,False,True,True,True,2,P2
+env.ae.warm_color_palette,Warm Color Palette,True,270,True,8,False,True,True,True,2,P2
+env.ae.warm_lighting,Warm Lighting,True,309,True,8,False,True,True,True,2,P2
+env.ae.well_maintained,Well Maintained,True,369,True,7,False,True,True,True,2,P2
+env.ae.wood_prominent,Wood Prominent,True,344,True,8,False,True,True,True,2,P2
+env.ae.work_surfaces_present,Work Surfaces Present,True,370,True,7,False,True,True,True,2,P2
+env.ae.worn/degraded,Worn/Degraded,True,351,True,9,False,True,True,True,2,P2
+env.v1_001.illuminance_level_task_surface,Illuminance level (task surface),False,0,False,0,False,False,False,False,0,P0
+env.v1_002.illuminance_level_ambient,Illuminance level (ambient),False,0,False,0,False,False,False,False,0,P0
+env.v1_003.luminance_distribution,Luminance distribution,False,0,False,0,False,False,False,False,0,P0
+env.v1_004.contrast_ratio,Contrast ratio,False,0,False,0,False,False,False,False,0,P0
+env.v1_005.uniformity_ratio,Uniformity ratio,False,0,False,0,False,False,False,False,0,P0
+env.v1_006.daylight_factor,Daylight factor,False,0,False,0,False,False,False,False,0,P0
+env.v1_007.daylight_autonomy,Daylight autonomy,False,0,False,0,False,False,False,False,0,P0
+env.v1_008.correlated_color_temperature_cct,Correlated color temperature (CCT),False,0,False,0,False,False,False,False,0,P0
+env.v1_009.spectral_power_distribution,Spectral power distribution,False,0,False,0,False,False,False,False,0,P0
+env.v1_010.color_rendering_index_cri,Color rendering index (CRI),False,0,False,0,False,False,False,False,0,P0
+env.v1_011.melanopic_lux,Melanopic lux,False,0,False,0,False,False,False,False,0,P0
+env.v1_012.dominant_wavelength,Dominant wavelength,False,0,False,0,False,False,False,False,0,P0
+env.v1_013.flicker_frequency,Flicker frequency,False,0,False,0,False,False,False,False,0,P0
+env.v1_014.flicker_modulation_depth,Flicker modulation depth,False,0,False,0,False,False,False,False,0,P0
+env.v1_015.circadian_timing_of_exposure,Circadian timing of exposure,False,0,False,0,False,False,False,False,0,P0
+env.v1_016.rate_of_illuminance_change,Rate of illuminance change,False,0,False,0,False,False,False,False,0,P0
+env.v1_017.diurnal_variation_pattern,Diurnal variation pattern,False,0,False,0,False,False,False,False,0,P0
+env.v1_018.direct_indirect_ratio,Direct/indirect ratio,False,0,False,0,False,False,False,False,0,P0
+env.v1_019.light_directionality,Light directionality,False,0,False,0,False,False,False,False,0,P0
+env.v1_020.unified_glare_rating_ugr,Unified Glare Rating (UGR),False,0,False,0,False,False,False,False,0,P0
+env.v1_021.shadow_characteristics,Shadow characteristics,False,0,False,0,False,False,False,False,0,P0
+env.v1_022.natural_artificial_ratio,Natural/artificial ratio,False,0,False,0,False,False,False,False,0,P0
+env.v1_023.point_vs_diffuse_illumination,Point vs. diffuse illumination,False,0,False,0,False,False,False,False,0,P0
+env.v1_024.window_sky_type_visible,Window/sky type visible,False,0,False,0,False,False,False,False,0,P0
+env.v1_025.solar_penetration_depth,Solar penetration depth,False,0,False,0,False,False,False,False,0,P0
+env.v1_026.view_to_exterior,View to exterior,False,0,False,0,False,False,False,False,0,P0
+env.v1_090.ceiling_height,Ceiling height,False,0,False,0,False,False,False,False,0,P0
+env.v1_091.room_volume,Room volume,False,0,False,0,False,False,False,False,0,P0
+env.v1_092.floor_area,Floor area,False,0,False,0,False,False,False,False,0,P0
+env.v1_093.aspect_ratios,Aspect ratios,False,0,False,0,False,False,False,False,0,P0
+env.v1_094.degree_of_enclosure,Degree of enclosure,False,0,False,0,False,False,False,False,0,P0
+env.v1_095.boundary_definition,Boundary definition,False,0,False,0,False,False,False,False,0,P0
+env.v1_096.visual_permeability,Visual permeability,False,0,False,0,False,False,False,False,0,P0
+env.v1_097.spatial_layering,Spatial layering,False,0,False,0,False,False,False,False,0,P0
+env.v1_098.visual_access_extent,Visual access extent,False,0,False,0,False,False,False,False,0,P0
+env.v1_099.prospect_quality,Prospect quality,False,0,False,0,False,False,False,False,0,P0
+env.v1_100.refuge_degree,Refuge degree,False,0,False,0,False,False,False,False,0,P0
+env.v1_101.prospect_refuge_balance,Prospect-refuge balance,False,0,False,0,False,False,False,False,0,P0
+env.v1_102.defensible_space,Defensible space,False,0,False,0,False,False,False,False,0,P0
+env.v1_103.plan_complexity,Plan complexity,False,0,False,0,False,False,False,False,0,P0
+env.v1_104.spatial_hierarchy,Spatial hierarchy,False,0,False,0,False,False,False,False,0,P0
+env.v1_105.wayfinding_affordances,Wayfinding affordances,False,0,False,0,False,False,False,False,0,P0
+env.v1_106.mystery,Mystery,False,0,False,0,False,False,False,False,0,P0
+env.v1_107.coherence,Coherence,False,0,False,0,False,False,False,False,0,P0
+env.v1_108.legibility,Legibility,False,0,False,0,False,False,False,False,0,P0
+env.v1_109.angular_vs_curvilinear,Angular vs. curvilinear,False,0,False,0,False,False,False,False,0,P0
+env.v1_110.symmetry,Symmetry,False,0,False,0,False,False,False,False,0,P0
+env.v1_111.proportion,Proportion,False,0,False,0,False,False,False,False,0,P0
+env.v1_112.fractal_dimension,Fractal dimension,False,0,False,0,False,False,False,False,0,P0
+env.v1_113.self_similarity_scale_range,Self-similarity scale range,False,0,False,0,False,False,False,False,0,P0
+env.v1_114.visual_entropy,Visual entropy,False,0,False,0,False,False,False,False,0,P0
+env.v1_115.edge_density,Edge density,False,0,False,0,False,False,False,False,0,P0
+env.v1_116.color_diversity,Color diversity,False,0,False,0,False,False,False,False,0,P0
+env.v1_117.element_count,Element count,False,0,False,0,False,False,False,False,0,P0
+env.v1_118.visual_noise,Visual noise,False,0,False,0,False,False,False,False,0,P0
+env.v1_119.pattern_regularity,Pattern regularity,False,0,False,0,False,False,False,False,0,P0
+env.v1_120.figure_ground_clarity,Figure-ground clarity,False,0,False,0,False,False,False,False,0,P0
+env.v1_121.visual_hierarchy,Visual hierarchy,False,0,False,0,False,False,False,False,0,P0
+env.v1_122.vegetation_density,Vegetation density,False,0,False,0,False,False,False,False,0,P0
+env.v1_123.vegetation_diversity,Vegetation diversity,False,0,False,0,False,False,False,False,0,P0
+env.v1_124.water_features,Water features,True,386,True,7,False,True,True,True,2,P2
+env.v1_125.sky_visibility,Sky visibility,False,0,False,0,False,False,False,False,0,P0
+env.v1_126.natural_landforms,Natural landforms,False,0,False,0,False,False,False,False,0,P0
+env.v1_127.view_distance_layers,View distance layers,False,0,False,0,False,False,False,False,0,P0
+env.v1_128.nature_vs_urban_view,Nature vs. urban view,False,0,False,0,False,False,False,False,0,P0
+env.v1_129.natural_material_proportion,Natural material proportion,False,0,False,0,False,False,False,False,0,P0
+env.v1_130.biomimetic_forms,Biomimetic forms,False,0,False,0,False,False,False,False,0,P0
+env.v1_131.natural_light_patterns,Natural light patterns,False,0,False,0,False,False,False,False,0,P0
+env.v1_132.spatial_density,Spatial density,False,0,False,0,False,False,False,False,0,P0
+env.v1_133.social_density,Social density,False,0,False,0,False,False,False,False,0,P0
+env.v1_134.perceived_crowding,Perceived crowding,False,0,False,0,False,False,False,False,0,P0
+env.v1_135.visual_privacy,Visual privacy,False,0,False,0,False,False,False,False,0,P0
+env.v1_136.acoustic_privacy,Acoustic privacy,False,0,False,0,False,False,False,False,0,P0
+env.v1_137.territorial_definition,Territorial definition,False,0,False,0,False,False,False,False,0,P0
+env.v1_138.seating_arrangement,Seating arrangement,False,0,False,0,False,False,False,False,0,P0
+env.v1_139.collaboration_space_ratio,Collaboration space ratio,False,0,False,0,False,False,False,False,0,P0
+env.v1_140.temperature_control,Temperature control,False,0,False,0,False,False,False,False,0,P0
+env.v1_141.lighting_control,Lighting control,False,0,False,0,False,False,False,False,0,P0
+env.v1_142.acoustic_control,Acoustic control,False,0,False,0,False,False,False,False,0,P0
+env.v1_143.window_operation,Window operation,False,0,False,0,False,False,False,False,0,P0
+env.v1_144.workspace_personalization,Workspace personalization,False,0,False,0,False,False,False,False,0,P0
+env.v1_145.perceived_control,Perceived control,False,0,False,0,False,False,False,False,0,P0
+env.v2a_001.color_palette_hue_saturation_lightness_harmony_beyond_cct,Color palette hue/saturation/lightness harmony (beyond CCT),False,0,False,0,False,False,False,False,0,P0
+env.v2a_002.warm_vs_cool_white_appearance_cct_and_perceived_coziness_activation_cajochen_et,"Warm vs cool white appearance (CCT) and perceived coziness/activation (Cajochen et al., 2005",False,0,False,0,False,False,False,False,0,P0
+env.v2a_003.brightness_level_at_eye_vertical_illuminance_vs_task_plane,Brightness level at eye (vertical illuminance) vs task plane,False,0,False,0,False,False,False,False,0,P0
+env.v2a_004.brightness_gradients_and_brightness_contrast_ratios,Brightness gradients and brightness contrast ratios,False,0,False,0,False,False,False,False,0,P0
+env.v2a_005.daylight_presence_sky_view_and_view_to_outside_content,"Daylight presence, sky view, and view-to-outside content",False,0,False,0,False,False,False,False,0,P0
+env.v2a_006.glare_source_count,Glare source count,False,0,False,0,False,False,False,False,0,P0
+env.v2a_007.flicker_temporal_modulation_risk_cues_led_drivers,Flicker/temporal modulation risk cues (LED drivers,False,0,False,0,False,False,False,False,0,P0
+env.v2a_008.color_rendering_saturation_rendering,Color rendering / saturation rendering,False,0,False,0,False,False,False,False,0,P0
+env.v2a_009.shadow_softness_hardness,Shadow softness/hardness,False,0,False,0,False,False,False,False,0,P0
+env.v2a_010.lighting_control_cues_dimmers_blinds_task_lights,"Lighting control cues: dimmers, blinds, task lights",False,0,False,0,False,False,False,False,0,P0
+env.v2a_011.evening_like_ambience_cues_vs_daytime_like_ambience_cues,Evening-like ambience cues vs daytime-like ambience cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_012.visual_privacy_via_lighting_backlit_silhouettes_vs_evenly_lit_faces,Visual privacy via lighting: backlit silhouettes vs evenly lit faces,False,0,False,0,False,False,False,False,0,P0
+env.v2a_013.high_contrast_spotlight_social_exposure_cues,High contrast ‘spotlight’ social exposure cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_014.presence_of_natural_light_patterns,Presence of natural light patterns,False,0,False,0,False,False,False,False,0,P0
+env.v2a_015.lighting_temperature_mismatch,Lighting ‘temperature mismatch’,False,0,False,0,False,False,False,False,0,P0
+env.v2a_067.ceiling_height_and_openness_processing_style,Ceiling height and openness (processing style,False,0,False,0,False,False,False,False,0,P0
+env.v2a_068.room_scale_cues,Room scale cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_069.enclosure_ratio_wall_to_window_balance,Enclosure ratio: wall-to-window balance,False,0,False,0,False,False,False,False,0,P0
+env.v2a_070.prospect_refuge_ability_to_see_without_being_seen,Prospect–refuge: ability to see without being seen,True,311,True,10,False,True,True,True,4,P2
+env.v2a_071.exit_visibility_and_path_to_exit_complexity,Exit visibility and path-to-exit complexity,False,0,False,0,False,False,False,False,0,P0
+env.v2a_072.blind_corners_vs_transparent_partitions,Blind corners vs transparent partitions,False,0,False,0,False,False,False,False,0,P0
+env.v2a_073.distance_to_others,Distance to others,False,0,False,0,False,False,False,False,0,P0
+env.v2a_074.wayfinding_legibility_straight_sightlines,Wayfinding legibility: straight sightlines,False,0,False,0,False,False,False,False,0,P0
+env.v2a_075.spatial_complexity_branching_corridors_vs_simple_loops,Spatial complexity: branching corridors vs simple loops,False,0,False,0,False,False,False,False,0,P0
+env.v2a_076.perceived_territoriality_defined_zones_vs_ambiguous_shared_space,Perceived territoriality: defined zones vs ambiguous shared space.,False,0,False,0,False,False,False,False,0,P0
+env.v2a_077.barrier_permeability_half_walls_vs_full_walls,Barrier permeability: half-walls vs full walls,False,0,False,0,False,False,False,False,0,P0
+env.v2a_078.visual_access_to_outdoors_nature_as_escape_affordance,Visual access to outdoors/nature as ‘escape’ affordance.,False,0,False,0,False,False,False,False,0,P0
+env.v2a_079.seating_prospect_facing_entrance_vs_back_to_entrance,Seating prospect: facing entrance vs back to entrance,False,0,False,0,False,False,False,False,0,P0
+env.v2a_080.verticality_cues,Verticality cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_081.personal_safety_affordances_lighting_in_corners,Personal safety affordances: lighting in corners,False,0,False,0,False,False,False,False,0,P0
+env.v2a_082.curvature_prevalence_vs_sharp_angles,Curvature prevalence vs sharp angles,False,0,False,0,False,False,False,False,0,P0
+env.v2a_083.symmetry_and_regularity,Symmetry and regularity,False,0,False,0,False,False,False,False,0,P0
+env.v2a_084.fractal_self_similar_edge_statistics,Fractal/self-similar edge statistics,False,0,False,0,False,False,False,False,0,P0
+env.v2a_085.clutter_disorder_object_density_occlusion_surface_coverage,"Clutter/disorder: object density, occlusion, surface coverage",False,0,False,0,False,False,False,False,0,P0
+env.v2a_086.cleanliness_maintenance_stains_damage_wear,"Cleanliness/maintenance: stains, damage, wear",False,0,False,0,False,False,False,False,0,P0
+env.v2a_087.color_diversity_and_saturation,Color diversity and saturation,False,0,False,0,False,False,False,False,0,P0
+env.v2a_088.texture_density,Texture density,False,0,False,0,False,False,False,False,0,P0
+env.v2a_089.artwork_density_and_semantic_content,Artwork density and semantic content,False,0,False,0,False,False,False,False,0,P0
+env.v2a_090.naturalness_of_materials,Naturalness of materials,False,0,False,0,False,False,False,False,0,P0
+env.v2a_091.visual_complexity_gradients,Visual complexity gradients,False,0,False,0,False,False,False,False,0,P0
+env.v2a_092.signage_density_informational_load,Signage density (informational load,False,0,False,0,False,False,False,False,0,P0
+env.v2a_093.visual_affordances_for_organization,Visual affordances for organization,False,0,False,0,False,False,False,False,0,P0
+env.v2a_094.orderliness_of_lines_alignment,Orderliness of lines: alignment,False,0,False,0,False,False,False,False,0,P0
+env.v2a_095.perceptual_mystery_cues,Perceptual ‘mystery’ cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_096.visible_vegetation_quantity_proximity_and_distribution,"Visible vegetation quantity, proximity, and distribution",False,0,False,0,False,False,False,False,0,P0
+env.v2a_097.window_view_content_greenery_sky_water_vs_built_up,"Window view content: greenery, sky, water vs built-up",False,0,False,0,False,False,False,False,0,P0
+env.v2a_098.natural_materials_wood_stone,Natural materials: wood/stone,True,406,True,8,False,True,True,True,2,P2
+env.v2a_099.blue_space,Blue-space,False,0,False,0,False,False,False,False,0,P0
+env.v2a_100.prospect_to_distant_views,Prospect to distant views,False,0,False,0,False,False,False,False,0,P0
+env.v2a_101.natural_ventilation_cues,Natural ventilation cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_102.natural_sound_sources,Natural sound sources,False,0,False,0,False,False,False,False,0,P0
+env.v2a_103.daylight_nature_coupling,Daylight + nature coupling,False,0,False,0,False,False,False,False,0,P0
+env.v2a_104.seasonal_cues,Seasonal cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_105.animal_presence_cues,Animal presence cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_106.sociopetal_seating,Sociopetal seating,False,0,False,0,False,False,False,False,0,P0
+env.v2a_107.density_crowding_proxies_chairs_per_area_people_present_queueing_lines,"Density/crowding proxies: chairs per area, people present, queueing lines",False,0,False,0,False,False,False,False,0,P0
+env.v2a_108.surveillance_cues_cameras_exposed_workstations_panoramic_visibility,"Surveillance cues: cameras, exposed workstations, panoramic visibility",False,0,False,0,False,False,False,False,0,P0
+env.v2a_109.privacy_cues_partitions_doors_curtains,"Privacy cues: partitions, doors, curtains",False,0,False,0,False,False,False,False,0,P0
+env.v2a_110.territoriality_markers_name_plates,Territoriality markers: name plates,False,0,False,0,False,False,False,False,0,P0
+env.v2a_111.norm_cues_formal_vs_informal,Norm cues: formal vs informal,False,0,False,0,False,False,False,False,0,P0
+env.v2a_112.shared_resource_competition_cues,Shared-resource competition cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_113.social_mixing_affordances,Social mixing affordances,False,0,False,0,False,False,False,False,0,P0
+env.v2a_114.conflict_overhearing_risk_cues,Conflict/overhearing risk cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_115.waiting_time_cues,Waiting-time cues,False,0,False,0,False,False,False,False,0,P0
+env.v2a_116.user_controls_visible_and_accessible_dimmers_blinds_thermostats,"User controls visible and accessible: dimmers, blinds, thermostats",False,0,False,0,False,False,False,False,0,P0
+env.v2a_117.furniture_adjustability_movable_chairs_tables,Furniture adjustability: movable chairs/tables,False,0,False,0,False,False,False,False,0,P0
+env.v2a_118.choice_richness_multiple_zones,Choice richness: multiple zones,False,0,False,0,False,False,False,False,0,P0
+env.v2a_119.personalization_affordances_pinboards,Personalization affordances: pinboards,False,0,False,0,False,False,False,False,0,P0
+env.v2a_120.policy_cues_restricting_control,Policy cues restricting control,False,0,False,0,False,False,False,False,0,P0
+env.v2a_121.control_over_privacy_doors,Control over privacy: doors,False,0,False,0,False,False,False,False,0,P0
+env.v2a_122.control_over_sound_headsets,Control over sound: headsets,False,0,False,0,False,False,False,False,0,P0
+env.v2a_123.control_over_thermal_fans,Control over thermal: fans,False,0,False,0,False,False,False,False,0,P0
+env.v2a_124.control_over_lighting_task_lamps,Control over lighting: task lamps,False,0,False,0,False,False,False,False,0,P0
+env.v2a_125.information_control_clear_wayfinding_reduces_uncertainty,Information control: clear wayfinding reduces uncertainty.,False,0,False,0,False,False,False,False,0,P0
+fluency.symmetry,Symmetry,False,0,False,0,False,False,False,False,0,P0
+isovist.area_25d,Area 25D,False,0,False,0,False,False,False,False,0,P0
+isovist.compactness_25d,Compactness 25D,False,0,False,0,False,False,False,False,0,P0
+isovist.confidence,Confidence,False,0,False,0,False,False,False,False,0,P0
+material.glass_coverage,Glass Coverage,False,0,False,0,False,False,False,False,0,P0
+material.metal_coverage,Metal Coverage,False,0,False,0,False,False,False,False,0,P0
+material.wood_coverage,Wood Coverage,False,0,False,0,False,False,False,False,0,P0
+materials.cues.brightness_mean,Brightness Mean,False,0,False,0,False,False,False,False,0,P0
+materials.cues.saturation_mean,Saturation Mean,False,0,False,0,False,False,False,False,0,P0
+materials.cues.specularity_proxy,Specularity Proxy,False,0,False,0,False,False,False,False,0,P0
+materials.cues.texture_variance,Texture Variance,False,0,False,0,False,False,False,False,0,P0
+materials.cues.value_mean,Value Mean,False,0,False,0,False,False,False,False,0,P0
+materials.substrate.plaster_gypsum,Plaster Gypsum,False,0,False,0,False,False,False,False,0,P0
+materials.substrate.stone_concrete,Stone Concrete,False,0,False,0,False,False,False,False,0,P0
+materials.substrate.tile_ceramic,Tile Ceramic,False,0,False,0,False,False,False,False,0,P0
+provenance.architect_kengo_kuma,Architect Kengo Kuma,False,0,False,0,False,False,False,False,0,P0
+provenance.architect_le_corbusier,Architect Le Corbusier,False,0,False,0,False,False,False,False,0,P0
+provenance.iconic_chair_barcelona,Iconic Chair Barcelona,False,0,False,0,False,False,False,False,0,P0
+provenance.iconic_chair_eames,Iconic Chair Eames,False,0,False,0,False,False,False,False,0,P0
+psych.coziness,Coziness,False,0,False,0,False,False,False,False,0,P0
+science.organized_complexity,Organized Complexity,False,0,False,0,False,False,False,False,0,P0
+science.organized_complexity_bin,Organized Complexity Bin,False,0,False,0,False,False,False,False,0,P0
+science.visual_richness,Visual Richness,False,0,False,0,False,False,False,False,0,P0
+science.visual_richness_bin,Visual Richness Bin,False,0,False,0,False,False,False,False,0,P0
+smell.concentration_dfa_exponent,Concentration Dfa Exponent,False,0,False,0,False,False,False,False,0,P0
+smell.intensity_rating,Intensity Rating,False,0,False,0,False,False,False,False,0,P0
+smell.pleasantness_rating,Pleasantness Rating,False,0,False,0,False,False,False,False,0,P0
+social.occupancy,Occupancy,False,0,False,0,False,False,False,False,0,P0
+social.privacy,Privacy,False,0,False,0,False,False,False,False,0,P0
+social.sociopetal,Sociopetal,False,0,False,0,False,False,False,False,0,P0
+sound.amplitude_fractal_dimension,Amplitude Fractal Dimension,False,0,False,0,False,False,False,False,0,P0
+sound.noise_color_beta,Noise Color Beta,False,0,False,0,False,False,False,False,0,P0
+sound.one_over_f_slope,One Over F Slope,False,0,False,0,False,False,False,False,0,P0
+sound.reverberation_rt60,Reverberation Rt60,False,0,False,0,False,False,False,False,0,P0
+spatial.central_openness,Central Openness,False,0,False,0,False,False,False,False,0,P0
+spatial.depth_contrast,Depth Contrast,False,0,False,0,False,False,False,False,0,P0
+spatial.depth_mean,Depth Mean,False,0,False,0,False,False,False,False,0,P0
+spatial.isovist_openness,Isovist Openness,False,0,False,0,False,False,False,False,0,P0
+spatial.refuge_quality,Refuge Quality,False,0,False,0,False,False,False,False,0,P0
+spatial.room_function.bathroom,Bathroom,False,0,False,0,False,False,False,False,0,P0
+spatial.room_function.bedroom,Bedroom,False,0,False,0,False,False,False,False,0,P0
+spatial.room_function.home_office,Home Office,False,0,False,0,False,False,False,False,0,P0
+spatial.room_function.kitchen,Kitchen,False,0,False,0,False,False,False,False,0,P0
+spatial.room_function.living_room,Living Room,False,0,False,0,False,False,False,False,0,P0
+spatial.visual_clutter,Visual Clutter,False,0,False,0,False,False,False,False,0,P0
+style.bohemian,Bohemian,False,0,False,0,False,False,False,False,0,P0
+style.farmhouse,Farmhouse,False,0,False,0,False,False,False,False,0,P0
+style.industrial,Industrial,False,0,False,0,False,False,False,False,0,P0
+style.japandi,Japandi,False,0,False,0,False,False,False,False,0,P0
+style.mid_century_modern,Mid Century Modern,False,0,False,0,False,False,False,False,0,P0
+style.minimalist,Minimalist,False,0,False,0,False,False,False,False,0,P0
+style.modern,Modern,False,0,False,0,False,False,False,False,0,P0
+style.modernity,Modernity,False,0,False,0,False,False,False,False,0,P0
+style.rustic,Rustic,False,0,False,0,False,False,False,False,0,P0
+style.scandinavian,Scandinavian,False,0,False,0,False,False,False,False,0,P0
+style.traditional,Traditional,False,0,False,0,False,False,False,False,0,P0
+tag.evidence_pointer,Evidence Pointer,False,0,False,0,False,False,False,False,0,P0
+tag.request_source,Request Source,False,0,False,0,False,False,False,False,0,P0
+texture.macro.contrast,Contrast,False,0,False,0,False,False,False,False,0,P0
+texture.macro.homogeneity,Homogeneity,False,0,False,0,False,False,False,False,0,P0
+texture.micro.contrast,Contrast,False,0,False,0,False,False,False,False,0,P0
+texture.micro.homogeneity,Homogeneity,False,0,False,0,False,False,False,False,0,P0
+touch.haptic_fractal_dimension,Haptic Fractal Dimension,False,0,False,0,False,False,False,False,0,P0
+touch.hardness_rating,Hardness Rating,False,0,False,0,False,False,False,False,0,P0
+touch.surface_roughness_spectrum_slope,Surface Roughness Spectrum Slope,False,0,False,0,False,False,False,False,0,P0
