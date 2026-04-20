@@ -8,3 +8,13 @@ _archive/
 logs/
 data/
 *.zip
+
+# Local backup clutter and one-off rescue material
+Archive 2/
+Random Files Saved/
+Dockerfile.api.bak.*
+Dockerfile.ui.bak.*
+
+# Generated local verification byproducts
+reports/snapshots/
+release_artifacts/*_sha256.txt
