@@ -2,6 +2,7 @@
 TRS Streamlit UI with Proposal Workflow
 
 Pages:
+- Public Tag Explorer: Read-only discovery surface
 - Dashboard: Overview and stats
 - Registry Browser: Browse all tags
 - Tag Inspector: View tag details
@@ -16,11 +17,12 @@ Pages:
 """
 
 import os
+from pathlib import Path
+from typing import Any
+
+import pandas as pd
 import requests
 import streamlit as st
-
-import os
-from pathlib import Path
 
 def _read_text(path: str, default: str = "unknown") -> str:
     try:
@@ -36,25 +38,44 @@ def render_version_sidebar():
     st.sidebar.markdown(f"**System:** {SYSTEM_VERSION}")
     st.sidebar.markdown(f"**Core:** {CORE_VERSION}")
 
-def _read_text(path: str, default: str = "unknown") -> str:
-    try:
-        return Path(path).read_text(encoding="utf-8").strip()
-    except Exception:
-        return default
-
-SYSTEM_VERSION = _read_text("/app/VERSION.txt")
-CORE_VERSION = os.getenv("TRS_CORE_VER", "unknown")
-
-
-import pandas as pd
-from datetime import datetime
-
 API_URL = os.getenv("TRS_API_URL", "http://localhost:8401")
 
 st.set_page_config(
     page_title="Tag Registry Service",
     page_icon="🏷️",
     layout="wide",
+)
+
+st.markdown(
+    """
+    <style>
+      .trs-intro {
+        padding: 1rem 1.2rem;
+        background: linear-gradient(135deg, #eff7f4 0%, #f7f5ef 100%);
+        border: 1px solid #d8e5df;
+        border-radius: 0.9rem;
+        margin-bottom: 1rem;
+      }
+      .trs-intro h3 {
+        margin: 0 0 0.35rem 0;
+        color: #1c3d3a;
+      }
+      .trs-badge-row {
+        margin: 0.35rem 0 0.75rem 0;
+      }
+      .trs-badge {
+        display: inline-block;
+        padding: 0.18rem 0.5rem;
+        border-radius: 999px;
+        margin: 0 0.35rem 0.35rem 0;
+        font-size: 0.78rem;
+        border: 1px solid #d6d6d6;
+        background: #f7f7f7;
+        color: #2d2010;
+      }
+    </style>
+    """,
+    unsafe_allow_html=True,
 )
 
 
@@ -100,6 +121,148 @@ def post_json(path, data):
         return None
 
 
+def load_registry_tags() -> tuple[dict[str, dict[str, Any]], dict[str, Any] | None]:
+    """Load registry and return (tags, registry)."""
+    registry = get_json("/registry")
+    if not registry:
+        return {}, None
+    tags = registry.get("tags", {})
+    if not isinstance(tags, dict):
+        st.error("Registry payload did not contain a tag dictionary.")
+        return {}, registry
+    return tags, registry
+
+
+def normalized_extractability(tag: dict[str, Any]) -> dict[str, Any]:
+    extract = tag.get("extractability", {})
+    if not isinstance(extract, dict):
+        extract = {}
+    return {
+        "from_2d": extract.get("from_2d") or "unknown",
+        "from_3d_vr": extract.get("from_3d_vr") or "unknown",
+        "monocular_3d_approx": extract.get("monocular_3d_approx") or "unknown",
+        "region_support": bool(extract.get("region_support")),
+    }
+
+
+def registry_rows(tags: dict[str, dict[str, Any]]) -> pd.DataFrame:
+    rows: list[dict[str, Any]] = []
+    for tag_id, tag in tags.items():
+        if not isinstance(tag, dict):
+            continue
+        extract = normalized_extractability(tag)
+        semantics = tag.get("semantics", {})
+        if not isinstance(semantics, dict):
+            semantics = {}
+        rows.append(
+            {
+                "tag_id": tag_id,
+                "canonical_name": tag.get("canonical_name") or tag.get("name") or tag_id,
+                "definition": semantics.get("definition_short") or tag.get("definition") or "",
+                "status": tag.get("status") or "unknown",
+                "value_type": tag.get("value_type") or "unknown",
+                "domain": tag.get("domain") or "unknown",
+                "subdomain": tag.get("subdomain") or "",
+                "from_2d": extract["from_2d"],
+                "from_3d_vr": extract["from_3d_vr"],
+                "monocular_3d_approx": extract["monocular_3d_approx"],
+                "region_support": extract["region_support"],
+                "alias_count": len(semantics.get("aliases", []) if isinstance(semantics.get("aliases"), list) else []),
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def filter_rows(df: pd.DataFrame, domain: str, status: str, evidence: str) -> pd.DataFrame:
+    filtered = df.copy()
+    if domain != "(all)":
+        filtered = filtered[filtered["domain"] == domain]
+    if status != "(all)":
+        filtered = filtered[filtered["status"] == status]
+    if evidence == "2D-ready":
+        filtered = filtered[filtered["from_2d"] == "yes"]
+    elif evidence == "3D/VR involved":
+        filtered = filtered[filtered["from_3d_vr"].isin(["yes", "partial"])]
+    elif evidence == "Monocular 3D approximation":
+        filtered = filtered[filtered["monocular_3d_approx"].isin(["yes", "partial"])]
+    elif evidence == "Regional support":
+        filtered = filtered[filtered["region_support"] == True]
+    return filtered
+
+
+def explorer_badges(tag: dict[str, Any]) -> str:
+    extract = normalized_extractability(tag)
+    badges = [
+        f"2D: {extract['from_2d']}",
+        f"3D/VR: {extract['from_3d_vr']}",
+        f"Monocular 3D: {extract['monocular_3d_approx']}",
+        "Regional" if extract["region_support"] else "Global/default",
+    ]
+    return "".join(f"<span class='trs-badge'>{label}</span>" for label in badges)
+
+
+def render_tag_detail(tag_id: str, tag: dict[str, Any]) -> None:
+    semantics = tag.get("semantics", {})
+    if not isinstance(semantics, dict):
+        semantics = {}
+
+    st.subheader(f"{tag.get('canonical_name') or tag_id}")
+    st.caption(tag_id)
+    st.markdown(f"<div class='trs-badge-row'>{explorer_badges(tag)}</div>", unsafe_allow_html=True)
+
+    col1, col2 = st.columns([1.4, 1])
+    with col1:
+        st.write(semantics.get("definition_long") or tag.get("definition") or "No definition supplied.")
+        if semantics.get("extraction_notes_2d"):
+            st.markdown("**2D extraction notes**")
+            st.write(semantics.get("extraction_notes_2d"))
+        if semantics.get("extraction_notes_3d"):
+            st.markdown("**3D / VR extraction notes**")
+            st.write(semantics.get("extraction_notes_3d"))
+    with col2:
+        st.markdown("**Tag profile**")
+        st.write(f"Status: `{tag.get('status') or 'unknown'}`")
+        st.write(f"Value type: `{tag.get('value_type') or 'unknown'}`")
+        st.write(f"Domain: `{tag.get('domain') or 'unknown'}`")
+        if tag.get("subdomain"):
+            st.write(f"Subdomain: `{tag.get('subdomain')}`")
+        if tag.get("unit"):
+            st.write(f"Unit: `{tag.get('unit')}`")
+
+    aliases = semantics.get("aliases")
+    if isinstance(aliases, list) and aliases:
+        st.markdown("**Aliases**")
+        st.write(", ".join(str(a) for a in aliases[:20]))
+
+    col3, col4 = st.columns(2)
+    with col3:
+        if semantics.get("examples_positive"):
+            st.markdown("**Positive examples**")
+            for item in semantics["examples_positive"][:6]:
+                st.write(f"- {item}")
+        if semantics.get("scope_includes"):
+            st.markdown("**Scope includes**")
+            for item in semantics["scope_includes"][:6]:
+                st.write(f"- {item}")
+    with col4:
+        if semantics.get("examples_negative"):
+            st.markdown("**Negative examples**")
+            for item in semantics["examples_negative"][:6]:
+                st.write(f"- {item}")
+        if semantics.get("scope_excludes"):
+            st.markdown("**Scope excludes**")
+            for item in semantics["scope_excludes"][:6]:
+                st.write(f"- {item}")
+
+    related_tags = semantics.get("related_tags")
+    if isinstance(related_tags, list) and related_tags:
+        st.markdown("**Related tags**")
+        st.write(", ".join(str(t) for t in related_tags[:20]))
+
+    with st.expander("Full tag JSON"):
+        st.json(tag)
+
+
 # Sidebar
 st.sidebar.title("🏷️ Tag Registry")
 
@@ -126,6 +289,7 @@ st.sidebar.divider()
 page = st.sidebar.radio(
     "Navigation",
     [
+        "🧭 Public Tag Explorer",
         "📊 Dashboard",
         "📚 Registry Browser",
         "🔍 Tag Inspector",
@@ -147,9 +311,88 @@ if page.startswith("---"):
     page = "📊 Dashboard"
 
 # ============================================================================
+# Public Tag Explorer
+# ============================================================================
+if page == "🧭 Public Tag Explorer":
+    st.title("🧭 Public Tag Explorer")
+    st.markdown(
+        """
+        <div class="trs-intro">
+          <h3>Read-only discovery surface</h3>
+          <p>
+            This view is for researchers, students, contributors, and ordinary visitors who
+            simply want to understand what a CNFA tag means, what kind of evidence it needs,
+            and how it relates to the rest of the registry. It is intentionally read-only.
+          </p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    tags, _registry = load_registry_tags()
+    if not tags:
+        st.stop()
+
+    df = registry_rows(tags)
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Tags", len(df))
+    col2.metric("Domains", df["domain"].nunique())
+    col3.metric("2D-ready", int((df["from_2d"] == "yes").sum()))
+    col4.metric("Regional", int(df["region_support"].sum()))
+
+    search_col, domain_col, status_col, evidence_col = st.columns([1.4, 1, 1, 1])
+    with search_col:
+        search_query = st.text_input("Search", placeholder="lighting, cozy, biophilic, openness...")
+    with domain_col:
+        domain = st.selectbox("Domain", ["(all)"] + sorted(d for d in df["domain"].dropna().unique() if str(d).strip()))
+    with status_col:
+        status = st.selectbox("Status", ["(all)"] + sorted(s for s in df["status"].dropna().unique() if str(s).strip()))
+    with evidence_col:
+        evidence = st.selectbox(
+            "Evidence profile",
+            ["(all)", "2D-ready", "3D/VR involved", "Monocular 3D approximation", "Regional support"],
+        )
+
+    filtered = filter_rows(df, domain, status, evidence)
+
+    score_map: dict[str, float] = {}
+    if search_query.strip():
+        params: dict[str, Any] = {"q": search_query.strip(), "limit": 100}
+        if domain != "(all)":
+            params["domain"] = domain
+        if status != "(all)":
+            params["status"] = status
+        search_results = get_json("/api/search", params=params) or {}
+        ids = [row["tag_id"] for row in search_results.get("results", []) if row["tag_id"] in set(filtered["tag_id"])]
+        score_map = {row["tag_id"]: row.get("score", 0.0) for row in search_results.get("results", [])}
+        filtered = filtered[filtered["tag_id"].isin(ids)].copy()
+        filtered["score"] = filtered["tag_id"].map(score_map).fillna(0.0)
+        filtered = filtered.sort_values(["score", "tag_id"], ascending=[False, True])
+    else:
+        filtered = filtered.sort_values(["domain", "canonical_name", "tag_id"])
+
+    st.write(f"Showing {len(filtered)} tags.")
+    preview_cols = ["tag_id", "canonical_name", "domain", "status", "value_type", "from_2d", "from_3d_vr"]
+    if "score" in filtered.columns:
+        preview_cols = ["score"] + preview_cols
+    st.dataframe(filtered[preview_cols], use_container_width=True, hide_index=True, height=280)
+
+    if filtered.empty:
+        st.info("No tags matched the current filters.")
+        st.stop()
+
+    selection_ids = filtered["tag_id"].tolist()
+    selected_id = st.selectbox(
+        "Inspect a tag",
+        selection_ids,
+        format_func=lambda tag_id: f"{tag_id} — {tags[tag_id].get('canonical_name') or tag_id}",
+    )
+    render_tag_detail(selected_id, tags[selected_id])
+
+# ============================================================================
 # Dashboard
 # ============================================================================
-if page == "📊 Dashboard":
+elif page == "📊 Dashboard":
     st.title("📊 Dashboard")
     
     col1, col2 = st.columns(2)
