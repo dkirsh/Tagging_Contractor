@@ -41,10 +41,11 @@ This file persists the project task ledger across sessions, per the root `CLAUDE
 
 | ID | Task | Added | Context |
 |----|------|-------|---------|
-| S2.* | Sprint 2: implement the 18 extractor stubs created in S1.E | 2026-04-26 | Inherited contract: distance-zone + F-formation geometry outputs |
-| S2.RT | Evaluate ranking-theoretic encoding for L46, L52, L53 | 2026-04-26 | Spohn deferral from panel disposition |
-| S2.L42b | Decide whether to split L42 into exposure / civil-inattention-support | 2026-04-26 | Goffman-Sprint-1 deferral |
-| S4.split | Decide whether to split top-level domain into `interaction_order` / `social_organization` | 2026-04-26 | Goffman deep-architectural deferral |
+| **S2.LATENT** | **Sprint 2: integrate latent variables L01–L40 into Tagging_Contractor (cognitive / affect / perception layer; V2.6 Parts I–IX). DO NOT FORGET — the registry currently covers only 18 of the 58 latents in V2.6.** | **2026-04-26** | **See `SPRINT2_PLUS_LATENT_BACKLOG_L01-L40.md` in repo root for the full self-contained brief: scope, inherited infrastructure from Sprint 1, new panel composition (Kahneman, Treisman, Gibson, Damasio, Russell, Kaplan, Ulrich, Spohn), BN identifiability concern at 63 latent nodes, estimated 15–20 working days, and the first-day actions when reactivated. Trigger: Sprint 1 (TOP-009) closes (Phases F, F.5, G complete + PR merged) AND downstream consumers begin extractor integration.** |
+| S2.* | Sprint 2 follow-on: implement the 18 extractor stubs created in S1.E | 2026-04-26 | Inherited contract: distance-zone + F-formation geometry outputs. Independent of S2.LATENT but compatible. |
+| S2.RT | Evaluate ranking-theoretic encoding for L46, L52, L53 | 2026-04-26 | Spohn deferral from Sprint 1 panel disposition |
+| S2.L42b | Decide whether to split L42 into exposure / civil-inattention-support | 2026-04-26 | Goffman Sprint-1 deferral |
+| S4.split | Decide whether to split top-level domain into `interaction_order` / `social_organization` | 2026-04-26 | Goffman deep-architectural Sprint-1 deferral |
 
 ---
 
