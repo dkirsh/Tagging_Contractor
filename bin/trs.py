@@ -89,6 +89,22 @@ COMMANDS = {
         "help": "Lint registry for style issues",
         "args": ["version"],
     },
+    # === Sprint 1 (2026-04-26) — production gate verbs ===
+    "doctor": {
+        "script": "doctor_prod.py",
+        "help": "Production gate: schema + semantics + extraction-plan checks",
+        "args": ["--prod", "--json", "--scope", "--exclude-pre-existing"],
+    },
+    "audit-semantics": {
+        "script": "audit_semantics_simple.py",
+        "help": "Audit semantic completeness for latent (or other) tags",
+        "args": ["--json", "--evidence-role"],
+    },
+    "audit-extraction-plan": {
+        "script": "audit_extraction_plan.py",
+        "help": "Audit extraction plan: Spohn 50%-overlap, method family, notes length",
+        "args": ["--json", "--evidence-role"],
+    },
 }
 
 
@@ -122,6 +138,11 @@ COMMANDS:
   Proposal Workflow:
     propose     Submit and manage tag proposals
     merge       Merge approved proposals into registry
+
+  Production Gates (Sprint 1):
+    doctor               Run schema + semantics + extraction-plan gates
+    audit-semantics      Check semantic completeness for latent tags
+    audit-extraction-plan  Check Spohn 50% overlap + extraction-plan health
 
   Administration:
     keys        Manage API keys
