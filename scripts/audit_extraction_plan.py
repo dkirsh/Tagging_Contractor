@@ -72,17 +72,29 @@ def audit(reg: dict, evidence_role_filter: str = "latent") -> dict:
     errors: list[dict] = []
     warnings: list[dict] = []
 
-    # Check 1: Spohn 50%-overlap
+    # Check 1: Spohn 50%-overlap (pairwise) + structured-factor exemption.
+    # Sprint 3 contest #1 Edit 4: exempt parent-child pairs (where one's bn.parent_tags
+    # contains the other's canonical_name, or vice versa).
     pairs_checked = 0
     pairs_violated = 0
+    pairs_exempted = 0
+    def is_parent_child(a, b, a_id, b_id):
+        a_parents = set((a.get("bn") or {}).get("parent_tags") or [])
+        b_parents = set((b.get("bn") or {}).get("parent_tags") or [])
+        a_children = set((a.get("bn") or {}).get("child_tags") or [])
+        b_children = set((b.get("bn") or {}).get("child_tags") or [])
+        return (b_id in a_parents) or (a_id in b_parents) or (b_id in a_children) or (a_id in b_children)
     for (a_id, a), (b_id, b) in combinations(target.items(), 2):
         a_up = upstream_set(a)
         b_up = upstream_set(b)
         if not a_up or not b_up:
-            continue  # cannot compute overlap if either has no upstreams
+            continue
         ov = jaccard_overlap(a_up, b_up)
         pairs_checked += 1
         if ov > OVERLAP_THRESHOLD:
+            if is_parent_child(a, b, a_id, b_id):
+                pairs_exempted += 1
+                continue  # structured-factor exemption per Sprint 3 contest #1
             pairs_violated += 1
             errors.append({
                 "rule": "spohn_50pct_overlap",
@@ -91,6 +103,41 @@ def audit(reg: dict, evidence_role_filter: str = "latent") -> dict:
                 "shared": sorted(a_up & b_up),
                 "message": f"{a_id} and {b_id} share {ov:.0%} of upstream observables (>{OVERLAP_THRESHOLD:.0%}); identifiability concern (Spohn 2012)",
             })
+
+    # Check 1b: Sprint 3 — extended Spohn rule to 3-tuples.
+    # Identify any 3-tuple of latents whose union upstream-overlap exceeds OVERLAP_THRESHOLD
+    # (i.e., the smallest of the three sets is more than 50% covered by the other two combined).
+    triples_checked = 0
+    triples_violated = 0
+    if len(target) <= 200:  # cap for tractability
+        for combo in combinations(target.items(), 3):
+            (a_id, a), (b_id, b), (c_id, c) = combo
+            a_up, b_up, c_up = upstream_set(a), upstream_set(b), upstream_set(c)
+            if not (a_up and b_up and c_up):
+                continue
+            triples_checked += 1
+            # Skip parent-child structures (any pair related)
+            if (is_parent_child(a, b, a_id, b_id) or
+                is_parent_child(b, c, b_id, c_id) or
+                is_parent_child(a, c, a_id, c_id)):
+                continue
+            sets = sorted([(a_id, a_up), (b_id, b_up), (c_id, c_up)], key=lambda x: len(x[1]))
+            smallest_id, smallest = sets[0]
+            others_union = sets[1][1] | sets[2][1]
+            if not smallest:
+                continue
+            cov = len(smallest & others_union) / len(smallest)
+            if cov > OVERLAP_THRESHOLD:
+                triples_violated += 1
+                errors.append({
+                    "rule": "spohn_3tuple_overlap",
+                    "tag_a": a_id, "tag_b": b_id, "tag_c": c_id,
+                    "smallest": smallest_id,
+                    "coverage": round(cov, 3),
+                    "message": f"3-tuple {{{a_id}, {b_id}, {c_id}}}: smallest ({smallest_id}) has "
+                               f"{cov:.0%} of its upstreams covered by the other two; "
+                               f"identifiability risk (Sprint 3 contest #3 extension of Spohn 2012)",
+                })
 
     # Check 2: method_family non-default
     for tid, t in target.items():
@@ -126,6 +173,9 @@ def audit(reg: dict, evidence_role_filter: str = "latent") -> dict:
         "tags_checked": len(target),
         "pairs_checked": pairs_checked,
         "pairs_violated": pairs_violated,
+        "pairs_exempted_parent_child": pairs_exempted,
+        "triples_checked": triples_checked,
+        "triples_violated": triples_violated,
         "error_count": len(errors),
         "warning_count": len(warnings),
         "errors": errors,

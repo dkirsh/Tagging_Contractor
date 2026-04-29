@@ -1,0 +1,443 @@
+{
+  "passed": true,
+  "evidence_role": "latent",
+  "tags_checked": 59,
+  "per_latent_summary": {
+    "passed": 59,
+    "failed": 0
+  },
+  "layer_level": {
+    "sum_log2_states": 163,
+    "required_layer_size": 652,
+    "actual_layer_size": 301,
+    "passed": false
+  },
+  "error_count": 0,
+  "warning_count": 1,
+  "errors": [],
+  "warnings": [
+    {
+      "rule": "info_bound_layer_level",
+      "latent_count": 59,
+      "sum_log2_states": 163,
+      "required_layer_size": 652,
+      "actual_layer_size": 301,
+      "message": "Layer-level: 59 latents with sum log2|states|=163; need union of compute_from >= 652, but only 301 distinct upstream observables listed. Layer is information-bounded below identifiability (Goodman & Hwang 1988). Sprint 4: add more documented upstream observables OR reduce latent state spaces."
+    }
+  ],
+  "per_latent": [
+    {
+      "tag": "cognitive.acoustic_privacy",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.arousal_potential",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.awe",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.being_away",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.care_signal",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.choice_richness",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.clutter_load",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.coherence_order",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.compatibility",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.contamination_risk",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.coziness",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.crowding_pressure",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.decision_point_load",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.escape_efficacy",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.extent",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.familiarity",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.formality",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.interruption_likelihood",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.landmark_clarity",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.legibility",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.mystery",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.novelty",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.perceived_control",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.perceived_threat",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.perceptual_fluency",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.placeness",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.playfulness",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.predictability",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.prestige_signal",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.resource_scarcity",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.restorativeness",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.rule_tightness",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.social_exposure",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.soft_fascination",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.surveillance_pressure",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.territorial_support",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.valence_potential",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.visibility_control",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.visual_comfort",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.visual_privacy",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "cognitive.welcome",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.approach_invitation",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.boundary_permeability",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 7,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.chance_encounter_potential",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 5,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.collaborative_work",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 11,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.disengagement_ease",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.dyadic_intimacy",
+      "states": 6,
+      "log2_states_ceil": 3,
+      "compute_from_size": 7,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.group_territoriality",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.hosting_script_clarity",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.interaction_diversity",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.interactional_visibility",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.large_group_assembly",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.mingling",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.peripheral_participation",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 4,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.presentation_one_to_many",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.queue_support",
+      "states": 5,
+      "log2_states_ceil": 3,
+      "compute_from_size": 7,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.shared_attention_anchor",
+      "states": 2,
+      "log2_states_ceil": 1,
+      "compute_from_size": 6,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.small_group_conversation",
+      "states": 6,
+      "log2_states_ceil": 3,
+      "compute_from_size": 7,
+      "info_bound_passed": true
+    },
+    {
+      "tag": "social.sociopetal_seating",
+      "states": 6,
+      "log2_states_ceil": 3,
+      "compute_from_size": 7,
+      "info_bound_passed": true
+    }
+  ]
+}

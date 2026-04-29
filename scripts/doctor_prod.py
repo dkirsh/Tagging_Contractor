@@ -126,7 +126,7 @@ def main() -> int:
         overall_pass = False
     print()
 
-    print("=== Stage 3/3: audit_extraction_plan.py (Spohn 50% + extraction) ===")
+    print("=== Stage 3/4: audit_extraction_plan.py (Spohn 50% + 3-tuple + extraction) ===")
     results["extraction"] = run_script("audit_extraction_plan.py",
                                        ["--evidence-role", args.scope])
     if args.exclude_pre_existing:
@@ -146,6 +146,22 @@ def main() -> int:
           f"warnings: {results['extraction'].get('warning_count', '?')}; "
           f"pre-existing: {results['extraction'].get('pre_existing_count', 0)}")
     if not results["extraction"].get("passed"):
+        overall_pass = False
+    print()
+
+    print("=== Stage 4/4: audit_identifiability.py (Goodman & Hwang info-bound) ===")
+    results["identifiability"] = run_script("audit_identifiability.py",
+                                            ["--evidence-role", args.scope])
+    if args.exclude_pre_existing:
+        # Identifiability errors apply only to active layer composition; not separable by tag-prefix
+        # since they're layer-level structural. Treat all as live.
+        pass
+    print(f"  tags_checked: {results['identifiability'].get('tags_checked', '?')}; "
+          f"per-latent failed: {results['identifiability'].get('per_latent_summary', {}).get('failed', '?')}; "
+          f"layer-level passed: {results['identifiability'].get('layer_level', {}).get('passed', '?')}; "
+          f"errors: {results['identifiability'].get('error_count', '?')}; "
+          f"warnings: {results['identifiability'].get('warning_count', '?')}")
+    if not results["identifiability"].get("passed"):
         overall_pass = False
     print()
 

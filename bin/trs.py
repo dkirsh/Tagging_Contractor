@@ -105,6 +105,11 @@ COMMANDS = {
         "help": "Audit extraction plan: Spohn 50%-overlap, method family, notes length",
         "args": ["--json", "--evidence-role"],
     },
+    "audit-identifiability": {
+        "script": "audit_identifiability.py",
+        "help": "Layer-level identifiability check (Goodman & Hwang 1988 info-bound)",
+        "args": ["--json", "--evidence-role", "--save-report"],
+    },
 }
 
 

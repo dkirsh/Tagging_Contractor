@@ -43,7 +43,7 @@
       "latent_score"
     ]
   },
-  "generated_at_utc": "2026-04-29T20:55:15.977547+00:00",
+  "generated_at_utc": "2026-04-29T21:12:09.075091+00:00",
   "id_conventions": {
     "category_prefixes": {
       "cognitive": "cog",
@@ -80,7 +80,7 @@
   ],
   "statistics": {
     "by_bn_role": {
-      "latent": 63,
+      "latent": 64,
       "stimulus_antecedent": 417
     },
     "by_category": {
@@ -93,12 +93,12 @@
       "from_2d_yes": 239
     },
     "by_status": {
-      "active": 306,
+      "active": 307,
       "existing": 144,
       "proposed_delta": 30
     },
     "region_capable": 4,
-    "total_tags": 480
+    "total_tags": 481
   },
   "tags": {
     "affect.cozy": {
@@ -8265,8 +8265,8 @@
         ]
       },
       "notes": {
-        "bn_notes": "Sprint-3 candidate for ranking-theoretic recoding (Spohn 2012, Sec.5.3) given the binary-leaning structure of awe response \u2014 see Keltner & Haidt 2003. The construct is a regime-switch: awe is engaged or not, and intermediate Likert positions (1, 2, 3) are less interpersonally stable than the endpoints. Sprint-3 should evaluate whether L36 should be migrated from ordinal Likert to a ranking-theoretic encoding alongside the Sprint 1 binary-candidate latents (L46, L52, L53). The parent set is dominated by vertical-composition observables (`geometry.ceiling_height_proxy`, `geometry.vertical_aspect_ratio`, `geometry.proportional_canon_score`) which are largely disjoint from the prestige (L32) parent set; the Spohn 50%-overlap audit should pass.",
-        "cross_cultural_variance": "high",
+        "bn_notes": "Sprint-3 candidate for ranking-theoretic recoding (Spohn 2012, Sec.5.3) given the binary-leaning structure of awe response \u2014 see Keltner & Haidt 2003. The construct is a regime-switch: awe is engaged or not, and intermediate Likert positions (1, 2, 3) are less interpersonally stable than the endpoints. Sprint-3 should evaluate whether L36 should be migrated from ordinal Likert to a ranking-theoretic encoding alongside the Sprint 1 binary-candidate latents (L46, L52, L53). The parent set is dominated by vertical-composition observables (`geometry.ceiling_height_proxy`, `geometry.vertical_aspect_ratio`, `geometry.proportional_canon_score`) which are largely disjoint from the prestige (L32) parent set; the Spohn 50%-overlap audit should pass. | Sprint 3 contest #4 disposition: cross_cultural_variance demoted from 'high' to 'medium'. Keltner & Haidt (2003) two-core-appraisal pattern (vastness + need for accommodation) replicates across cultures; Yaden et al. (2019) 23-country evidence supports universality of awe perception. Cultural variance is in *meaning* and *downstream behavior*, not the image-extractable appraisal. L25 and L40 retain 'high' (per contest #4 per-latent vote).",
+        "cross_cultural_variance": "medium",
         "extraction_notes": "Awe is the Sprint 2 cognitive-affect latent for which the panel flagged the strongest binary-leaning structure (a perceiver typically reports either an awe response or none, with intermediate gradations less stable). The Likert encoding is preserved for Sprint 2 to maintain comparability with the rest of the cognitive-affect set, but a Sprint 3 ranking-theoretic recoding should be considered (see bn_notes).",
         "interaction_mode": "unfocused",
         "l_number": "L36",
@@ -8347,7 +8347,9 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [
+          "cognitive.restorativeness"
+        ]
       },
       "canonical_name": "cognitive.being_away",
       "category": "cognitive",
@@ -8397,6 +8399,7 @@
         ]
       },
       "notes": {
+        "bn_notes": "Component of L17 (cognitive.restorativeness). Per Sprint 3 contest #1 structured-factor reorganisation; the parent-child relationship is a BN-structural commitment, not an extraction-time merger \u2014 independent extractor stubs retained.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "V2.6 Tier 1 (Image_Judgability_1to5 = 5). L18 is the *being-away* sub-component of Kaplan and Kaplan's (1989) ART, distinct from L19 (Soft Fascination) and L20 (Compatibility). L18 specifically tracks the affordance for psychological retreat from demands - through visible thresholds, separation from workspace, natural views, and the absence of demand-cueing artefacts (work tools, deadlines, screens).",
         "interaction_mode": "mixed",
@@ -8480,7 +8483,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "cognitive.care_signal",
       "category": "cognitive",
@@ -8532,7 +8548,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "Care (L33) shares some surface-quality parents with prestige (L32). The Spohn 50%-overlap audit must verify disjointness: L33's parent set is dominated by disorder cues (litter, graffiti, broken-fixture, dust) which L32 does not consume; L32's parent set is dominated by luxury-material cues which L33 does not consume.",
+        "bn_notes": "Care (L33) shares some surface-quality parents with prestige (L32). The Spohn 50%-overlap audit must verify disjointness: L33's parent set is dominated by disorder cues (litter, graffiti, broken-fixture, dust) which L32 does not consume; L32's parent set is dominated by luxury-material cues which L33 does not consume. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "The binary (latent_score) value type follows the Sprint 2 panel decision that care/maintenance is a regime-switch construct rather than a smooth ordinal. Borderline cases default to negative because the construct's downstream consumers (trust, safety, approach behaviour) penalise false positives more strongly than false negatives. Method family is `vlm` because the integration of many small disorder/order cues is what a perceiver does and what a VLM trained on indoor-scene maintenance can replicate.",
         "interaction_mode": "unfocused",
@@ -9114,7 +9130,9 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [
+          "cognitive.restorativeness"
+        ]
       },
       "canonical_name": "cognitive.compatibility",
       "category": "cognitive",
@@ -9166,6 +9184,7 @@
         ]
       },
       "notes": {
+        "bn_notes": "Component of L17 (cognitive.restorativeness). Per Sprint 3 contest #1 structured-factor reorganisation; the parent-child relationship is a BN-structural commitment, not an extraction-time merger \u2014 independent extractor stubs retained.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "V2.6 Tier 2 (Image_Judgability_1to5 = 4). L20 is the *compatibility* sub-component of Kaplan and Kaplan's (1989) ART, distinct from L17 (integrated Restorativeness), L18 (Being-Away), and L19 (Soft Fascination). L20 specifically tracks the affordance-activity fit dimension per Gibson's (1979) ecological-affordance framework: the depicted space matches the occupant's intended activity if task-relevant equipment is present, posture support is appropriate, layout supports the activity flow, and no task-obstructing features are visible. Temporal window is *sustained* because compatibility is a property of the activity-aligned-with-space relationship over the duration of the activity, not a snapshot.",
         "interaction_mode": "mixed",
@@ -9352,7 +9371,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "cognitive.contamination_risk",
       "category": "cognitive",
@@ -9405,7 +9437,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "Encoded as latent_score (binary) per panel: contamination risk is most usefully represented as a probability (0=clean, 1=contaminated) rather than a Likert because behavioural-immune responses are threshold-like (Schaller & Park, 2011) \u2014 below a critical level, contamination cues are ignored; above it, they trigger categorical avoidance.",
+        "bn_notes": "Encoded as latent_score (binary) per panel: contamination risk is most usefully represented as a probability (0=clean, 1=contaminated) rather than a Likert because behavioural-immune responses are threshold-like (Schaller & Park, 2011) \u2014 below a critical level, contamination cues are ignored; above it, they trigger categorical avoidance. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "VLM prompted with the V2.7 indicator items (\"How clean and hygienic\\u2026\", \"How much does this space trigger disgust\\u2026\", \"How willing would you be to touch common surfaces\\u2026\") returns a 0\u20131 contamination probability with confidence interval.",
         "interaction_mode": "unfocused",
@@ -10106,6 +10138,140 @@
       "version_added": "v0.2.10",
       "version_modified": "v0.2.10"
     },
+    "cognitive.extent": {
+      "aliases": [
+        "Extent",
+        "ART extent",
+        "scene world-richness",
+        "coherent richness",
+        "world-like coherence"
+      ],
+      "attribute_id": "L17b",
+      "bn": {
+        "child_tags": [],
+        "consumable": true,
+        "demand_state": "optional",
+        "evidence_role": "latent",
+        "parent_tags": [
+          "cognitive.restorativeness"
+        ]
+      },
+      "canonical_name": "cognitive.extent",
+      "category": "cognitive",
+      "change_log": [
+        {
+          "change": "Initial introduction (Sprint 3 contest #1 disposition: fourth ART component split out of L17 per Spohn structured-factor decision)",
+          "date": "2026-04-29",
+          "version": "v0.2.11"
+        }
+      ],
+      "definition": "Extent \u2014 sense that the environment is a coherent rich whole.",
+      "domain": "cognitive_affect",
+      "extractability": {
+        "confidence_available": true,
+        "configurational_measure": "none",
+        "from_2d": "no",
+        "from_3d_vr": "yes",
+        "monocular_3d_approx": "no",
+        "region_support": false,
+        "requires_floor_plan": false
+      },
+      "extraction": {
+        "compute_from": "2D + scene-level coherence + spatial graph",
+        "expected_upstream_observables": [
+          "scene.global_coherence_index",
+          "geometry.scene_graph_completeness",
+          "lighting.uniformity_index",
+          "scene.world_richness_proxy"
+        ],
+        "method_family": "vlm",
+        "primary_extractors": [],
+        "recipe_id": null
+      },
+      "literature": {
+        "key_refs": [
+          "Kaplan, R., & Kaplan, S. (1989). The experience of nature: A psychological perspective. Cambridge University Press.",
+          "Hartig, T., Korpela, K., Evans, G. W., & G\u00e4rling, T. (1997). A measure of restorative quality in environments. Scandinavian Housing and Planning Research, 14(4), 175\u2013194. https://doi.org/10.1080/02815739708730435",
+          "Korpela, K., Hartig, T., Kaiser, F. G., & Fuhrer, U. (2001). Restorative experience and self-regulation in favorite places. Environment and Behavior, 33(4), 572\u2013589."
+        ],
+        "search_terms": [
+          "ART extent",
+          "Perceived Restorativeness Scale",
+          "coherent richness",
+          "scene world coherence",
+          "Hartig PRS"
+        ],
+        "suggested_outcomes": [],
+        "suggested_tests": []
+      },
+      "notes": {
+        "bn_notes": "Component of L17 (cognitive.restorativeness) per Sprint 3 contest #1 structured-factor disposition; the fourth ART component, separate from L18 (being-away), L19 (soft fascination), L20 (compatibility).",
+        "cross_cultural_variance": "medium",
+        "extraction_notes": "Sprint 3 introduced as a new latent. Image judgability is marginal (Sprint 2 panel rule judg=3 \u2192 from_2d 'partial', but the panel deliberately set from_2d='no' here because the construct requires whole-world inference that monocular 2D consistently fails on).",
+        "interaction_mode": "mixed",
+        "l_number": "L17b",
+        "temporal_window": "sustained",
+        "valence_polarity": "positive",
+        "validation_notes": "Pending Sprint 4 panel vote"
+      },
+      "owner": "claude-cowork-sprint3",
+      "semantics": {
+        "aliases": [
+          "Extent",
+          "ART extent",
+          "scene world-richness",
+          "coherent richness",
+          "world-like coherence"
+        ],
+        "definition_long": "Extent is the fourth Attention Restoration Theory (ART) component (Kaplan & Kaplan, 1989, pp. 184\u2013187): the sense that the environment is rich and coherent enough to engage attention as a whole world rather than as a collection of disjointed elements. A small garden can have extent if it is internally coherent and inviting of mental exploration; a vast but disorganised parking lot lacks extent. Sprint 3 added this latent as a separate construct rather than absorbing it into restorativeness, per the contest #1 disposition (Spohn structured-factor decision, 2-1 over Russell's full split). See Hartig, Korpela, Evans, & G\u00e4rling (1997) for the validated PRS measurement of extent and Korpela, Hartig, Kaiser, & Fuhrer (2001) on extent's discriminant validity from coherence.",
+        "definition_short": "Extent \u2014 the sense that the environment is a coherent rich whole.",
+        "examples_negative": [
+          "A blank corridor that suggests no further world.",
+          "A cluttered storage room whose contents do not form a coherent set.",
+          "A parking lot whose vastness lacks internal organisation.",
+          "A room composed of mismatched furniture suggesting no shared purpose."
+        ],
+        "examples_positive": [
+          "A small Japanese garden whose paths invite continued mental exploration.",
+          "A reading room with bookshelves that suggest a coherent intellectual world.",
+          "A coastline view whose features suggest a continuous landscape system.",
+          "A curated museum gallery whose objects relate as parts of a larger story.",
+          "A craftsman's workshop whose tools form a coherent practice ecology.",
+          "A wooded trail whose turns promise more of a coherent forest beyond view."
+        ],
+        "extraction_notes_2d": "Image-only extraction is degraded for extent because the construct requires judging whether the visible scene implies a coherent further world. Use a VLM prompted with the Hartig PRS-extent items (e.g., 'There is much to explore and discover here'); supplement with a scene-graph completeness score from upstream observables scene.global_coherence_index and geometry.scene_graph_completeness. Field-of-view matters: \u2265 90\u00b0 horizontal improves judgability noticeably.",
+        "extraction_notes_3d": "VR rendering improves extent judgement substantially because the user can look around and infer the wider world. Pair the VLM prompt with a VR-trial where the user rates extent after a 30-second free-look exploration. The comparison metric is intra-rater consistency between 2D and VR judgement.",
+        "factor_associations": [
+          "ART"
+        ],
+        "inverse_of": null,
+        "related_tags": [
+          "cognitive.restorativeness",
+          "cognitive.soft_fascination",
+          "cognitive.coherence_order"
+        ],
+        "scope_excludes": [
+          "Soft fascination (L19) \u2014 the *capture* of attention, distinct from the *world* the attention enters.",
+          "Coherence/Order (L21) \u2014 local visual organisation, not the world-extent judgement.",
+          "Compatibility (L20) \u2014 fit between user goals and environment, not the world's intrinsic richness."
+        ],
+        "scope_includes": [
+          "Whole-scene mental-world coherence judgements.",
+          "Sense of an interpretable environment beyond what is currently visible.",
+          "Coherent extension of the present view into an implied larger setting."
+        ]
+      },
+      "status": "active",
+      "subdomain": "restoration",
+      "unit": "likert_0_4",
+      "value_range": [
+        0,
+        4
+      ],
+      "value_type": "ordinal",
+      "version_added": "v0.2.11",
+      "version_modified": "v0.2.11"
+    },
     "cognitive.familiarity": {
       "aliases": [
         "prototypicality",
@@ -10121,7 +10287,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "cognitive.familiarity",
       "category": "cognitive",
@@ -10171,7 +10350,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "L37 and L38 are explicit duals (`inverse_of: cognitive.novelty`). Per the special-case rule, the two parent sets are kept nearly disjoint: L37 emphasises corpus-*similarity* proxies \u2014 `style.consistency_score`, `objects.common_fixture_presence`, `style.corpus_similarity_score`, `layout.canonical_schema_match` \u2014 none of which appear in L38's parent set. L38's parent set instead emphasises corpus-*distance* proxies (unusual fixture-class presence, novel material combinations, layout-graph distance from category centroid). This architecture honours Spohn's 50%-overlap rule for explicitly dual constructs and ensures that the BN can represent the inverse relation cleanly.",
+        "bn_notes": "L37 and L38 are explicit duals (`inverse_of: cognitive.novelty`). Per the special-case rule, the two parent sets are kept nearly disjoint: L37 emphasises corpus-*similarity* proxies \u2014 `style.consistency_score`, `objects.common_fixture_presence`, `style.corpus_similarity_score`, `layout.canonical_schema_match` \u2014 none of which appear in L38's parent set. L38's parent set instead emphasises corpus-*distance* proxies (unusual fixture-class presence, novel material combinations, layout-graph distance from category centroid). This architecture honours Spohn's 50%-overlap rule for explicitly dual constructs and ensures that the BN can represent the inverse relation cleanly. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "The binary (latent_score) value type follows the panel decision that prototypicality is more stable across perceivers as a binary judgement than as a fine-grained gradient. The familiarity-novelty pair (L37/L38) is structured per the special-case rule with disjoint parent sets \u2014 L37 emphasises corpus-similarity proxies (style consistency, common-fixture presence, layout schema match); L38 emphasises corpus-distance proxies. This structuring honours the Spohn 50%-overlap rule for explicitly dual constructs.",
         "interaction_mode": "unfocused",
@@ -11716,7 +11895,15 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "posterior_distribution": {
+          "form": "continuous",
+          "rationale": "Sprint 3 contest #2 hybrid disposition: ordinal Likert capture from raters, but the BN's posterior over this node is computed as a continuous distribution. Engine assumes Beta-distributed posterior with conjugate updates from Likert observations.",
+          "support": [
+            0.0,
+            1.0
+          ]
+        }
       },
       "canonical_name": "cognitive.predictability",
       "category": "cognitive",
@@ -11769,7 +11956,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "Sprint-3 candidate continuous re-encoding (Kahneman panel disagreement): Kahneman argued that predictability is more naturally encoded as a continuous prior-on-temporal-stability rather than a Likert; the panel deferred this to Sprint 3. The current ordinal Likert encoding may need to be replaced with a continuous probability or expected-variance measure pending that re-vote. Image_Judgability_1to5 = 3 because predictability is fundamentally a temporal construct that single images can only weakly indicate (via consistency / regularity cues that imply stable maintenance regimes).",
+        "bn_notes": "Sprint-3 candidate continuous re-encoding (Kahneman panel disagreement): Kahneman argued that predictability is more naturally encoded as a continuous prior-on-temporal-stability rather than a Likert; the panel deferred this to Sprint 3. The current ordinal Likert encoding may need to be replaced with a continuous probability or expected-variance measure pending that re-vote. Image_Judgability_1to5 = 3 because predictability is fundamentally a temporal construct that single images can only weakly indicate (via consistency / regularity cues that imply stable maintenance regimes). | Sprint 3 contest #2 disposition: kept value_type=ordinal for rater capture; added bn.posterior_distribution {form: continuous, support: [0.0, 1.0]}. Kahneman position partially adopted via the hybrid encoding.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "Composite extractor combines layout-regularity and lighting-uniformity cues with a VLM scoring the V2.7 generic rating items. Note the temporal_window is `longitudinal` because predictability properly requires time-series evidence; single-image extraction is a proxy only.",
         "interaction_mode": "mixed",
@@ -12218,11 +12405,17 @@
       ],
       "attribute_id": "L17",
       "bn": {
-        "child_tags": [],
+        "child_tags": [
+          "cognitive.being_away",
+          "cognitive.soft_fascination",
+          "cognitive.compatibility",
+          "cognitive.extent"
+        ],
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "role": "structured_factor_parent"
       },
       "canonical_name": "cognitive.restorativeness",
       "category": "cognitive",
@@ -12273,7 +12466,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "**Sprint-3 candidate factor-structure decomposition**: the panel disposition flagged a Kaplan-vs-Russell disagreement on whether L17 should be retained as an integrated factor (Kaplan's preference, consistent with the Hartig et al. 1997 PRS scoring tradition) or decomposed into the four sub-factors (Russell's preference, which would replace L17 with a vector of four sub-scores L18/L19/(coherence)/L20). This is logged as a Sprint-3 construct-contest item; the current Sprint-2 implementation retains L17 as integrated *and* L18/L19/L20 as separate sub-factors, accepting some redundancy until the Sprint-3 vote. The fourth ART component, *coherence*, is currently absorbed into L17 and not a separate latent; if Russell's decomposition wins the vote, an L17a coherence latent will be cut in v0.2.11.",
+        "bn_notes": "**Sprint-3 candidate factor-structure decomposition**: the panel disposition flagged a Kaplan-vs-Russell disagreement on whether L17 should be retained as an integrated factor (Kaplan's preference, consistent with the Hartig et al. 1997 PRS scoring tradition) or decomposed into the four sub-factors (Russell's preference, which would replace L17 with a vector of four sub-scores L18/L19/(coherence)/L20). This is logged as a Sprint-3 construct-contest item; the current Sprint-2 implementation retains L17 as integrated *and* L18/L19/L20 as separate sub-factors, accepting some redundancy until the Sprint-3 vote. The fourth ART component, *coherence*, is currently absorbed into L17 and not a separate latent; if Russell's decomposition wins the vote, an L17a coherence latent will be cut in v0.2.11. | Structured-factor parent over L18 (being-away), L19 (soft fascination), L20 (compatibility), and L17_extent (cognitive.extent). Reorganisation ratified in Sprint 3 contest #1 disposition (2026-04-29); Russell dissent preserved \u2014 see docs/sprint3_contest1_L17_resolution.md \u00a75.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "V2.6 Tier 1 (Image_Judgability_1to5 = 5). L17 is the integrated outcome of the four ART components L17/L18/L19/L20; per the Kaplan & Kaplan (1989) framework, restorativeness emerges from the joint affordance of being-away, fascination, coherence, and compatibility. The L17 extractor emphasises *whole-scene* cues that integrate over the four components (greenery presence, daylight, openness, calm visual field) and is intentionally upstream-distinct from L19 (Soft Fascination) which emphasises *attentional capture* cues - this enforces the panel-mandated <50% upstream overlap (Spohn audit).",
         "interaction_mode": "mixed",
@@ -12627,7 +12820,9 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [
+          "cognitive.restorativeness"
+        ]
       },
       "canonical_name": "cognitive.soft_fascination",
       "category": "cognitive",
@@ -12679,7 +12874,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "Per the panel-mandated Spohn 50%-overlap audit, L19's parent-tag set is intentionally distinct from L17's: L19 emphasises *attentional-capture* cues (water-feature presence, gentle motion, fractal-pattern strength, natural-pattern density) while L17 emphasises *whole-scene* cues (greenery presence, daylight, openness, calm visual field). The two latents are within-cluster siblings under the restoration subdomain but their upstream observable sets share less than 50% overlap, satisfying Spohn's <50% rule for distinguishability. This is the core BN-design content for L19.",
+        "bn_notes": "Per the panel-mandated Spohn 50%-overlap audit, L19's parent-tag set is intentionally distinct from L17's: L19 emphasises *attentional-capture* cues (water-feature presence, gentle motion, fractal-pattern strength, natural-pattern density) while L17 emphasises *whole-scene* cues (greenery presence, daylight, openness, calm visual field). The two latents are within-cluster siblings under the restoration subdomain but their upstream observable sets share less than 50% overlap, satisfying Spohn's <50% rule for distinguishability. This is the core BN-design content for L19. | Component of L17 (cognitive.restorativeness). Per Sprint 3 contest #1 structured-factor reorganisation; the parent-child relationship is a BN-structural commitment, not an extraction-time merger \u2014 independent extractor stubs retained.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "V2.6 Tier 2 (Image_Judgability_1to5 = 4). L19 is the *soft fascination* sub-component of ART per Kaplan and Kaplan (1989), distinct from L17 (integrated Restorativeness) and from siblings L18 (Being-Away) and L20 (Compatibility). The Berman, Jonides, and Kaplan (2008) empirical literature on nature-based attention restoration provides the operational ground for the construct: fractal-pattern density, gentle motion (water, leaves), and natural complexity at sub-attention-demanding levels are the canonical cues. Temporal window is *sustained* because soft fascination is constitutively a sustained involuntary-attention process, not a snapshot stimulus.",
         "interaction_mode": "mixed",
@@ -13566,7 +13761,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "cognitive.welcome",
       "category": "cognitive",
@@ -13618,7 +13826,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "Welcome's parent set is dominated by signage-tone, accessibility, and barrier observables that are largely disjoint from the prestige and care parent sets, so the Spohn 50%-overlap audit should pass without restructuring.",
+        "bn_notes": "Welcome's parent set is dominated by signage-tone, accessibility, and barrier observables that are largely disjoint from the prestige and care parent sets, so the Spohn 50%-overlap audit should pass without restructuring. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "high",
         "extraction_notes": "The binary (latent_score) value type follows the panel decision that welcome is read as 'for me / not for me'. Cross-cultural calibration is essential because welcome cues are culturally-coded (Hall on proxemics; Goffman on greeting rituals).",
         "interaction_mode": "unfocused",
@@ -49052,7 +49260,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "social.hosting_script_clarity",
       "category": "derived",
@@ -49104,7 +49325,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "Sprint-2 candidate for ranking-theoretic recoding (Spohn, 2012, \u00a75.3) \u2014 current binary CPT representation is a placeholder. The latent's epistemic content is naturally binary (the service script is readable or it is not), and a ranking function over (clear, unclear, undefined) better expresses the asymmetric belief revision that occurs when a visitor encounters a deliberately desk-less service encounter: the *absence* of the canonical sign-vehicle should not collapse the posterior to \"unclear\" but should instead trigger a higher-order check on cultural-frame priors. Sprint 2 should evaluate replacing the binary CPT with a rank-based encoding once the BN integration sprint begins; until then, the binary CPT is the lowest-overhead placeholder consistent with the registry schema.",
+        "bn_notes": "Sprint-2 candidate for ranking-theoretic recoding (Spohn, 2012, \u00a75.3) \u2014 current binary CPT representation is a placeholder. The latent's epistemic content is naturally binary (the service script is readable or it is not), and a ranking function over (clear, unclear, undefined) better expresses the asymmetric belief revision that occurs when a visitor encounters a deliberately desk-less service encounter: the *absence* of the canonical sign-vehicle should not collapse the posterior to \"unclear\" but should instead trigger a higher-order check on cultural-frame priors. Sprint 2 should evaluate replacing the binary CPT with a rank-based encoding once the BN integration sprint begins; until then, the binary CPT is the lowest-overhead placeholder consistent with the registry schema. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "No V2.6 Tier override. V2.6 Tier 1 is preserved because the V2.6 indicator items are visible-from-photograph cues, and the panel disposition does not contest L46's tier (only L41 was demoted). The binary `value_type` is panel-mandated under disposition \u00a73(x); see `bn_notes` for the Sprint-2 ranking-theoretic flag. The VLM-based `method_family` reflects the panel finding (field map \u00a76) that no clean geometric primitive captures service-script clarity. Cross-cultural variance is medium rather than high because desk-presence is more invariant than proxemics, but the prompt template must include non-Western desk-less exemplars to avoid Western calibration bias.",
         "interaction_mode": "focused",
@@ -49989,7 +50210,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "social.presentation_one_to_many",
       "category": "derived",
@@ -50045,7 +50279,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "L52 is one of three binary-candidate latents (with L46 and L53) for which the panel's Spohn voice flagged a Sprint-2 ranking-theoretic recoding recommendation. The binary `latent_score` value type is the right Sprint-1 commitment because (i) the configuration is genuinely categorical at first approximation \u2014 a room either commits to a one-to-many platform format or it does not \u2014 and (ii) the registry currently supports only probabilistic CPTs, and forcing a 5-state ordinal CPT for a near-binary construct would inflate the parameter count without explanatory gain. However, Spohn (2012, \u00a75.3) argues that constructs of this binary \"regime-switch\" character are more naturally encoded as ranking functions over disbelief levels, which support default reasoning and graceful degradation under partial evidence. Sprint 2's BN-integration phase should evaluate whether L52 (and L46, L53) should be migrated from binary `latent_score` to a ranking-theoretic encoding once the registry schema admits ranking-function value types. Until then, the binary value type is honoured but should be regarded as provisional. The Spohn 50%-overlap rule applies to `bn.parent_tags`: L52's parent set is dominated by `affordance.*` and `furniture.*` observables specific to presentation geometry, with `lighting.focal_gradient_index` providing an additional disjoint signal. The most likely overlap conflict in audit will be with L53 (audience attentional focus), which will share the `furniture.chair_orientation_field` parent. The pair is intentionally distinguished by L52's reliance on front-region affordance markers (podium, screen, lectern) versus L53's reliance on audience-side gaze and posture observables. If audit shows >50% overlap, the resolution is to remove `furniture.chair_orientation_field` from L53's parent set and let L53 depend on a more specific gaze-direction observable (e.g., `pose.head_yaw_field`) instead.",
+        "bn_notes": "L52 is one of three binary-candidate latents (with L46 and L53) for which the panel's Spohn voice flagged a Sprint-2 ranking-theoretic recoding recommendation. The binary `latent_score` value type is the right Sprint-1 commitment because (i) the configuration is genuinely categorical at first approximation \u2014 a room either commits to a one-to-many platform format or it does not \u2014 and (ii) the registry currently supports only probabilistic CPTs, and forcing a 5-state ordinal CPT for a near-binary construct would inflate the parameter count without explanatory gain. However, Spohn (2012, \u00a75.3) argues that constructs of this binary \"regime-switch\" character are more naturally encoded as ranking functions over disbelief levels, which support default reasoning and graceful degradation under partial evidence. Sprint 2's BN-integration phase should evaluate whether L52 (and L46, L53) should be migrated from binary `latent_score` to a ranking-theoretic encoding once the registry schema admits ranking-function value types. Until then, the binary value type is honoured but should be regarded as provisional. The Spohn 50%-overlap rule applies to `bn.parent_tags`: L52's parent set is dominated by `affordance.*` and `furniture.*` observables specific to presentation geometry, with `lighting.focal_gradient_index` providing an additional disjoint signal. The most likely overlap conflict in audit will be with L53 (audience attentional focus), which will share the `furniture.chair_orientation_field` parent. The pair is intentionally distinguished by L52's reliance on front-region affordance markers (podium, screen, lectern) versus L53's reliance on audience-side gaze and posture observables. If audit shows >50% overlap, the resolution is to remove `furniture.chair_orientation_field` from L53's parent set and let L53 depend on a more specific gaze-direction observable (e.g., `pose.head_yaw_field`) instead. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "No V2.6 Tier override applied. V2.6 Tier 1 is preserved: the construct is genuinely image-extractable because the front-region markers (podium, screen, board, lectern) and audience-axis convergence are visible in a single still image without requiring floor-plan augmentation or whole-system configurational measures. The construct is binary at first approximation and is encoded as `latent_score` (binary) per the panel disposition (\u00a73 (x)). Sprint-2 ranking-theoretic recoding is flagged in `bn_notes`.",
         "interaction_mode": "focused",
@@ -50374,7 +50608,20 @@
         "consumable": true,
         "demand_state": "optional",
         "evidence_role": "latent",
-        "parent_tags": []
+        "parent_tags": [],
+        "ranking_function": {
+          "fallback_value_type": "latent_score",
+          "form": "two_state",
+          "kappa_default": {
+            "0": 0,
+            "1": 0
+          },
+          "note": "Two-state ranking function \u03ba: {0,1} \u2192 \u2115 where \u03ba(\u00acstate) records disbelief in the alternative state. Initialized to (0, 0) \u2014 Sprint 4 will populate from estimated CPTs.",
+          "states": [
+            0,
+            1
+          ]
+        }
       },
       "canonical_name": "social.shared_attention_anchor",
       "category": "derived",
@@ -50430,7 +50677,7 @@
         ]
       },
       "notes": {
-        "bn_notes": "L53 is one of three binary-candidate latents (with L46 and L52) for which the panel's Spohn voice flagged a Sprint-2 ranking-theoretic recoding recommendation. The binary `latent_score` value type is the right Sprint-1 commitment because (i) the construct is genuinely categorical at first approximation \u2014 the room either commits to a triadic anchor or it does not \u2014 and (ii) the registry currently supports only probabilistic CPTs, and forcing a 5-state ordinal CPT for a near-binary construct would inflate the parameter count without explanatory gain. Spohn (2012, sec.5.3) argues that constructs of this binary 'regime-switch' character are more naturally encoded as ranking functions over disbelief levels, which support default reasoning and graceful degradation under partial evidence. In particular, L53's triadic-structure requirement makes it well-suited to a ranking-theoretic encoding because the construct admits a principled default \u2014 *no anchor* is the default disbelief-rank-0 case, and *anchor present* requires positive evidence on both poles of the triad. Sprint 2's BN-integration phase should evaluate whether L53 (and L46, L52) should be migrated from binary `latent_score` to a ranking-theoretic encoding once the registry schema admits ranking-function value types. Until then, the binary value type is honoured but should be regarded as provisional. The Spohn 50%-overlap rule applies to `bn.parent_tags`. L53's parent set is dominated by `affordance.focal_object_*` observables (the object pole of the triad) and by orientation-related observables (the participant pole). The most likely overlap conflict in audit is with L52 (one-to-many presentation), which shares the orientation-related observables `furniture.chair_orientation_field` and `furniture.seating_row_axis`. The pair is intentionally distinguished by L53's reliance on `affordance.focal_object_*` (a generic salient feature, not necessarily a presentation marker) versus L52's reliance on `affordance.podium_present` / `affordance.screen_or_board_present` / `affordance.lectern_present` (presentation-specific markers). To stay under the 50% overlap bound, L53's parent set is specified to use `geometry.anchor_to_seating_axis_angle` and `pose.head_yaw_field` (gaze observables) rather than the generic `furniture.chair_orientation_field` parent that L52 uses, even though the underlying upstream signal is related. Phase D `audit-extraction-plan` will verify the disjointness of these parent sets; if the 50%-overlap test fails, the resolution is to further decompose `geometry.anchor_to_seating_axis_angle` into anchor-direction-specific observables that L52 does not consume. A second potential overlap is with the F-formation cluster (L48 / L49), which shares orientation observables. The disambiguating parent is `affordance.focal_object_present`: F-formations specify the o-space's geometric arrangement without requiring a materially-marked anchor within it, while L53 requires both. Audit should treat the F-formation cluster's lack of an `affordance.focal_object_*` parent as the structural distinguisher.",
+        "bn_notes": "L53 is one of three binary-candidate latents (with L46 and L52) for which the panel's Spohn voice flagged a Sprint-2 ranking-theoretic recoding recommendation. The binary `latent_score` value type is the right Sprint-1 commitment because (i) the construct is genuinely categorical at first approximation \u2014 the room either commits to a triadic anchor or it does not \u2014 and (ii) the registry currently supports only probabilistic CPTs, and forcing a 5-state ordinal CPT for a near-binary construct would inflate the parameter count without explanatory gain. Spohn (2012, sec.5.3) argues that constructs of this binary 'regime-switch' character are more naturally encoded as ranking functions over disbelief levels, which support default reasoning and graceful degradation under partial evidence. In particular, L53's triadic-structure requirement makes it well-suited to a ranking-theoretic encoding because the construct admits a principled default \u2014 *no anchor* is the default disbelief-rank-0 case, and *anchor present* requires positive evidence on both poles of the triad. Sprint 2's BN-integration phase should evaluate whether L53 (and L46, L52) should be migrated from binary `latent_score` to a ranking-theoretic encoding once the registry schema admits ranking-function value types. Until then, the binary value type is honoured but should be regarded as provisional. The Spohn 50%-overlap rule applies to `bn.parent_tags`. L53's parent set is dominated by `affordance.focal_object_*` observables (the object pole of the triad) and by orientation-related observables (the participant pole). The most likely overlap conflict in audit is with L52 (one-to-many presentation), which shares the orientation-related observables `furniture.chair_orientation_field` and `furniture.seating_row_axis`. The pair is intentionally distinguished by L53's reliance on `affordance.focal_object_*` (a generic salient feature, not necessarily a presentation marker) versus L52's reliance on `affordance.podium_present` / `affordance.screen_or_board_present` / `affordance.lectern_present` (presentation-specific markers). To stay under the 50% overlap bound, L53's parent set is specified to use `geometry.anchor_to_seating_axis_angle` and `pose.head_yaw_field` (gaze observables) rather than the generic `furniture.chair_orientation_field` parent that L52 uses, even though the underlying upstream signal is related. Phase D `audit-extraction-plan` will verify the disjointness of these parent sets; if the 50%-overlap test fails, the resolution is to further decompose `geometry.anchor_to_seating_axis_angle` into anchor-direction-specific observables that L52 does not consume. A second potential overlap is with the F-formation cluster (L48 / L49), which shares orientation observables. The disambiguating parent is `affordance.focal_object_present`: F-formations specify the o-space's geometric arrangement without requiring a materially-marked anchor within it, while L53 requires both. Audit should treat the F-formation cluster's lack of an `affordance.focal_object_*` parent as the structural distinguisher. | Sprint 3 ranking-theoretic flag: this latent is a binary candidate for ranking-function encoding (Spohn, 2012, \u00a75.3). The downstream BN engine may consult bn.ranking_function as an alternative to the binary CPT. Fallback: Likert encoding via the existing latent_score value_type.",
         "cross_cultural_variance": "medium",
         "extraction_notes": "No V2.6 Tier override applied. V2.6 Tier 1 is preserved: the construct is genuinely image-extractable because both poles of the triad \u2014 the focal anchor and the seating-orientation convergence \u2014 are visible in a single still image without floor-plan augmentation or whole-system configurational measures. The construct is binary at first approximation and is encoded as `latent_score` (binary) per the panel disposition (sec.3 (x)). Sprint-2 ranking-theoretic recoding is flagged in `bn_notes`. The panel-mandated triadic-structure exclusion (Kendon's argument that V2.6's 'dominant focal object/wall' cue identifies a *candidate* anchor but not the triadic structure that joint attention requires) is operationalised in the extractor via the orientation-convergence criterion (>= 60% of seating yaw vectors within +/-35 degrees of the anchor-direction vector). This is the most consequential extraction decision for L53: it commits the registry to coding *anchor-without-orientation* configurations (a striking wall in a lobby whose seating ignores it) as L53-negative even though the V2.6 cue language treats them as positive instances.",
         "interaction_mode": "focused",
