@@ -2,7 +2,36 @@
 
 *Filed: 2026-04-26 by Claude (Cowork session) on behalf of David Kirsh*
 *Carrying topic: TOP-009 (Sprint 1, social-interaction latents L41–L58, completed Phases A–E on `track1/latents/L41-L58-claude-sprint1`)*
-*Status: **DEFERRED — must not be forgotten**. Pending kickoff after Sprint 1 closes.*
+
+## Status: COMPLETE (Sprint 2 shipped 2026-04-29)
+
+Sprint 2 ran on `track1/latents/L01-L40-claude-sprint2`. All 40 cognitive/affect/perception latents (L01–L40) have been added to the registry. The latent layer now contains **63 nodes** (5 legacy + 18 social + 40 cognitive), achieving 100% V2.6/V2.7 latent-layer coverage.
+
+**Outcome summary**:
+
+- 40 entries added to `core/trs-core/v0.2.8/registry/registry_v0.2.8.json` with full semantic contracts. Registry: **480 tags total** (442 → 480; +38 net after 2 pre-existing canonical-name overwrites).
+- Source: V2.7 `Environment_Cognition_Taxonomy_Hierarchical_V2.7_ActivityAffordances_RoomMarkers` workbook; rows extracted with rich Indicator-Items metadata (5 indicators per latent on average) citing validated psychometric instruments (Spielberger STAI, Russell PAD, Kaplan & Kaplan ART, etc.).
+- Architectural panel disposition committed at `docs/sprint2_panel_disposition_2026-04-28.md`. Panel: Kaplan & Kaplan, Russell, Kahneman, Ulrich, Spohn. Two new schema fields adopted: `notes.temporal_window` and `notes.valence_polarity`.
+- Domain `cognitive_affect`; ten subdomains (safety_threat, control_autonomy, privacy_attention, crowding_density, restoration, aesthetic_affect, cognitive_load, wayfinding, social_signal, familiarity_novelty).
+- Three binary `latent_score` candidates (L33 Care signal, L34 Welcome, L37 Familiarity); 36 ordinal Likert; 1 configurational with `requires_floor_plan: true` (L29 Legibility).
+- Spohn 50%-overlap rule: **zero violations across 63 latents and 1953 pairs** — the panel's identifiability concern is empirically resolved.
+- **`tc doctor --prod --exclude-pre-existing` passes all three gates**: schema/invariant validation, semantics completeness, extraction-plan / Spohn audit.
+- 40 extractor stubs added at `tagging_pipeline/extractors/latents/detect_L01.py` … `detect_L40.py`; dispatch table in `__init__.py` covers all 58 (L01–L58); every stub importable and raises `NotImplementedError` mentioning Sprint 3.
+- Four student-facing contests preserved for Sprint 3 deliberation (see panel disposition §5): Kaplan-vs-Russell L17 factor decomposition; Kahneman L08 continuous re-encoding; Spohn layer-level identifiability; cross-cultural variance assignment for L25/L36/L40.
+
+**Sprint 3 successor backlog** (deferred):
+
+- Implement the 40 extractor stubs (Spring 2026 cohort task).
+- Layer-level identifiability check (Goodman 1974 latent class identifiability formalism) per Spohn deferral.
+- Resolve the four Sprint-2 panel contests via formal vote.
+- Continuous-CPT re-encoding for L08 Predictability.
+- Ranking-theoretic recoding for the four binary candidates (L33, L34, L37, plus Sprint 1's L46/L52/L53).
+
+---
+
+## Original backlog brief (preserved for traceability)
+
+*Status when filed: **DEFERRED — must not be forgotten**. Pending kickoff after Sprint 1 closes.*
 
 ---
 
