@@ -107,8 +107,10 @@ COMMANDS = {
     },
     "audit-identifiability": {
         "script": "audit_identifiability.py",
-        "help": "Layer-level identifiability check (Goodman & Hwang 1988 info-bound)",
-        "args": ["--json", "--evidence-role", "--save-report"],
+        "help": "Identifiability check (Goodman & Hwang 1988 info-bound; "
+                "--jacobian for Sprint-4 Goodman 1974 Jacobian rank)",
+        "args": ["--json", "--evidence-role", "--save-report",
+                 "--jacobian", "--max-pairs"],
     },
 }
 

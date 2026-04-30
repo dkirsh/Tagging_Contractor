@@ -1,0 +1,3613 @@
+{
+  "method": "Goodman (1974) Jacobian rank identifiability",
+  "engine": "numpy/scipy",
+  "perturbation": 0.001,
+  "rank_tolerance": 1e-06,
+  "latents_considered": 59,
+  "pairs_checked": 200,
+  "pairs_deficient": 0,
+  "max_pairs": 200,
+  "pair_results": [
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.arousal_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.awe"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.being_away"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.care_signal"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.choice_richness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.clutter_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.coherence_order"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.compatibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.contamination_risk"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.coziness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.crowding_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.decision_point_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.escape_efficacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.extent"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.familiarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.formality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.interruption_likelihood"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.landmark_clarity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.legibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.mystery"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.novelty"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.perceived_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.perceived_threat"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.perceptual_fluency"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.placeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.playfulness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.predictability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.prestige_signal"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.resource_scarcity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.restorativeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.rule_tightness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.social_exposure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.soft_fascination"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.surveillance_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.territorial_support"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.valence_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.visibility_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.visual_comfort"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.visual_privacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "cognitive.welcome"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.approach_invitation"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.boundary_permeability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.chance_encounter_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.collaborative_work"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.disengagement_ease"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.dyadic_intimacy"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.group_territoriality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.hosting_script_clarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.interaction_diversity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.interactional_visibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.large_group_assembly"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.mingling"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.peripheral_participation"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.presentation_one_to_many"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.queue_support"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.shared_attention_anchor"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.small_group_conversation"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.acoustic_privacy",
+        "social.sociopetal_seating"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.awe"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.being_away"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.care_signal"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.choice_richness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.clutter_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.coherence_order"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.compatibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.contamination_risk"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.coziness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.crowding_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.decision_point_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.escape_efficacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.extent"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.familiarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.formality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.interruption_likelihood"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.landmark_clarity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.legibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.mystery"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.novelty"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.perceived_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.perceived_threat"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.perceptual_fluency"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.placeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.playfulness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.predictability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.prestige_signal"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.resource_scarcity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.restorativeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.rule_tightness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.social_exposure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.soft_fascination"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.surveillance_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.territorial_support"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.valence_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.visibility_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.visual_comfort"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.visual_privacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "cognitive.welcome"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.approach_invitation"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.boundary_permeability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.chance_encounter_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.collaborative_work"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.disengagement_ease"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.dyadic_intimacy"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.group_territoriality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.hosting_script_clarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.interaction_diversity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.interactional_visibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.large_group_assembly"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.mingling"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.peripheral_participation"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.presentation_one_to_many"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.queue_support"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.shared_attention_anchor"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.small_group_conversation"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.arousal_potential",
+        "social.sociopetal_seating"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.being_away"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.care_signal"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.choice_richness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.clutter_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.coherence_order"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.compatibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.contamination_risk"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.coziness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.crowding_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.decision_point_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.escape_efficacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.extent"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.familiarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.formality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.interruption_likelihood"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.landmark_clarity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.legibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.mystery"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.novelty"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.perceived_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.perceived_threat"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.perceptual_fluency"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.placeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.playfulness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.predictability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.prestige_signal"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.resource_scarcity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.restorativeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.rule_tightness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.social_exposure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.soft_fascination"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.surveillance_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.territorial_support"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.valence_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.visibility_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.visual_comfort"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.visual_privacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "cognitive.welcome"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.approach_invitation"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.boundary_permeability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.chance_encounter_potential"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.collaborative_work"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.disengagement_ease"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.dyadic_intimacy"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.group_territoriality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.hosting_script_clarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.interaction_diversity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.interactional_visibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.large_group_assembly"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.mingling"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.peripheral_participation"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.presentation_one_to_many"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.queue_support"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.758036,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.shared_attention_anchor"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.887305,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.small_group_conversation"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.awe",
+        "social.sociopetal_seating"
+      ],
+      "n_params": 11,
+      "expected_rank": 9,
+      "rank": 10,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.691101,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.care_signal"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.837681,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.choice_richness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.clutter_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.coherence_order"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.compatibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.635153,
+        0.449121,
+        0.449121,
+        0.449121,
+        0.449121
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.contamination_risk"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.837681,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.coziness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.crowding_pressure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.decision_point_load"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.escape_efficacy"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.extent"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.635153,
+        0.449121,
+        0.449121,
+        0.449121,
+        0.449121
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.familiarity"
+      ],
+      "n_params": 7,
+      "expected_rank": 5,
+      "rank": 6,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.837681,
+        0.707107,
+        0.707107,
+        0.707107,
+        0.707107
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.formality"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.interruption_likelihood"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.landmark_clarity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.legibility"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.mystery"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.novelty"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.perceived_control"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.perceived_threat"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.perceptual_fluency"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.placeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.playfulness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.predictability"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.prestige_signal"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.resource_scarcity"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.restorativeness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.rule_tightness"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    },
+    {
+      "pair": [
+        "cognitive.being_away",
+        "cognitive.social_exposure"
+      ],
+      "n_params": 10,
+      "expected_rank": 8,
+      "rank": 9,
+      "deficient": false,
+      "unidentified_subspace_dim": 0,
+      "top_singular_values": [
+        0.699299,
+        0.536013,
+        0.536013,
+        0.536013,
+        0.536013
+      ]
+    }
+  ],
+  "warning_only": true
+}

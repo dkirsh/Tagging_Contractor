@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""TRS Sprint 1 — `tc doctor --prod` unified production gate.
+"""TRS Sprint 1+3+4 — `tc doctor --prod` unified production gate.
 
-Runs the three semantic gates in sequence and emits a unified pass/fail:
+Runs the production gates in sequence and emits a unified pass/fail:
 
-    1. validate_registry.py        (schema + invariants)
-    2. audit_semantics_simple.py   (semantics completeness for latent tags)
-    3. audit_extraction_plan.py    (Spohn 50% overlap + method family + notes)
+    1. validate_registry.py            (schema + invariants)
+    2. audit_semantics_simple.py       (semantics completeness for latent tags)
+    3. audit_extraction_plan.py        (Spohn 50% overlap + method family + notes)
+    4. audit_identifiability.py        (Sprint 3: Goodman & Hwang info-bound)
+    5. audit_identifiability.py --jacobian
+                                       (Sprint 4: Goodman 1974 Jacobian rank;
+                                        warning-only — does not block --prod)
 
 A `--scope` argument restricts the strict gates (2, 3) to a subset of tags.
 The default scope is `social.*` (the Sprint 1 latent layer); `all` runs against
@@ -99,7 +103,7 @@ def main() -> int:
     results: dict[str, dict] = {}
     overall_pass = True
 
-    print("=== Stage 1/3: validate_registry.py (schema + invariants) ===")
+    print("=== Stage 1/5: validate_registry.py (schema + invariants) ===")
     results["validate"] = run_validate(REGISTRY_DIR, args.exclude_pre_existing)
     print(f"  errors: {results['validate'].get('error_count', '?')}; "
           f"warnings: {results['validate'].get('warning_count', '?')}; "
@@ -108,7 +112,7 @@ def main() -> int:
         overall_pass = False
     print()
 
-    print("=== Stage 2/3: audit_semantics_simple.py (completeness) ===")
+    print("=== Stage 2/5: audit_semantics_simple.py (completeness) ===")
     results["semantics"] = run_script("audit_semantics_simple.py",
                                       ["--evidence-role", args.scope])
     if args.exclude_pre_existing:
@@ -126,7 +130,7 @@ def main() -> int:
         overall_pass = False
     print()
 
-    print("=== Stage 3/4: audit_extraction_plan.py (Spohn 50% + 3-tuple + extraction) ===")
+    print("=== Stage 3/5: audit_extraction_plan.py (Spohn 50% + 3-tuple + extraction) ===")
     results["extraction"] = run_script("audit_extraction_plan.py",
                                        ["--evidence-role", args.scope])
     if args.exclude_pre_existing:
@@ -149,7 +153,7 @@ def main() -> int:
         overall_pass = False
     print()
 
-    print("=== Stage 4/4: audit_identifiability.py (Goodman & Hwang info-bound) ===")
+    print("=== Stage 4/5: audit_identifiability.py (Goodman & Hwang info-bound) ===")
     results["identifiability"] = run_script("audit_identifiability.py",
                                             ["--evidence-role", args.scope])
     if args.exclude_pre_existing:
@@ -165,11 +169,30 @@ def main() -> int:
         overall_pass = False
     print()
 
+    # ── Stage 5/5: Sprint 4 Goodman 1974 Jacobian rank check (warning-only)
+    print("=== Stage 5/5: audit_identifiability.py --jacobian (Goodman 1974 rank) ===")
+    results["jacobian"] = run_script(
+        "audit_identifiability.py",
+        ["--evidence-role", args.scope, "--jacobian", "--max-pairs", "200"],
+    )
+    jac_summary = results["jacobian"].get("jacobian", {}) or {}
+    if jac_summary.get("skipped"):
+        print(f"  jacobian: SKIPPED (synthetic CPTs not generated; run "
+              f"scripts/sprint4_synthetic_cpts.py)")
+    else:
+        print(f"  pairs_checked: {jac_summary.get('pairs_checked', '?')}; "
+              f"pairs_deficient: {jac_summary.get('pairs_deficient', '?')}; "
+              f"engine: {jac_summary.get('engine', '?')}; "
+              f"warning-only: {jac_summary.get('warning_only', True)}")
+    # Stage 5 is warning-only per Sprint 4 spec — does not affect overall_pass
+    print()
+
     if args.json:
         print(json.dumps({"overall_passed": overall_pass, "stages": results}, indent=2))
     else:
         if overall_pass:
-            print("OK: tc doctor --prod passed all three gates")
+            print("OK: tc doctor --prod passed all five gates "
+                  "(Stage 5 Jacobian is warning-only)")
         else:
             print("NO-GO: tc doctor --prod failed", file=sys.stderr)
             print("Per-stage details above; rerun individual stage scripts for full output.", file=sys.stderr)
